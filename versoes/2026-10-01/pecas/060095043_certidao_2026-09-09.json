@@ -1,0 +1,18 @@
+{
+  "cnj": "0600950-43.2026.6.00.0000",
+  "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/9/9/1/25/13/288f0f99aa8b3d4ef8d3bd8fcff41adf3a380012e6a4cf822a2ba056e04d9e4a",
+  "arquivo_html": "060095043_certidao_2026-09-09.html",
+  "sha256_html": "288f0f99aa8b3d4ef8d3bd8fcff41adf3a380012e6a4cf822a2ba056e04d9e4a",
+  "bytes": 21665,
+  "tribunal_verificado": "TSE",
+  "tipo_peca_no_html": "CERTIDÃO DE JULGAMENTO",
+  "classe_no_html": "REPRESENTAÇÃO (11541)",
+  "data_sessao_inicio": "2026-09-04",
+  "data_sessao_fim": "2026-09-08",
+  "data_certidao": "2026-09-09",
+  "dispositivo_verificado": "não referendou a decisão liminar",
+  "trecho_complementar_verificado": "sejam removidas as publicações",
+  "storage_path": "tse/2026/9/9/1/25/13/288f0f99aa8b3d4ef8d3bd8fcff41adf3a380012e6a4cf822a2ba056e04d9e4a",
+  "storage_sha256_igual_ao_html": true,
+  "consultado_em_utc": "2026-10-01T01:09:13.385900+00:00"
+}

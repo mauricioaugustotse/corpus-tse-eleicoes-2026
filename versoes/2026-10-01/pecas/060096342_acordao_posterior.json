@@ -1,0 +1,18 @@
+{
+  "cnj": "0600963-42.2026.6.00.0000",
+  "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/8/13/16/32/14/885b323a8ff60a37635f4894078ba1999c124701a6de9c8e593762e526547de7",
+  "status_http": 200,
+  "content_type": "text/html",
+  "bytes": 66195,
+  "sha256": "885b323a8ff60a37635f4894078ba1999c124701a6de9c8e593762e526547de7",
+  "cabecalho_texto": "TRIBUNAL SUPERIOR ELEITORAL ACÓRDÃO REFERENDO NA REPRESENTAÇÃO Nº 0600963-42.2026.6.00.0000 – BRASÍLIA – DISTRITO FEDERAL Relator: Ministro Nunes Marques Representante: Partido Liberal (PL) – Nacional Advogados: Maria Claudia Bucchianeri – OAB: 25341/DF e outros Representado: Dario Carnevalli Durigan Representado: Luiz Inácio Lula da Silva ELEIÇÕES 2026. REFERENDO NA REPRESENTAÇÃO. PROPAGANDA ELEITORAL ANTECIPADA NEGATIVA. PEDIDO DE TUTELA DE URGÊNCIA. REMOÇÃO DE CONTEÚDO E ABSTENÇÃO DE REITERAÇÃO. LIBERDADE DE EXPRESSÃO. DEBATE POLÍTICO-ELEITORAL. CRÍTICA POLÍTICA. INDEFERIMENTO DO PEDIDO LIMINAR. REFERENDO. I. Caso em exame 1. Representação por propaganda eleitoral antecipada negativa, com pedido de tutela de urgência, visando à remoção de vídeo divulgado na internet contendo declarações apontadas como inverídicas sobre postura política de pré-candidato à Presidência da República quanto ao sistema de pagamento Pix. II. Questão em discussão 2. A controvérsia consiste, neste momento, em aferir se estão presentes os requisitos autorizadores da concessão de liminar destinada à remoção de vídeos que, supostamente, contêm elementos que denotam propaganda eleitoral antecipada negativa, ",
+  "pje_documento_numero": "26081316321430100000163483484",
+  "identidade_validada": true,
+  "data_sessao_colegiada": "2026-06-25",
+  "data_ato_csv_oficial": "2026-08-13",
+  "sq_decisao_csv_oficial": "45303",
+  "classe_peca": "Acórdão — referendo de medida liminar",
+  "resultado_colegiado": "Por unanimidade, referendou a decisão monocrática que indeferiu a tutela de urgência para retirar as manifestações sobre o Pix.",
+  "efeito_comparativo": "Flávio não atendido na tutela; sem alteração da codificação não.",
+  "estado_merito": "A negativa é liminar; não equivale a improcedência definitiva."
+}

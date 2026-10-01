@@ -1,0 +1,22 @@
+{
+  "cnj": "0601303-83.2026.6.00.0000",
+  "orgao": "Tribunal Superior Eleitoral",
+  "classe": "REPRESENTAÇÃO (11541)",
+  "tipo_da_peca": "Certidão de julgamento",
+  "nao_e_inteiro_teor_de_acordao": true,
+  "data_da_certidao": "2026-09-09",
+  "sessao": "6ª Sessão Virtual Extraordinária de 04 a 08.09.2026",
+  "url_oficial": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/9/9/1/25/48/26241ed77fbe34599c955b261083ae1ccfe66407a12dc784944e050071b532dc",
+  "sha256_html": "26241ed77fbe34599c955b261083ae1ccfe66407a12dc784944e050071b532dc",
+  "tamanho_bytes": 19792,
+  "content_type_http": "text/html",
+  "dispositivo_transcrito_da_certidao": "O Tribunal, por maioria, referendou a liminar deferida parcialmente, nos termos do voto do Relator, vencidos os Ministros Floriano de Azevedo Marques e Estela Aranha.Acompanharam integralmente o Relator os Ministros André Mendonça, Dias Toffoli, Antonio Carlos Ferreira e Ricardo Villas Bôas Cueva.",
+  "acordao_publicado_em_sessao_conforme_certidao": true,
+  "validacoes": [
+    "HTTP 200 e Content-Type text/html",
+    "cabeçalho TRIBUNAL SUPERIOR ELEITORAL e CERTIDÃO DE JULGAMENTO",
+    "CNJ e classe conferidos no cabeçalho",
+    "data de Brasília 9 de setembro de 2026",
+    "SHA-256 do conteúdo igual ao identificador final do documentoStorage PJe"
+  ]
+}

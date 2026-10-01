@@ -1,0 +1,284 @@
+{
+  "fonte_oficial": "https://dadosabertos.tse.jus.br/id/dataset/processual-2026",
+  "geracao_bulk_decisoes": "01/10/2026 06:00:34 BRT",
+  "data_fim_decisao": "2026-09-30",
+  "sha256_zip": {
+    "assuntos": "d22e449af728d56a4cb28cec03d4a0c28da702c1d958d7072cbedf176f10a875",
+    "decisoes": "6ef0e22e41e2eea76eb0af4c71dc4d5ac63ef9fa5a0a2284872e5b23665c16f3",
+    "partes": "7f87e415059db1058aef3410700dbb11b14fbf38d0c0f3a3ec6c9a8475e80223",
+    "processos": "7de0e374052f16cb0558acfd8f17b16b87a5cebfbc7ca43b07a5dfaa0d0ba475",
+    "recursos": "32880e6367732db708952984bf93255765049efecc097895380e43b5990b883b"
+  },
+  "inventario_cnjs": 132,
+  "comparaveis": 107,
+  "pendentes_30set": [
+    "0601788-83.2026.6.00.0000",
+    "0601789-68.2026.6.00.0000",
+    "0601813-96.2026.6.00.0000",
+    "0601838-12.2026.6.00.0000",
+    "0601931-72.2026.6.00.0000",
+    "0602263-39.2026.6.00.0000",
+    "0602265-09.2026.6.00.0000"
+  ],
+  "campanhas": {
+    "Lula": {
+      "pedidos": 48,
+      "atendidos": 29,
+      "nao_atendidos": 19
+    },
+    "Flávio": {
+      "pedidos": 59,
+      "atendidos": 20,
+      "nao_atendidos": 39
+    }
+  },
+  "cobertura_pje": {
+    "processos_inventario": 132,
+    "com_ato_bulk": 131,
+    "comparaveis_com_ato_bulk": 106,
+    "comparaveis_sem_ato_bulk": [
+      "0601315-97.2026.6.00.0000"
+    ],
+    "comparaveis_assunto_propaganda_ou_resposta": 101,
+    "comparaveis_no_recorte_oficial": 101,
+    "comparaveis_fora_assuntos_topicos": [
+      "0601274-33.2026.6.00.0000",
+      "0601315-97.2026.6.00.0000",
+      "0601374-85.2026.6.00.0000",
+      "0601740-27.2026.6.00.0000",
+      "0601880-61.2026.6.00.0000",
+      "0602140-41.2026.6.00.0000"
+    ]
+  },
+  "comparaveis_cnjs": [
+    "0600468-95.2026.6.00.0000",
+    "0600689-78.2026.6.00.0000",
+    "0600690-63.2026.6.00.0000",
+    "0600695-85.2026.6.00.0000",
+    "0600697-55.2026.6.00.0000",
+    "0600698-40.2026.6.00.0000",
+    "0600781-56.2026.6.00.0000",
+    "0600782-41.2026.6.00.0000",
+    "0600783-26.2026.6.00.0000",
+    "0600785-93.2026.6.00.0000",
+    "0600950-43.2026.6.00.0000",
+    "0600955-65.2026.6.00.0000",
+    "0600963-42.2026.6.00.0000",
+    "0600966-94.2026.6.00.0000",
+    "0600973-86.2026.6.00.0000",
+    "0600976-41.2026.6.00.0000",
+    "0601014-53.2026.6.00.0000",
+    "0601015-38.2026.6.00.0000",
+    "0601016-23.2026.6.00.0000",
+    "0601048-28.2026.6.00.0000",
+    "0601049-13.2026.6.00.0000",
+    "0601053-50.2026.6.00.0000",
+    "0601181-70.2026.6.00.0000",
+    "0601239-73.2026.6.00.0000",
+    "0601250-05.2026.6.00.0000",
+    "0601274-33.2026.6.00.0000",
+    "0601303-83.2026.6.00.0000",
+    "0601315-97.2026.6.00.0000",
+    "0601374-85.2026.6.00.0000",
+    "0601627-73.2026.6.00.0000",
+    "0601686-61.2026.6.00.0000",
+    "0601690-98.2026.6.00.0000",
+    "0601740-27.2026.6.00.0000",
+    "0601749-86.2026.6.00.0000",
+    "0601755-93.2026.6.00.0000",
+    "0601763-70.2026.6.00.0000",
+    "0601765-40.2026.6.00.0000",
+    "0601767-10.2026.6.00.0000",
+    "0601768-92.2026.6.00.0000",
+    "0601773-17.2026.6.00.0000",
+    "0601786-16.2026.6.00.0000",
+    "0601806-07.2026.6.00.0000",
+    "0601817-36.2026.6.00.0000",
+    "0601845-04.2026.6.00.0000",
+    "0601849-41.2026.6.00.0000",
+    "0601850-26.2026.6.00.0000",
+    "0601862-40.2026.6.00.0000",
+    "0601866-77.2026.6.00.0000",
+    "0601868-47.2026.6.00.0000",
+    "0601871-02.2026.6.00.0000",
+    "0601872-84.2026.6.00.0000",
+    "0601876-24.2026.6.00.0000",
+    "0601877-09.2026.6.00.0000",
+    "0601878-91.2026.6.00.0000",
+    "0601879-76.2026.6.00.0000",
+    "0601880-61.2026.6.00.0000",
+    "0601882-31.2026.6.00.0000",
+    "0601883-16.2026.6.00.0000",
+    "0601889-23.2026.6.00.0000",
+    "0601890-08.2026.6.00.0000",
+    "0601892-75.2026.6.00.0000",
+    "0601894-45.2026.6.00.0000",
+    "0601895-30.2026.6.00.0000",
+    "0601902-22.2026.6.00.0000",
+    "0601908-29.2026.6.00.0000",
+    "0601911-81.2026.6.00.0000",
+    "0601912-66.2026.6.00.0000",
+    "0601913-51.2026.6.00.0000",
+    "0601926-50.2026.6.00.0000",
+    "0601927-35.2026.6.00.0000",
+    "0601928-20.2026.6.00.0000",
+    "0601929-05.2026.6.00.0000",
+    "0601930-87.2026.6.00.0000",
+    "0601937-79.2026.6.00.0000",
+    "0601943-86.2026.6.00.0000",
+    "0601944-71.2026.6.00.0000",
+    "0601947-26.2026.6.00.0000",
+    "0601962-92.2026.6.00.0000",
+    "0602025-20.2026.6.00.0000",
+    "0602062-47.2026.6.00.0000",
+    "0602080-68.2026.6.00.0000",
+    "0602109-21.2026.6.00.0000",
+    "0602111-88.2026.6.00.0000",
+    "0602114-43.2026.6.00.0000",
+    "0602117-95.2026.6.00.0000",
+    "0602139-56.2026.6.00.0000",
+    "0602140-41.2026.6.00.0000",
+    "0602144-78.2026.6.00.0000",
+    "0602148-18.2026.6.00.0000",
+    "0602161-17.2026.6.00.0000",
+    "0602197-59.2026.6.00.0000",
+    "0602198-44.2026.6.00.0000",
+    "0602199-29.2026.6.00.0000",
+    "0602200-14.2026.6.00.0000",
+    "0602238-26.2026.6.00.0000",
+    "0602243-48.2026.6.00.0000",
+    "0602245-18.2026.6.00.0000",
+    "0602261-69.2026.6.00.0000",
+    "0602266-91.2026.6.00.0000",
+    "0602267-76.2026.6.00.0000",
+    "0602268-61.2026.6.00.0000",
+    "0602269-46.2026.6.00.0000",
+    "0602273-83.2026.6.00.0000",
+    "0602367-31.2026.6.00.0000",
+    "0602370-83.2026.6.00.0000",
+    "0602371-68.2026.6.00.0000",
+    "0602436-63.2026.6.00.0000"
+  ],
+  "excluidos_cnjs": [
+    {
+      "cnj": "0600288-79.2026.6.00.0000",
+      "motivo": "A peça do TSE descreve desfile sobre Lula, mas julga apenas o interesse processual na produção antecipada de provas e extingue a ação sem mérito; não decide circulação."
+    },
+    {
+      "cnj": "0600318-17.2026.6.00.0000",
+      "motivo": "A única peça manda identificar autoria e URLs; não julga a circulação."
+    },
+    {
+      "cnj": "0600320-84.2026.6.00.0000",
+      "motivo": "A única peça exige prova da autoria ou ciência prévia de Flávio; não decide retirada."
+    },
+    {
+      "cnj": "0600947-88.2026.6.00.0000",
+      "motivo": "O ZIP PJe classifica como RepEsp por conduta vedada; o inteiro teor não foi obtido nesta coleta. Exclusão provisória do comparativo de conteúdo; verificar peça antes de afirmar exaustividade."
+    },
+    {
+      "cnj": "0600958-20.2026.6.00.0000",
+      "motivo": "O ZIP PJe classifica como RepEsp por conduta vedada; o inteiro teor não foi obtido nesta coleta. Exclusão provisória do comparativo de conteúdo; verificar peça antes de afirmar exaustividade."
+    },
+    {
+      "cnj": "0601091-62.2026.6.00.0000",
+      "motivo": "A providência é probatória e financeira, sem julgamento de publicação ou direito de resposta."
+    },
+    {
+      "cnj": "0601095-02.2026.6.00.0000",
+      "motivo": "A decisão trata de limites de gastos institucionais e manda apresentar dados contábeis; não julga a circulação de uma peça de propaganda individualizada."
+    },
+    {
+      "cnj": "0601410-30.2026.6.00.0000",
+      "motivo": "Único ato decide conexão e prevenção, sem decidir circulação."
+    },
+    {
+      "cnj": "0601752-41.2026.6.00.0000",
+      "motivo": "Extinção por ilegitimidade ativa do PL; nenhuma resposta concedida ou mérito analisado."
+    },
+    {
+      "cnj": "0601757-63.2026.6.00.0000",
+      "motivo": "A peça identifica o discurso, mas o único ato é de admissibilidade da AIJE e citação; não concede ou nega medida sobre circulação do discurso."
+    },
+    {
+      "cnj": "0601766-25.2026.6.00.0000",
+      "motivo": "Conteúdo retirado em outro CNJ; liminar perdeu objeto e direito de resposta ficou pendente."
+    },
+    {
+      "cnj": "0601780-09.2026.6.00.0000",
+      "motivo": "As decisões tratam de redistribuição e exigem emenda para identificar candidato beneficiário; não julgam comunicação específica."
+    },
+    {
+      "cnj": "0601781-91.2026.6.00.0000",
+      "motivo": "A peça exige texto de resposta e abre contraditório, sem decidir o pedido."
+    },
+    {
+      "cnj": "0601788-83.2026.6.00.0000",
+      "motivo": "Os metadados oficiais identificam campanhas em polos opostos e um ato em 30/09, mas não informam o pedido concreto nem o resultado. Peça ainda inacessível nesta conferência."
+    },
+    {
+      "cnj": "0601789-68.2026.6.00.0000",
+      "motivo": "Os metadados oficiais identificam campanhas em polos opostos e um ato em 30/09, mas não informam o pedido concreto nem o resultado. Peça ainda inacessível nesta conferência."
+    },
+    {
+      "cnj": "0601808-74.2026.6.00.0000",
+      "motivo": "A peça exige texto de resposta e abre contraditório, sem decidir o pedido."
+    },
+    {
+      "cnj": "0601811-29.2026.6.00.0000",
+      "motivo": "O HTML é despacho que apenas intima os adversários a responder em 48 horas."
+    },
+    {
+      "cnj": "0601813-96.2026.6.00.0000",
+      "motivo": "Os metadados oficiais identificam campanhas em polos opostos e um ato em 30/09, mas não informam o pedido concreto nem o resultado. Peça ainda inacessível nesta conferência."
+    },
+    {
+      "cnj": "0601838-12.2026.6.00.0000",
+      "motivo": "Os metadados oficiais identificam campanhas em polos opostos e um ato em 30/09, mas não informam o pedido concreto nem o resultado. Peça ainda inacessível nesta conferência."
+    },
+    {
+      "cnj": "0601904-89.2026.6.00.0000",
+      "motivo": "A peça descreve o desfile e sua transmissão, mas o único ato é de admissibilidade da AIJE e citação; não decide medida sobre o conteúdo."
+    },
+    {
+      "cnj": "0601931-72.2026.6.00.0000",
+      "motivo": "Os metadados oficiais identificam campanhas em polos opostos e um ato em 30/09, mas não informam o pedido concreto nem o resultado. Peça ainda inacessível nesta conferência."
+    },
+    {
+      "cnj": "0602099-74.2026.6.00.0000",
+      "motivo": "Exame da tutela reservado para depois de defesa e parecer do Ministério Público."
+    },
+    {
+      "cnj": "0602230-49.2026.6.00.0000",
+      "motivo": "A decisão exige que o autor individualize matérias/URLs e esclareça pedidos repetidos; nenhuma medida sobre circulação foi apreciada."
+    },
+    {
+      "cnj": "0602263-39.2026.6.00.0000",
+      "motivo": "Os metadados oficiais identificam campanhas em polos opostos e um ato em 30/09, mas não informam o pedido concreto nem o resultado. Peça ainda inacessível nesta conferência."
+    },
+    {
+      "cnj": "0602265-09.2026.6.00.0000",
+      "motivo": "Os metadados oficiais identificam campanhas em polos opostos e um ato em 30/09, mas não informam o pedido concreto nem o resultado. Peça ainda inacessível nesta conferência."
+    }
+  ],
+  "triagem_provisoria_sem_inteiro_teor": [
+    "0600947-88.2026.6.00.0000",
+    "0600958-20.2026.6.00.0000",
+    "0601788-83.2026.6.00.0000",
+    "0601789-68.2026.6.00.0000",
+    "0601813-96.2026.6.00.0000",
+    "0601838-12.2026.6.00.0000",
+    "0601931-72.2026.6.00.0000",
+    "0602263-39.2026.6.00.0000",
+    "0602265-09.2026.6.00.0000"
+  ],
+  "resultados_provisorios_por_acordao_posterior": [],
+  "ressalvas": [
+    "O bulk PJe não contém texto nem resultado: os desfechos são classificação editorial documentada, com fonte oficial indicada por processo.",
+    "0601315-97 tem certidão oficial, mas nenhum ato no ZIP de decisões; exceção explícita.",
+    "0601181-70 tem vídeo determinado de Itajaí cuja remoção foi negada e pedido futuro genérico também negado; mérito final aberto.",
+    "0601817-36 concede resposta a uma de três publicações; texto e veiculação aguardam decisão integrativa.",
+    "107 é a amostra de resultados comparáveis identificados até 2026-09-30, não o total de litígios bilaterais ajuizados ou pendentes.",
+    "0600947-88 e 0600958-20 foram excluídos provisoriamente por assunto/classe; o inteiro teor não foi obtido devido ao bloqueio temporário da Consulta PJe."
+  ]
+}

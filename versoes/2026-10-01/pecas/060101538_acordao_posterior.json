@@ -1,0 +1,20 @@
+{
+  "cnj": "0601015-38.2026.6.00.0000",
+  "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/8/26/18/15/12/11d1357487a1cdead5b3772912df571170b8703f9a860c65783ff07a9f5056f6",
+  "status_http": 200,
+  "content_type": "text/html",
+  "bytes": 104690,
+  "sha256": "11d1357487a1cdead5b3772912df571170b8703f9a860c65783ff07a9f5056f6",
+  "identidade_validada": true,
+  "cabecalho_texto": " p{text-align: justify;} TRIBUNAL SUPERIOR ELEITORAL ACÓRDÃO REFERENDO NA REPRESENTAÇÃO Nº 0601015-38.2026.6.00.0000 – BRASÍLIA – DISTRITO FEDERAL Relator originário : Ministro André Mendonça Redator para o acórdão : Ministro Ricardo Villas Bôas Cueva Representante : Federação Brasil da Esperança (FE BRASIL) – Nacional Advogados : Gean Carlos Ferreira de Moura Aguiar – OAB: 61174/DF e outros Representado : Flávio Nantes Bolsonaro Advogados : Maria Cláudia Bucchianeri Pinheiro – OAB: 25341/DF e outros p{text-align: justify;} ELEIÇÕES 2026. REPRESENTAÇÃO ELEITORAL. PROPAGANDA ELEITORAL ANTECIPADA NEGATIVA. LIBERDADE DE EXPRESSÃO. CRÍTICA POLÍTICA. IMPUTAÇÃO DE REALIZAÇÃO DE LOBBY EM FAVOR DO PCC E DO COMANDO VERMELHO. ATRIBUIÇÃO DE CONDUTA PESSOAL, CONCRETA E VERIFICÁVEL A PRÉ-CANDIDATO. AUSÊNCIA DE SUBSTRATO FÁTICO MÍNIMO. PROBABILIDADE DO DIREITO. PERIGO DE DANO. TUTELA DE URGÊNCIA PARCIALMENTE DEFERIDA. 1. Representação eleitoral em que se impugnam duas publicações veiculadas pelo representado na plataforma X, nas quais se afirma, entre outros dizeres, que “Lula foi fazer lobby a favor de CV e PCC” e que “Lula faz lobby pra proteger PCC e CV, eu faço o contrário: trato-os como terroristas!”, vinculando-se a primeira afirmação à viagem oficial do Presidente da República aos Estados Unidos, com pedido de tutela de urgência para remoção dos conteúdos reputados propaganda eleitoral antecipada negativa. A liminar foi indeferida. 2. A liberdade de expressão assume especial relevo no debate político-eleitoral e protege críticas contundentes, ácidas e hiperbólicas, inclusive manif",
+  "data_sessao_colegiada": "2026-08-14",
+  "periodo_sessao_virtual": "2026-08-12 a 2026-08-14",
+  "data_ato_csv_oficial": "2026-08-26",
+  "sq_decisao_csv_oficial": "47731",
+  "classe_peca": "Acórdão — referendo na representação",
+  "relator_originario": "André Mendonça",
+  "redator_acordao": "Ricardo Villas Bôas Cueva",
+  "resultado_colegiado": "Por maioria, não referendou integralmente o indeferimento liminar e deferiu parcialmente a tutela para retirar, em 24 horas, as duas publicações no X que atribuíam a Lula lobby ou atuação pessoal em favor ou para proteção do PCC e do Comando Vermelho; proibiu republicação da imputação e determinou ofício à plataforma. André Mendonça ficou vencido. O relator foi acompanhado quanto às demais manifestações impugnadas.",
+  "efeito_comparativo": "Lula atendido parcialmente; muda codificação de não para sim.",
+  "estado_merito": "Tutela urgente; não equivale a sentença final de mérito."
+}

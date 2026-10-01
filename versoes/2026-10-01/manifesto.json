@@ -1,0 +1,324 @@
+{
+  "versao": "2026-10-01",
+  "fonte": "https://dadosabertos.tse.jus.br/id/dataset/processual-2026",
+  "algoritmo": "SHA-256",
+  "nota": "O corte dos atos é 30/09/2026. Os arquivos derivados usam os cinco ZIPs oficiais preservados nesta versão.",
+  "arquivos": {
+    "LEIA_PRIMEIRO.md": {
+      "sha256": "f5d260cbb8ab6c4811d6b24013e44fda38c3f6b6b5a22c81d7f0d0e6af6423d7",
+      "bytes": 1742
+    },
+    "README.md": {
+      "sha256": "c39ce057ddd14a894102b57a4508ca1b682bb0f4bd9c7fe3a20014eae50718c0",
+      "bytes": 2011
+    },
+    "VALIDACAO.md": {
+      "sha256": "d2c69f9c9bb032741fbb7622e0a57e024a3d28802f2a8046d9df7fbed68a58dd",
+      "bytes": 2114
+    },
+    "atos.csv": {
+      "sha256": "e2650eec4eb358c73eca2cf86934d5953c0cd2d3b1d9c8b47e81ebc69086fdba",
+      "bytes": 461864
+    },
+    "auditoria_relatorio.json": {
+      "sha256": "bcd61f4190fbeea2361366e67aa637e0a21330dba0ba4b6d84ab04591ec9d337",
+      "bytes": 1642
+    },
+    "campanha_resumo.json": {
+      "sha256": "54755ee4c580b9c90f0ab5ac56827af5b4341252b0a0da84526390a307cf4a69",
+      "bytes": 11706
+    },
+    "confrontos.csv": {
+      "sha256": "768c2272fa3bc19e9199ccbc8c636f5dc979adaa422d10ca325605ae766107e1",
+      "bytes": 210992
+    },
+    "curadoria_confrontos.json": {
+      "sha256": "45dc949815de768e1a83f815caa25dee0781c8899c96acb3366ac0daad19962b",
+      "bytes": 304744
+    },
+    "dicionario.md": {
+      "sha256": "4781d647d355b8a4315479bd3d10f35928dfce3790d0043b79051aa932bdab5e",
+      "bytes": 2026
+    },
+    "dicionario_curadoria.md": {
+      "sha256": "0e1017fad1860eaf6fd2765a73fb714caa29f85b7040e7ee9800df1ce987b667",
+      "bytes": 10334
+    },
+    "fontes.json": {
+      "sha256": "bf51aaeb396bf1f31f68f9cb30319c4595b3c32e058d45e9291b7d99e829d527",
+      "bytes": 5626
+    },
+    "gerar_confrontos.py": {
+      "sha256": "05207ca94b64b393ca0acd997eaaa3eb7bbb10add2bed3994e962e806629d474",
+      "bytes": 12046
+    },
+    "gerar_manifesto.py": {
+      "sha256": "8ee43d6e44b628d9aed5563d3fb36d000c954a870f4aa881e7a17b9479aca2c6",
+      "bytes": 1530
+    },
+    "gerar_relatos.py": {
+      "sha256": "50ba0eae3dc22befd5e74339a49540008c9b33686ff7923487c5a284ebc6855b",
+      "bytes": 1186
+    },
+    "graficos/01_tipos_ato.html": {
+      "sha256": "bd09e39f0bb4682080f9aaa83908e0603edc9dcaf6563143bf1fd8ff6b48fd0b",
+      "bytes": 1150
+    },
+    "graficos/01_tipos_ato.svg": {
+      "sha256": "408f3bf9ac359b9ab5450b516e584f32d6149f7f2e3c92ee9da7a0d6c61cd978",
+      "bytes": 833
+    },
+    "graficos/02_atos_por_mes.html": {
+      "sha256": "fc15a39dde15c2d1910ab83c99de369368a7db57f1202d0272960dc2bc3de4d3",
+      "bytes": 4127
+    },
+    "graficos/02_atos_por_mes.svg": {
+      "sha256": "6a7719fdea47da02c18a73f427d7584267fb1926c2bea68a72bf20a65193c684",
+      "bytes": 3807
+    },
+    "graficos/03_ritmo_acumulado.html": {
+      "sha256": "76c6130a9ecc37e447a2765e61d5db2a87260c24ac3c8bd5ceb2d64b229085d6",
+      "bytes": 4480
+    },
+    "graficos/03_ritmo_acumulado.svg": {
+      "sha256": "134bfb4295ad3f8c22719dd24042ed04ff965deaf464235020d8edfe01d7a4f0",
+      "bytes": 4157
+    },
+    "graficos/04_classes_por_ato.html": {
+      "sha256": "29beba6fa3752fc92055263af06c0d458c9779eb846e26966c089fb3758c9102",
+      "bytes": 2595
+    },
+    "graficos/04_classes_por_ato.svg": {
+      "sha256": "90880fe354ab109fe24b6449170c4f6a55b4defae4e68571e56d84b48f03d477",
+      "bytes": 2272
+    },
+    "graficos/05_autores_dos_atos.html": {
+      "sha256": "781835ec41aa57231a8d61dbe6dfc4857de95ebd0a732d2e80d21903d07884e4",
+      "bytes": 2756
+    },
+    "graficos/05_autores_dos_atos.svg": {
+      "sha256": "c69a7dd311aa130da390d1c7174b6cdb1cc3a2deb54aa2be65e899d5eafaf926",
+      "bytes": 2432
+    },
+    "graficos/06_composicao_comunicacao.html": {
+      "sha256": "a4d2424cefee5b8a29efec6ddbe4b5b0f53b432d33c75bd353c0484971ec0cc9",
+      "bytes": 1437
+    },
+    "graficos/06_composicao_comunicacao.svg": {
+      "sha256": "627c41b4af3afcb30c34a17d6cf47644c9a5b5b494bdedffc797bc0c09c35878",
+      "bytes": 1107
+    },
+    "originais/processo_eleitoral_2026.zip": {
+      "sha256": "7de0e374052f16cb0558acfd8f17b16b87a5cebfbc7ca43b07a5dfaa0d0ba475",
+      "bytes": 2977850
+    },
+    "originais/processos_eleitorais_assuntos_2026.zip": {
+      "sha256": "d22e449af728d56a4cb28cec03d4a0c28da702c1d958d7072cbedf176f10a875",
+      "bytes": 1214405
+    },
+    "originais/processos_eleitorais_decisoes_2026.zip": {
+      "sha256": "6ef0e22e41e2eea76eb0af4c71dc4d5ac63ef9fa5a0a2284872e5b23665c16f3",
+      "bytes": 1243771
+    },
+    "originais/processos_eleitorais_partes_2026.zip": {
+      "sha256": "7f87e415059db1058aef3410700dbb11b14fbf38d0c0f3a3ec6c9a8475e80223",
+      "bytes": 7220198
+    },
+    "originais/recursos_eleitorais_2026.zip": {
+      "sha256": "32880e6367732db708952984bf93255765049efecc097895380e43b5990b883b",
+      "bytes": 252436
+    },
+    "pecas/060069063_acordao_posterior.html": {
+      "sha256": "f985a29dbfbb483e899994bbcb0bdb4a5aff4225bcd0f033e8b8f1e8807b5156",
+      "bytes": 63022
+    },
+    "pecas/060069063_acordao_posterior.json": {
+      "sha256": "899fcae0f4ed46c8961d8e8b71046a954f76f1a9eb2cdc9183c90ce587275af1",
+      "bytes": 2451
+    },
+    "pecas/060095043_certidao_2026-09-09.html": {
+      "sha256": "288f0f99aa8b3d4ef8d3bd8fcff41adf3a380012e6a4cf822a2ba056e04d9e4a",
+      "bytes": 21665
+    },
+    "pecas/060095043_certidao_2026-09-09.json": {
+      "sha256": "df09bd294d6b7683c6d7af87afe6320922a4555482d81992e0feb2660a49764d",
+      "bytes": 985
+    },
+    "pecas/060096342_acordao_posterior.html": {
+      "sha256": "885b323a8ff60a37635f4894078ba1999c124701a6de9c8e593762e526547de7",
+      "bytes": 66195
+    },
+    "pecas/060096342_acordao_posterior.json": {
+      "sha256": "5943dc9a8d92016a7826e6564275f372859f1313b4010014435280163e1e41dd",
+      "bytes": 2299
+    },
+    "pecas/060101538_acordao_posterior.html": {
+      "sha256": "11d1357487a1cdead5b3772912df571170b8703f9a860c65783ff07a9f5056f6",
+      "bytes": 104690
+    },
+    "pecas/060101538_acordao_posterior.json": {
+      "sha256": "408128a0ea9ea8560df3f349ed76130e72d9bc395e664642cdf55aae4e6dfe5d",
+      "bytes": 3101
+    },
+    "pecas/060101623_acordao_posterior.html": {
+      "sha256": "71c70ea9c630e73023fc2fbdbddbd289e697dd5ca6dc70a1cab269ff86f1ef7f",
+      "bytes": 136321
+    },
+    "pecas/060101623_acordao_posterior.json": {
+      "sha256": "dc1dc0f73696dbd0b2d059168025e93bee6331f6c98fcdcae48c652508b6ccca",
+      "bytes": 909
+    },
+    "pecas/060118170_2026-08-17_0.html": {
+      "sha256": "f4a4b67dd31072c10fed34e693484d295d93c8764c8c9267361b59c3831aa059",
+      "bytes": 53059
+    },
+    "pecas/060118170_2026-08-17_0.json": {
+      "sha256": "fcc62481e9fe2caff4d6ddce0610044662c77ad2a6f242216ec308fb044cfed2",
+      "bytes": 664
+    },
+    "pecas/060118170_2026-09-09_1.html": {
+      "sha256": "e467e3501c49dfe375288acca854404886dd001ad1967c1b202164fa1cc74e6c",
+      "bytes": 78798
+    },
+    "pecas/060118170_2026-09-09_1.json": {
+      "sha256": "bc44fa7b4fdb835da71e720f192fd4f2df36fe592a581ba3cc736a07c16dabfd",
+      "bytes": 667
+    },
+    "pecas/060130383_certidao_2026-09-09.html": {
+      "sha256": "26241ed77fbe34599c955b261083ae1ccfe66407a12dc784944e050071b532dc",
+      "bytes": 19792
+    },
+    "pecas/060130383_certidao_2026-09-09.json": {
+      "sha256": "65f0a5483047995cf0cd2977262c46637e76716e90ffd824a792346798390ded",
+      "bytes": 1385
+    },
+    "pecas/060131597_certidao_2026-09-01.html": {
+      "sha256": "976befd03bfb522f74b25d240f808158818419a60d96ba7363c590c3a2f926df",
+      "bytes": 21590
+    },
+    "pecas/060131597_certidao_2026-09-01.json": {
+      "sha256": "4752c35a403c763d2276e9d593609bc57fab9a6776b3b684aa21d419ffa4e300",
+      "bytes": 970
+    },
+    "pecas/060176710_certidao_2026-09-09.html": {
+      "sha256": "50b94a3773ca927d392c0e5ca4d9a5631e0d23a9aca0e5df45024c65d2a80b13",
+      "bytes": 20510
+    },
+    "pecas/060176710_certidao_2026-09-09.json": {
+      "sha256": "8306036e56e1648d3828404b53fcba4af6d616db163b28d107eff58079e45564",
+      "bytes": 1359
+    },
+    "pecas/060176892_certidao_2026-09-09.html": {
+      "sha256": "7b9e6abd03c8b6dc5f530b3776aca8fc33182e76bc96c681a8fb8fb461d5b49d",
+      "bytes": 20508
+    },
+    "pecas/060176892_certidao_2026-09-09.json": {
+      "sha256": "a2e9f6bd8fa2176ea25c6adeb84110b5ba00b8a5fefa1b2db8c624eb78fa1dd5",
+      "bytes": 1357
+    },
+    "pecas/060181129_oficial.html": {
+      "sha256": "b7de68b27a5e93d63260eae4fd8863e3803c9e4f84e905cd600d7957e2a08c50",
+      "bytes": 16133
+    },
+    "pecas/060181129_oficial.json": {
+      "sha256": "e97d0c9619bf880c6e297fa971296ad2225f1c91a32f2cc5093a32140ad318f4",
+      "bytes": 462
+    },
+    "pecas/060181736_oficial.html": {
+      "sha256": "2dcef3544e4ff72280c79e9699a401990a35889be5e94313636d638e253ccec5",
+      "bytes": 352816
+    },
+    "pecas/060181736_oficial.json": {
+      "sha256": "25a7adf33236447f2bec77b3815da7d5d079464a9401a5b17fd4e9883aa48055",
+      "bytes": 464
+    },
+    "pecas/060209974_oficial.html": {
+      "sha256": "3dde15c32004c6c34e70b934c7e7423e66284cd71b4309d9ea8ec21d22f1afa8",
+      "bytes": 17354
+    },
+    "pecas/060209974_oficial.json": {
+      "sha256": "f72da23718f8efe9754efb88a2d65b74513c59228a43ee08148472c0cb70eea2",
+      "bytes": 462
+    },
+    "pecas/0602266-91_2026-09-30.html": {
+      "sha256": "83a92c463214866219fec386f83db097e676606df4bc82ebe7436dd6adead3ed",
+      "bytes": 24829
+    },
+    "pecas/0602267-76_2026-09-30.html": {
+      "sha256": "5c34b44f0fb1dc8a2938f786585fe9d51ddd90f18fb948b2e63d6621141d07a2",
+      "bytes": 24869
+    },
+    "pecas/0602268-61_2026-09-30.html": {
+      "sha256": "99c66c94f94f8e21aec6a307d18eb2ba33768d7e2ce1e6c46e7c4c8d30932d14",
+      "bytes": 24861
+    },
+    "pecas/0602269-46_2026-09-30.html": {
+      "sha256": "74ff0dc62026722e27d88258d5924fb7a019858510692c58224e578ddd0b94a2",
+      "bytes": 25138
+    },
+    "pecas/0602367-31_2026-09-30.html": {
+      "sha256": "5c8ec4002995d4915fd9927b1374bd006f592bdd6c23806418e8529e22ffb8a3",
+      "bytes": 24443
+    },
+    "pecas/0602370-83_2026-09-30.html": {
+      "sha256": "7cafe5c320213ae0a0ed14b7ad8e12133c2e789a7e6dd762f31008e4f58b0f18",
+      "bytes": 32736
+    },
+    "pecas/0602371-68_2026-09-30.html": {
+      "sha256": "0e93d9061254a7a1d36a32064c6c879128affb8684ec3d45acf6b1f12d246145",
+      "bytes": 31263
+    },
+    "pecas/0602436-63_2026-09-30.html": {
+      "sha256": "92743bd6e3012c3cd0fa963dd4c4099b162d01e54ae80c7d1e22fd9dc64fa730",
+      "bytes": 23479
+    },
+    "pecas/indice_30set.json": {
+      "sha256": "e5fbd80a8f1552818751d8cd5f8ca1e4e99ddc85a80bc7c6a67e2cdf8af180e2",
+      "bytes": 4282
+    },
+    "pecas/jurisprudencia_8_resumos.json": {
+      "sha256": "bff77ca906f6995d82b8171e8dd3f039adab348a8d427dadc844fe2bc7cebf1c",
+      "bytes": 53958
+    },
+    "processos.csv": {
+      "sha256": "678cff23f2cce641a6730e801d8ca2260f5acf4291c1d7b034789436036de874",
+      "bytes": 502107
+    },
+    "relatorio.md": {
+      "sha256": "a299c3518efa20be13d6d6b00aeae4ab0893ae0888c4c37e2e6f3f3c9b2b37af",
+      "bytes": 126475
+    },
+    "relatos.csv": {
+      "sha256": "368febeadb291bc99c5580e719bbb456f2d9ba74d83b3a0cf6b7e41e0638f121",
+      "bytes": 101526
+    },
+    "reproduzir.py": {
+      "sha256": "888005df5904d32fa6373ad2434d5cdb7a0ff36c3fb12a41c4946f62740083c3",
+      "bytes": 680
+    },
+    "resumo.json": {
+      "sha256": "3e2a573c3b7c1352d8a33e8465520c977128c99b98ae6233561a50765e8bd33d",
+      "bytes": 3192
+    },
+    "secao6_template.md": {
+      "sha256": "f7f403f54175835ba67a67d43612035d83ad746d9660ced322039d713d59be42",
+      "bytes": 5103
+    },
+    "tests/test_tse_corpus_eleicoes_2026.py": {
+      "sha256": "3d5cc7ce07e502704aca8cd9a1fc1c63bde79abdf85174221da917173b7f7aa4",
+      "bytes": 6738
+    },
+    "tse_corpus_eleicoes_2026.py": {
+      "sha256": "c6e5f77403df24ab3f9ad7ebbcaf9c56c040415055088c5397be9eb00643713f",
+      "bytes": 29569
+    },
+    "tse_relatorio_corpus.py": {
+      "sha256": "efff484909da2029f84591b2aa604ea5e899aa0f01008d24f6795a196553a05f",
+      "bytes": 19127
+    },
+    "verificar_pacote.py": {
+      "sha256": "70b5958d74822dbe41a308a1fcace27dae84080e3eeb26cf8618316f479eefcc",
+      "bytes": 4248
+    }
+  }
+}

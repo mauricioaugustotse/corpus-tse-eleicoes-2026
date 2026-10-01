@@ -1,0 +1,18 @@
+{
+  "cnj": "0601315-97.2026.6.00.0000",
+  "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/9/1/22/26/17/976befd03bfb522f74b25d240f808158818419a60d96ba7363c590c3a2f926df",
+  "arquivo_html": "060131597_certidao_2026-09-01.html",
+  "sha256_html": "976befd03bfb522f74b25d240f808158818419a60d96ba7363c590c3a2f926df",
+  "bytes": 21590,
+  "tribunal_verificado": "TSE",
+  "tipo_peca_no_html": "CERTIDÃO DE JULGAMENTO",
+  "classe_no_html": "REPRESENTAÇÃO (11541)",
+  "data_sessao_inicio": "2026-09-01",
+  "data_sessao_fim": "2026-09-01",
+  "data_certidao": "2026-09-01",
+  "dispositivo_verificado": "indeferiu o pedido de tutela de urgência",
+  "trecho_complementar_verificado": "deepfake",
+  "storage_path": "tse/2026/9/1/22/26/17/976befd03bfb522f74b25d240f808158818419a60d96ba7363c590c3a2f926df",
+  "storage_sha256_igual_ao_html": true,
+  "consultado_em_utc": "2026-10-01T01:09:00.091068+00:00"
+}
