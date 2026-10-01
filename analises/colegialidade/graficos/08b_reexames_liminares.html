@@ -319,22 +319,22 @@
 	}
 </style>
 <div class="chart-figure" data-layout="report">
-<p class="sr-only">Decisão: 933 atos: 78.56%. Acórdão: 933 atos: 21.44%</p>
+<p class="sr-only">Liminar mantida: 26 reexames: 84.62%. Liminar modificada: 26 reexames: 15.38%</p>
 <div class="figure-header">
-	<div class="figure-title">Decisões representam 78,6% dos atos</div>
-	<div class="figure-aside">733 decisões e 200 acórdãos até 30/09/2026</div>
+	<div class="figure-title">Desfecho das liminares reexaminadas nos confrontos presidenciais</div>
+	<div class="figure-aside">22 mantidas e 4 modificadas nos 26 reexames comprovados</div>
 </div>
 <div class="legend" data-chart-id="canonicalBars">
-	<span data-series-index="0"><span class="key-sq" aria-hidden="true" style="background: var(--blue)"></span>Decisão</span>
-	<span data-series-index="1"><span class="key-sq" aria-hidden="true" style="background: var(--yellow)"></span>Acórdão</span>
+	<span data-series-index="0"><span class="key-sq" aria-hidden="true" style="background: rgba(94, 159, 232, 1)"></span>Liminar mantida</span>
+	<span data-series-index="1"><span class="key-sq" aria-hidden="true" style="background: rgba(222, 146, 85, 1)"></span>Liminar modificada</span>
 </div>
 <div class="chart-wrap" style="height: 260px;">
-	<canvas id="canonicalBars" data-series-legend="true" role="img" aria-label="Decisões representam 78,6% dos atos. 733 decisões e 200 acórdãos até 30/09/2026. Decisão: 933 atos: 78.56%. Acórdão: 933 atos: 21.44%">Decisão: 933 atos: 78.56%. Acórdão: 933 atos: 21.44%</canvas>
+	<canvas id="canonicalBars" data-series-legend="true" role="img" aria-label="Desfecho das liminares reexaminadas nos confrontos presidenciais. 22 mantidas e 4 modificadas nos 26 reexames comprovados. Liminar mantida: 26 reexames: 84.62%. Liminar modificada: 26 reexames: 15.38%">Liminar mantida: 26 reexames: 84.62%. Liminar modificada: 26 reexames: 15.38%</canvas>
 	<div class="chart-tooltip" role="tooltip" aria-hidden="true"></div>
 </div><table class="sr-only">
-	<caption>Decisões representam 78,6% dos atos</caption>
-	<tr><th>Observation</th><th>Decisão</th><th>Acórdão</th></tr>
-	<tr><td>933 atos</td><td data-observation-key="933 atos" data-series-key="Decisão" data-raw-value="78.56377277599142" data-value-kind="percent">78.56%</td><td data-observation-key="933 atos" data-series-key="Acórdão" data-raw-value="21.436227224008576" data-value-kind="percent">21.44%</td></tr>
+	<caption>Desfecho das liminares reexaminadas nos confrontos presidenciais</caption>
+	<tr><th>Observation</th><th>Liminar mantida</th><th>Liminar modificada</th></tr>
+	<tr><td>26 reexames</td><td data-observation-key="26 reexames" data-series-key="Liminar mantida" data-raw-value="84.61538461538461" data-value-kind="percent">84.62%</td><td data-observation-key="26 reexames" data-series-key="Liminar modificada" data-raw-value="15.384615384615385" data-value-kind="percent">15.38%</td></tr>
 </table>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
@@ -1179,8 +1179,8 @@ const InlineChartRuntime = (() => {
 			},
 			...options,
 		})
-{const chartOptions = options => commonChartOptions(options, "733 decisões e 200 acórdãos até 30/09/2026");
-		const spec = {"labels":["933 atos"],"tickLabels":["933 atos"],"orientation":"horizontal","mode":"stacked-percent","axis":{"zero":true},"maxBarThickness":40,"subjectIndex":-1,"categoryColors":[],"tickKind":"percent","series":[{"label":"Decisão","valueKind":"percent","data":[78.56377277599142],"colorToken":"--blue","colorFallback":"#7fb4ec"},{"label":"Acórdão","valueKind":"percent","data":[21.436227224008576],"colorToken":"--yellow","colorFallback":"#eac26b"}]}
+{const chartOptions = options => commonChartOptions(options, "22 mantidas e 4 modificadas nos 26 reexames comprovados");
+		const spec = {"labels":["26 reexames"],"tickLabels":["26 reexames"],"orientation":"horizontal","mode":"stacked-percent","axis":{"zero":true},"maxBarThickness":40,"subjectIndex":-1,"categoryColors":[],"tickKind":"percent","series":[{"label":"Liminar mantida","valueKind":"percent","data":[84.61538461538461],"colorToken":"--yellow","colorFallback":"#eac26b","color":"rgba(94, 159, 232, 1)"},{"label":"Liminar modificada","valueKind":"percent","data":[15.384615384615385],"colorToken":"--blue","colorFallback":"#7fb4ec","color":"rgba(222, 146, 85, 1)"}]}
 		const horizontal = spec.orientation === "horizontal"
 		const stacked = true
 		const valueScale = horizontal ? "x" : "y"

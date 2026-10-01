@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""Confere a curadoria nominal e reproduz contagens; --graficos usa Matplotlib."""
+"""Confere a curadoria nominal e reproduz contagens; --graficos gera SVGs."""
 from pathlib import Path
 from collections import Counter
 import argparse
 import csv
 import hashlib
-import html
 import json
 
 ROOT = Path(__file__).resolve().parent
@@ -106,6 +105,7 @@ def graficos(s):
         fig.savefig(buf, format='svg', metadata={'Date': None, 'Creator': 'Corpus TSE — colegialidade'})
         plt.close(fig)
         body = buf.getvalue().replace("font-family: 'DejaVu Sans'", "font-family: Arial, 'DejaVu Sans', sans-serif")
+        body = '\n'.join(line.rstrip() for line in body.splitlines()) + '\n'
         (dest / (nome + '.svg')).write_text(body, encoding='utf-8')
         return body[body.index('<svg'):]
 
@@ -130,20 +130,12 @@ def graficos(s):
         minister.append(svg('vencidos_' + key, 'Ministros com votos vencidos', subtitle, names, [count.get(n, 0) for n in names], [orange] * len(names),
                             'Uma ocorrência por ministro e julgamento, inclusive voto parcialmente vencido.\nVários ministros podem ficar vencidos no mesmo julgamento.'))
 
-    def html_chart(filename, panels, labels):
-        tabs = ''.join(f'<button type="button" aria-pressed="{str(i==0).lower()}" onclick="selectPanel({i})">{html.escape(t)}</button>' for i, t in enumerate(labels)) if len(panels) > 1 else ''
-        items = ''.join(f'<section id="panel-{i}" {"hidden" if i else ""}>{v}</section>' for i, v in enumerate(panels))
-        content = '''<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Co legialidade no TSE</title><style>body{margin:0;padding:12px;background:#f8fafc;font-family:Arial,sans-serif}main{max-width:1120px;margin:auto;background:white;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden}nav{display:flex;gap:8px;flex-wrap:wrap;padding:14px 20px 0}button{font:14px Arial;padding:9px 14px;cursor:pointer;border:1px solid #94a3b8;border-radius:6px;background:white;color:#334155}button[aria-pressed=true]{background:#155e75;color:white;border-color:#155e75}svg{display:block;width:100%;height:auto}section[hidden]{display:none}</style><main><nav>''' + tabs + '</nav>' + items + '''</main><script>function selectPanel(i){document.querySelectorAll('section').forEach((x,j)=>x.hidden=i!==j);document.querySelectorAll('button').forEach((x,j)=>x.setAttribute('aria-pressed',i===j))}</script></html>'''
-        content = content.replace('Co legialidade', 'Colegialidade')
-        (dest / filename).write_text(content, encoding='utf-8')
-    html_chart('07_votacao.html', votes, ['Acórdãos do corpus (200)', 'Colegiados nos confrontos (27)'])
-    html_chart('08_liminares.html', [situations_svg], [])
-    html_chart('09_ministros_vencidos.html', minister, ['Acórdãos do corpus', 'Confrontos presidenciais'])
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--graficos', action='store_true')
+    parser.add_argument('--graficos', action='store_true',
+                        help='recalcula os SVGs estáticos; preserva os HTMLs publicados')
     args = parser.parse_args()
     s = verificar_e_resumir()
     if args.graficos: graficos(s)

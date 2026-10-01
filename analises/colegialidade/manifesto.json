@@ -3,12 +3,12 @@
   "algoritmo": "SHA-256",
   "arquivos": {
     ".gitattributes": {
-      "sha256": "6da9f9025743e675d6c776ebf6ebbc971c2369220b2f3478c6f0adafcb48353c",
-      "bytes": 123
+      "sha256": "84fd74daa321508d5d472a68f4d0de0464b1781e49a713b6bc9a147f754df969",
+      "bytes": 212
     },
     "README.md": {
-      "sha256": "e2b4b0b25298e5a44e427a1a8167591f030444b123c95de95c0eef475736e8cd",
-      "bytes": 7659
+      "sha256": "10ff54e6165700da12fcc394510a6874ebaa97ee63194f0051e3f0deec43da21",
+      "bytes": 9513
     },
     "acordaos.csv": {
       "sha256": "7fee0d083c69a24ea3b8ea02c3c12712ad99f23b0236d8b28a02c82cdc724e33",
@@ -17,6 +17,10 @@
     "acordaos.json": {
       "sha256": "6f0b9c2b92564e8caaf5650d9e18a0af32c522559c74f76cc7d30ae7abb4f6c2",
       "bytes": 259831
+    },
+    "extrair_sjur.py": {
+      "sha256": "a94c729b9e8c0fb32b58c087b2430339cfa30f3721a9f21ed7b8f13d2f0aa09b",
+      "bytes": 4546
     },
     "extratos_sjur.json": {
       "sha256": "ea0e6ec1823240c1645ee5fbdca9c9be7e4116a0bb1f55667549b16fa66bdd7d",
@@ -467,36 +471,44 @@
       "bytes": 31263
     },
     "graficos/07_votacao.html": {
-      "sha256": "41b8db98b604ad6f715a95f7938e7cfe4ef202cd2100af7222cb2c17b4cc1c66",
-      "bytes": 9385
+      "sha256": "60ca74b5a1f2d432ddf95f84fcca800e8464177d0f32b70c656027df6335ca0d",
+      "bytes": 39551
     },
     "graficos/08_liminares.html": {
-      "sha256": "0c0c0161a1dad627c969068ea5de3970b6c7ab0966b484f7a3d1bbd50a9fffe5",
-      "bytes": 6723
+      "sha256": "96a594bf1db87556361761e2ec78dc41c8494bae8126cbb05864112373449f5a",
+      "bytes": 39858
+    },
+    "graficos/08b_reexames_liminares.html": {
+      "sha256": "557ba38cc75c98976a65fe5f093ee1232c1f4d0bd405c3ad70a2617664fab031",
+      "bytes": 38169
     },
     "graficos/09_ministros_vencidos.html": {
-      "sha256": "993faf28879fe17415e66380a0b73b5e85c8aa38bf8cfa789d45bed8a3602352",
-      "bytes": 15211
+      "sha256": "22278d430f1a33a59bc9440ce7b730f24eea3fc77a91126ff6bf0b6b964d0a88",
+      "bytes": 38910
+    },
+    "graficos/09b_ministros_vencidos_confrontos.html": {
+      "sha256": "7ee473c817bc5c05d5872c7e8cf4fa0d4bcec09bc08a7e1a38fa8aeb56ba1030",
+      "bytes": 38966
     },
     "graficos/situacao_liminares.svg": {
-      "sha256": "959f40bcf365ebb20601d3d0fe057795e2dfdebac252e6d9b609310ba1dfafc0",
-      "bytes": 5922
+      "sha256": "a2b7340a6f9f0ab0c7fdacd40be8900c24a9033aa4ae046634d89cbdaece7b20",
+      "bytes": 5894
     },
     "graficos/vencidos_confrontos.svg": {
-      "sha256": "0e5806516e816e0ec7abec2efa0148a94f00e3983d5cd7fef0fbf6dbe0501294",
-      "bytes": 7176
+      "sha256": "d11ab0be239fc18488e9b76cfe8ff1252a75a304055d70c6320c10916e3a6ae1",
+      "bytes": 7140
     },
     "graficos/vencidos_corpus.svg": {
-      "sha256": "ceab14e10e0e960b6348795f412f3fc4356ab71ea290f25b96c0a25a8367b032",
-      "bytes": 7154
+      "sha256": "1b7334c9c8d079055619ce7c98e1bfc497c84080c30431b08511da8288ff81c3",
+      "bytes": 7118
     },
     "graficos/votacao_confrontos.svg": {
-      "sha256": "69c8f64e7e1ee53650a46366b38d64e140e93a535932fdfe108c9fd9c3865217",
-      "bytes": 4246
+      "sha256": "03a53eb8ce248439043fb64464449c73db2865126ee6e7646a08c5ffd208e7b8",
+      "bytes": 4226
     },
     "graficos/votacao_corpus.svg": {
-      "sha256": "69d041b3095c8310afedb889325c7bd769cd0fb607ed9488528479fe0c6ee3b4",
-      "bytes": 4246
+      "sha256": "47b60eaadd12f2d4b2a4a801500bdbc1239d7184e01618d88fc5b02cea2e5ae9",
+      "bytes": 4226
     },
     "liminares_confrontos.csv": {
       "sha256": "44b07d4c61098b86c773dc517980e6d523b8827741586afa1b905cdcadd58b27",
@@ -511,8 +523,8 @@
       "bytes": 1785
     },
     "reproduzir.py": {
-      "sha256": "ca8eb13242b9c651b18fc9d3ea4532ea25c53518b6e16e27217a767be0c9a73d",
-      "bytes": 10646
+      "sha256": "f0d5cdd56f348a4331d7d2b2e082c8120305ab31d23042e2135301db92ed12b2",
+      "bytes": 9051
     },
     "requirements-graficos.txt": {
       "sha256": "de950d3b75e4ad1a760c121533e06390c84574f7dd0b53c0eaa742ab6d5c2f38",
@@ -523,8 +535,8 @@
       "bytes": 1694
     },
     "trecho_relatorio.md": {
-      "sha256": "569c8bd2c659c740ede333192f42e906a756e56eb15e9cbe92979365951cb89a",
-      "bytes": 7263
+      "sha256": "3ea28472ccc3b26d86a1242f62c5110ebbcfade3170021bc78db573c73b2c039",
+      "bytes": 7242
     }
   }
 }

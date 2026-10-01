@@ -319,22 +319,24 @@
 	}
 </style>
 <div class="chart-figure" data-layout="report">
-<p class="sr-only">Decisão: 933 atos: 78.56%. Acórdão: 933 atos: 21.44%</p>
+<p class="sr-only">Julgamentos com voto vencido: André Mendonça: 5; Ricardo Villas Bôas Cueva: 1</p>
 <div class="figure-header">
-	<div class="figure-title">Decisões representam 78,6% dos atos</div>
-	<div class="figure-aside">733 decisões e 200 acórdãos até 30/09/2026</div>
-</div>
-<div class="legend" data-chart-id="canonicalBars">
-	<span data-series-index="0"><span class="key-sq" aria-hidden="true" style="background: var(--blue)"></span>Decisão</span>
-	<span data-series-index="1"><span class="key-sq" aria-hidden="true" style="background: var(--yellow)"></span>Acórdão</span>
+	<div class="figure-title">André Mendonça tem mais ocorrências de voto vencido nos confrontos presidenciais</div>
+	<div class="figure-aside">Uma ocorrência por ministro e julgamento em 8 julgamentos com divergência</div>
 </div>
 <div class="chart-wrap" style="height: 260px;">
-	<canvas id="canonicalBars" data-series-legend="true" role="img" aria-label="Decisões representam 78,6% dos atos. 733 decisões e 200 acórdãos até 30/09/2026. Decisão: 933 atos: 78.56%. Acórdão: 933 atos: 21.44%">Decisão: 933 atos: 78.56%. Acórdão: 933 atos: 21.44%</canvas>
+	<canvas id="canonicalBars" data-series-legend="false" role="img" aria-label="André Mendonça tem mais ocorrências de voto vencido nos confrontos presidenciais. Uma ocorrência por ministro e julgamento em 8 julgamentos com divergência. Julgamentos com voto vencido: André Mendonça: 5; Ricardo Villas Bôas Cueva: 1">Julgamentos com voto vencido: André Mendonça: 5; Ricardo Villas Bôas Cueva: 1</canvas>
 	<div class="chart-tooltip" role="tooltip" aria-hidden="true"></div>
 </div><table class="sr-only">
-	<caption>Decisões representam 78,6% dos atos</caption>
-	<tr><th>Observation</th><th>Decisão</th><th>Acórdão</th></tr>
-	<tr><td>933 atos</td><td data-observation-key="933 atos" data-series-key="Decisão" data-raw-value="78.56377277599142" data-value-kind="percent">78.56%</td><td data-observation-key="933 atos" data-series-key="Acórdão" data-raw-value="21.436227224008576" data-value-kind="percent">21.44%</td></tr>
+	<caption>André Mendonça tem mais ocorrências de voto vencido nos confrontos presidenciais</caption>
+	<tr><th>Observation</th><th>Julgamentos com voto vencido</th></tr>
+	<tr><td>André Mendonça</td><td data-observation-key="André Mendonça" data-series-key="Julgamentos com voto vencido" data-raw-value="5" data-value-kind="count">5</td></tr>
+	<tr><td>Floriano de Azevedo Marques</td><td data-observation-key="Floriano de Azevedo Marques" data-series-key="Julgamentos com voto vencido" data-raw-value="3" data-value-kind="count">3</td></tr>
+	<tr><td>Estela Aranha</td><td data-observation-key="Estela Aranha" data-series-key="Julgamentos com voto vencido" data-raw-value="3" data-value-kind="count">3</td></tr>
+	<tr><td>Nunes Marques</td><td data-observation-key="Nunes Marques" data-series-key="Julgamentos com voto vencido" data-raw-value="2" data-value-kind="count">2</td></tr>
+	<tr><td>Dias Toffoli</td><td data-observation-key="Dias Toffoli" data-series-key="Julgamentos com voto vencido" data-raw-value="1" data-value-kind="count">1</td></tr>
+	<tr><td>Antonio Carlos Ferreira</td><td data-observation-key="Antonio Carlos Ferreira" data-series-key="Julgamentos com voto vencido" data-raw-value="0" data-value-kind="count">0</td></tr>
+	<tr><td>Ricardo Villas Bôas Cueva</td><td data-observation-key="Ricardo Villas Bôas Cueva" data-series-key="Julgamentos com voto vencido" data-raw-value="1" data-value-kind="count">1</td></tr>
 </table>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
@@ -1179,10 +1181,10 @@ const InlineChartRuntime = (() => {
 			},
 			...options,
 		})
-{const chartOptions = options => commonChartOptions(options, "733 decisões e 200 acórdãos até 30/09/2026");
-		const spec = {"labels":["933 atos"],"tickLabels":["933 atos"],"orientation":"horizontal","mode":"stacked-percent","axis":{"zero":true},"maxBarThickness":40,"subjectIndex":-1,"categoryColors":[],"tickKind":"percent","series":[{"label":"Decisão","valueKind":"percent","data":[78.56377277599142],"colorToken":"--blue","colorFallback":"#7fb4ec"},{"label":"Acórdão","valueKind":"percent","data":[21.436227224008576],"colorToken":"--yellow","colorFallback":"#eac26b"}]}
+{const chartOptions = options => commonChartOptions(options, "Uma ocorrência por ministro e julgamento em 8 julgamentos com divergência");
+		const spec = {"labels":["André Mendonça","Floriano de Azevedo Marques","Estela Aranha","Nunes Marques","Dias Toffoli","Antonio Carlos Ferreira","Ricardo Villas Bôas Cueva"],"tickLabels":["André Mendonça","Floriano de Azevedo Marques","Estela Aranha","Nunes Marques","Dias Toffoli","Antonio Carlos Ferreira","Ricardo Villas Bôas Cueva"],"orientation":"horizontal","mode":"grouped","axis":{"zero":true,"cap":8},"maxBarThickness":22,"subjectIndex":0,"categoryColors":[],"tickKind":"count","series":[{"label":"Julgamentos com voto vencido","valueKind":"count","data":[5,3,3,2,1,0,1],"colorToken":"--blue","colorFallback":"#7fb4ec"}]}
 		const horizontal = spec.orientation === "horizontal"
-		const stacked = true
+		const stacked = false
 		const valueScale = horizontal ? "x" : "y"
 		const categoryScale = horizontal ? "y" : "x"
 		const categoryValues = spec.labels.map((_label, labelIndex) => spec.series.map(series => series.data[labelIndex]).filter(value => value !== null))

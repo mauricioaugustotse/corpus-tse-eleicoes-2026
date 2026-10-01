@@ -9,8 +9,8 @@
       "bytes": 1742
     },
     "README.md": {
-      "sha256": "c39ce057ddd14a894102b57a4508ca1b682bb0f4bd9c7fe3a20014eae50718c0",
-      "bytes": 2011
+      "sha256": "fe8fb95075078c1a96bfd2a6ae999c0135c0189eb9dddac45cecfb5a225fdbfc",
+      "bytes": 2261
     },
     "VALIDACAO.md": {
       "sha256": "d2c69f9c9bb032741fbb7622e0a57e024a3d28802f2a8046d9df7fbed68a58dd",
@@ -61,48 +61,48 @@
       "bytes": 1186
     },
     "graficos/01_tipos_ato.html": {
-      "sha256": "bd09e39f0bb4682080f9aaa83908e0603edc9dcaf6563143bf1fd8ff6b48fd0b",
-      "bytes": 1150
+      "sha256": "de560fa6983934c59487bef8ac03dabb72d32f9d6cc10fccecab97f6686284ee",
+      "bytes": 37831
     },
     "graficos/01_tipos_ato.svg": {
       "sha256": "408f3bf9ac359b9ab5450b516e584f32d6149f7f2e3c92ee9da7a0d6c61cd978",
       "bytes": 833
     },
     "graficos/02_atos_por_mes.html": {
-      "sha256": "fc15a39dde15c2d1910ab83c99de369368a7db57f1202d0272960dc2bc3de4d3",
-      "bytes": 4127
+      "sha256": "cad1fa506a8b78a914cc161858db81d70b4c42af2beec432ceebd6e7eb7f6d76",
+      "bytes": 40060
     },
     "graficos/02_atos_por_mes.svg": {
       "sha256": "6a7719fdea47da02c18a73f427d7584267fb1926c2bea68a72bf20a65193c684",
       "bytes": 3807
     },
     "graficos/03_ritmo_acumulado.html": {
-      "sha256": "76c6130a9ecc37e447a2765e61d5db2a87260c24ac3c8bd5ceb2d64b229085d6",
-      "bytes": 4480
+      "sha256": "348f7ed0e7ec0c4548a148e93129bd54980eab15102a29d0749e339eef69377a",
+      "bytes": 38131
     },
     "graficos/03_ritmo_acumulado.svg": {
       "sha256": "134bfb4295ad3f8c22719dd24042ed04ff965deaf464235020d8edfe01d7a4f0",
       "bytes": 4157
     },
     "graficos/04_classes_por_ato.html": {
-      "sha256": "29beba6fa3752fc92055263af06c0d458c9779eb846e26966c089fb3758c9102",
-      "bytes": 2595
+      "sha256": "4eec5920d5d7f5bb3f4ea3b57edcf9ef5b7921cbd13791978ba37bdbe892ed37",
+      "bytes": 38289
     },
     "graficos/04_classes_por_ato.svg": {
       "sha256": "90880fe354ab109fe24b6449170c4f6a55b4defae4e68571e56d84b48f03d477",
       "bytes": 2272
     },
     "graficos/05_autores_dos_atos.html": {
-      "sha256": "781835ec41aa57231a8d61dbe6dfc4857de95ebd0a732d2e80d21903d07884e4",
-      "bytes": 2756
+      "sha256": "76780fdabc4478547174a8d291e767238068b04ec97052c14334b2455f40c0d4",
+      "bytes": 38310
     },
     "graficos/05_autores_dos_atos.svg": {
       "sha256": "c69a7dd311aa130da390d1c7174b6cdb1cc3a2deb54aa2be65e899d5eafaf926",
       "bytes": 2432
     },
     "graficos/06_composicao_comunicacao.html": {
-      "sha256": "a4d2424cefee5b8a29efec6ddbe4b5b0f53b432d33c75bd353c0484971ec0cc9",
-      "bytes": 1437
+      "sha256": "877045fa4d1fc03cad9abf855003507cab22b70bf276461897b27b3433ff9f94",
+      "bytes": 38409
     },
     "graficos/06_composicao_comunicacao.svg": {
       "sha256": "627c41b4af3afcb30c34a17d6cf47644c9a5b5b494bdedffc797bc0c09c35878",
@@ -309,8 +309,8 @@
       "bytes": 6738
     },
     "tse_corpus_eleicoes_2026.py": {
-      "sha256": "c6e5f77403df24ab3f9ad7ebbcaf9c56c040415055088c5397be9eb00643713f",
-      "bytes": 29569
+      "sha256": "ef1ad6645f4f0ef7f43ed1301c6f67f1d72f6427a5549855b25b30ff8dcbac05",
+      "bytes": 30035
     },
     "tse_relatorio_corpus.py": {
       "sha256": "efff484909da2029f84591b2aa604ea5e899aa0f01008d24f6795a196553a05f",

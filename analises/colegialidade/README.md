@@ -1,6 +1,6 @@
 # Votações e revisão de liminares no TSE
 
-Análise documental do mesmo corpus, com corte em **30/09/2026**. Não acrescenta atos aos 933 registros nem processos aos 751 CNJs do extrato oficial. A pasta `versoes/2026-10-01` e seus arquivos originais permanecem preservados.
+Análise documental do mesmo corpus, com corte em **30/09/2026**. Não acrescenta atos aos 933 registros nem processos aos 751 CNJs do extrato oficial. Os dados estatísticos e os cinco ZIPs oficiais estão preservados em `versoes/2026-10-01`.
 
 ## Resultados e denominadores
 
@@ -17,12 +17,30 @@ Os 11 acórdãos sem votação apurada representam **5,5% dos 200 registros**. P
 
 - [Acórdãos: CSV](acordaos.csv) e [JSON](acordaos.json): uma linha por `CHAVE_ATO`, com CNJ, sequencial do extrato, data do ato, votação, ministros vencidos, transcrição do extrato e endereço oficial.
 - [Confrontos: CSV](liminares_confrontos.csv) e [JSON](liminares_confrontos.json): exatamente os 107 CNJs já classificados no estudo, com situação da medida e fonte documental própria.
-- [Extratos do SJUR](extratos_sjur.json): registros das exportações oficiais em CSV do SJUR, incluindo variantes do cadastro para permitir a conferência.
+- [Extratos do SJUR](extratos_sjur.json): 190 registros das exportações oficiais em CSV, relativos aos 162 processos usados como fonte SJUR, incluindo variantes do cadastro para permitir a conferência.
 - [Peças do PJe](fontes_pje): cópias dos documentos oficiais utilizados, com SHA-256 registrado nas planilhas.
-- [Resumo calculado](resumo.json) e [gráficos](graficos): os gráficos HTML abrem sem internet; os SVGs permitem impressão e reutilização.
+- [Resumo calculado](resumo.json) e [gráficos](graficos): os HTMLs conservam a apresentação do Notion e carregam Chart.js pela internet; os SVGs oferecem uma apresentação estática para consulta sem conexão, impressão e reutilização.
 - [Pendências de votação](pendencias_votacao.csv): os 11 atos ainda sem proclamação localizada, identificados nominalmente.
 
-Os links ao SJUR foram construídos com tribunal, número, classe e data de julgamento do próprio registro exportado. O serviço de download informou indisponibilidade durante o período eleitoral na conferência. Por isso, **163 votações usam os extratos das exportações oficiais preservadas** e **26 usam o acórdão acessível no PJe**. Não se apresenta essa parte do acervo como nova consulta bem-sucedida ao SJUR. A consulta de documentos por CNJ no PJe também encerrou conexões durante a busca das lacunas; o acesso direto às peças identificadas permaneceu disponível. Nenhum resultado foi atribuído aos 11 acórdãos sem fonte de votação localizada.
+Os links ao SJUR foram construídos com tribunal, número, classe e data de julgamento do próprio registro exportado. **163 votações usam os extratos das exportações oficiais preservadas e 26 usam o acórdão acessível no PJe**. A fonte documental da primeira categoria é o CSV exportado: o serviço de download do SJUR informou indisponibilidade durante o período eleitoral na conferência dos links. A consulta de documentos por CNJ no PJe também encerrou conexões durante a busca das lacunas; o acesso direto às peças identificadas permaneceu disponível. Nenhum resultado foi atribuído aos 11 acórdãos sem fonte de votação localizada.
+
+## Gráficos HTML
+
+Os cinco arquivos reproduzem os painéis publicados no Notion:
+
+- [Votação no corpus e nos confrontos presidenciais](graficos/07_votacao.html).
+- [Situação documentada nos 107 processos](graficos/08_liminares.html).
+- [Desfecho dos 26 reexames de liminares](graficos/08b_reexames_liminares.html).
+- [Ministros com votos vencidos no corpus](graficos/09_ministros_vencidos.html).
+- [Ministros com votos vencidos nos confrontos presidenciais](graficos/09b_ministros_vencidos_confrontos.html).
+
+Baixe o HTML e abra-o no navegador, com conexão à internet para carregar Chart.js. Os arquivos conservam os títulos, cores, dados e controles da página do estudo.
+
+## Coleta e programação
+
+A coleta utilizou Python e Playwright para operar a interface pública do [SJUR](https://jurisprudencia.tse.jus.br/): pesquisar por tipo de decisão e intervalo de datas de julgamento, percorrer as páginas de resultados e salvar a saída oficial de **Exportar → CSV**. As exportações conservam os campos de identificação, relatores, proclamação (`textoDecisao`) e ementa (`textoEmenta`). Não é necessário automatizar o navegador para reproduzir a seleção; os mesmos arquivos podem ser exportados manualmente.
+
+O tratamento em Python lê os CSVs, normaliza o CNJ para 20 dígitos, seleciona acórdãos do TSE e cruza os números com o corpus. [extrair_sjur.py](extrair_sjur.py) disponibiliza essa seleção sem dependências externas e permite comparar outra exportação com os extratos preservados. O [guia técnico](../../REPRODUCAO.md#reproduzir-a-apuração-das-votações) apresenta os comandos, os campos e as diferenças entre selecionar documentos e classificar juridicamente os julgamentos.
 
 ## Como as unidades foram conciliadas
 
@@ -56,11 +74,11 @@ python analises/colegialidade/reproduzir.py
 
 O comando usa apenas a biblioteca padrão para conferir identidades, hashes das peças e equivalência entre CSV e JSON, e recalcular `resumo.json`. A curadoria jurídica é explícita nas planilhas: o programa não decide mérito com base em palavras soltas da ementa.
 
-Para refazer os gráficos, instale a versão de Matplotlib indicada em `requirements-graficos.txt` e execute:
+Para refazer os gráficos estáticos em SVG, instale a versão de Matplotlib indicada em `requirements-graficos.txt` e execute:
 
 ```bash
 python -m pip install -r analises/colegialidade/requirements-graficos.txt
 python analises/colegialidade/reproduzir.py --graficos
 ```
 
-O manifesto desta pasta é independente do manifesto do corpus congelado. Os três gráficos novos devem ser inseridos abaixo do trecho sobre acórdãos e votação, preservando os seis gráficos originais.
+Os HTMLs conservam os gráficos publicados no Notion e não são sobrescritos por `--graficos`. O manifesto desta pasta é independente do manifesto do corpus estatístico.
