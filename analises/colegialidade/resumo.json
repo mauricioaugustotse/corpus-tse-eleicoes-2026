@@ -1,0 +1,60 @@
+{
+  "corte": "2026-09-30",
+  "acordaos_corpus": 200,
+  "processos_com_acordao": 198,
+  "votacao_corpus": {
+    "unânime": 174,
+    "com divergência": 15,
+    "não apurada": 11
+  },
+  "fontes_corpus": {
+    "SJUR — exportação oficial em CSV": 163,
+    "PJe — acórdão": 26,
+    "não localizada": 11
+  },
+  "ministros_vencidos_corpus": {
+    "Floriano de Azevedo Marques": 7,
+    "Estela Aranha": 4,
+    "André Mendonça": 8,
+    "Dias Toffoli": 1,
+    "Nunes Marques": 3,
+    "Antonio Carlos Ferreira": 1
+  },
+  "confrontos": 107,
+  "situacao_confrontos": {
+    "liminar mantida": 22,
+    "liminar sem revisão colegiada comprovada": 76,
+    "liminar modificada": 4,
+    "decisão individual de mérito": 4,
+    "tutela decidida diretamente pelo colegiado": 1
+  },
+  "colegiados_confrontos": 27,
+  "votacao_confrontos": {
+    "com divergência": 8,
+    "unânime": 19
+  },
+  "ministros_vencidos_confrontos": {
+    "André Mendonça": 5,
+    "Floriano de Azevedo Marques": 3,
+    "Dias Toffoli": 1,
+    "Estela Aranha": 3,
+    "Nunes Marques": 2,
+    "Ricardo Villas Bôas Cueva": 1
+  },
+  "reexames_liminares_comprovados": 26,
+  "percentual_mantidas_entre_reexames": 84.6,
+  "percentual_modificadas_entre_reexames": 15.4,
+  "sem_votacao_apurada": [
+    "0601104-61.2026.6.00.0000|68199",
+    "0601040-51.2026.6.00.0000|68295",
+    "0601046-58.2026.6.00.0000|67385",
+    "0601089-92.2026.6.00.0000|68236",
+    "0601101-09.2026.6.00.0000|67892",
+    "0601232-81.2026.6.00.0000|67885",
+    "0601325-44.2026.6.00.0000|67790",
+    "0600962-62.2026.6.07.0000|68671",
+    "0601652-32.2026.6.02.0000|67647",
+    "0601742-94.2026.6.00.0000|68124",
+    "0602810-56.2026.6.26.0000|68019"
+  ]
+}

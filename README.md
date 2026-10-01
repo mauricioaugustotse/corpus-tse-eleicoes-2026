@@ -23,6 +23,12 @@ Essas taxas descrevem **apenas os 107 resultados documentados**. Em sete process
 
 O filtro de comunicação usa campos oficiais, mas pode deixar outras disputas sobre comunicação fora do grupo. Dos 107 confrontos classificados, **106** integram o corpus de atos. O CNJ **0601315-97.2026.6.00.0000** tem resultado documentado por certidão e aparece só como suplemento documental dos confrontos. Ele não aumenta os 933 atos nem os 751 processos do painel geral.
 
+## Votações e revisão das liminares
+
+A [análise documental da colegialidade](analises/colegialidade) conserva o corte em **30/09/2026** e individualiza as fontes: dos 200 registros de acórdão, **174 têm votação unânime identificada, 15 apresentam divergência e 11 permanecem sem votação apurada**. Nos 107 confrontos presidenciais, há **22 liminares mantidas e quatro modificadas**, entre 26 reexames colegiados comprovados. A planilha separa ainda uma tutela decidida diretamente pelo colegiado, 76 liminares sem revisão colegiada comprovada e quatro decisões individuais de mérito. Ausência de revisão localizada não é prova de pendência processual.
+
+As [planilhas e peças oficiais](analises/colegialidade/README.md) permitem conferir os ministros vencidos e os denominadores. Os [três gráficos complementares](analises/colegialidade/graficos) distinguem o universo dos 200 acórdãos e o recorte dos confrontos. Eles não alteram os seis gráficos nem os arquivos do pacote original.
+
 ## Arquivos e gráficos
 
 Os [seis gráficos](versoes/2026-10-01/graficos) são gerados a partir dos dois CSVs oficiais. Cada HTML abre no navegador sem internet; também há arquivos SVG. Os valores exatos estão em [resumo.json](versoes/2026-10-01/resumo.json). Os [cinco ZIPs oficiais](versoes/2026-10-01/originais) foram preservados. [fontes.json](versoes/2026-10-01/fontes.json) registra seus endereços, datas de geração e hashes SHA-256. O [manifesto](versoes/2026-10-01/manifesto.json) permite conferir os demais arquivos.

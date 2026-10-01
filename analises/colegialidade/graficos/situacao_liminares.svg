@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="756pt" height="309.6pt" viewBox="0 0 756 309.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Corpus TSE — colegialidade</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 309.6 
+L 756 309.6 
+L 756 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 302.4 247.68 
+L 672.84 247.68 
+L 672.84 86.688 
+L 302.4 86.688 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 302.4 94.005818 
+L 594.085039 94.005818 
+L 594.085039 113.095779 
+L 302.4 113.095779 
+z
+" clip-path="url(#pae6d5f5c9c)" style="fill: #64748b"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 302.4 125.822419 
+L 386.835143 125.822419 
+L 386.835143 144.912379 
+L 302.4 144.912379 
+z
+" clip-path="url(#pae6d5f5c9c)" style="fill: #155e75"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 302.4 157.63902 
+L 317.751844 157.63902 
+L 317.751844 176.72898 
+L 302.4 176.72898 
+z
+" clip-path="url(#pae6d5f5c9c)" style="fill: #b45309"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 302.4 189.455621 
+L 317.751844 189.455621 
+L 317.751844 208.545581 
+L 302.4 208.545581 
+z
+" clip-path="url(#pae6d5f5c9c)" style="fill: #76858f"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 302.4 221.272221 
+L 306.237961 221.272221 
+L 306.237961 240.362182 
+L 302.4 240.362182 
+z
+" clip-path="url(#pae6d5f5c9c)" style="fill: #537780"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: Arial, 'DejaVu Sans', sans-serif; text-anchor: end" x="298.9" y="107.823611" transform="rotate(-0 298.9 107.823611)">Sem revisão colegiada comprovada</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: Arial, 'DejaVu Sans', sans-serif; text-anchor: end" x="298.9" y="139.54654" transform="rotate(-0 298.9 139.54654)">Liminar mantida pelo colegiado</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: Arial, 'DejaVu Sans', sans-serif; text-anchor: end" x="298.9" y="171.363141" transform="rotate(-0 298.9 171.363141)">Liminar modificada pelo colegiado</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: Arial, 'DejaVu Sans', sans-serif; text-anchor: end" x="298.9" y="203.399741" transform="rotate(-0 298.9 203.399741)">Decisão individual de mérito</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: Arial, 'DejaVu Sans', sans-serif; text-anchor: end" x="298.9" y="234.996342" transform="rotate(-0 298.9 234.996342)">Tutela decidida direto pelo colegiado</text>
+     </g>
+    </g>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: Arial, 'DejaVu Sans', sans-serif; text-anchor: start; fill: #172b3a" x="599.641639" y="106.40822" transform="rotate(-0 599.641639 106.40822)">76 · 71,0%</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: Arial, 'DejaVu Sans', sans-serif; text-anchor: start; fill: #172b3a" x="392.391743" y="138.224821" transform="rotate(-0 392.391743 138.224821)">22 · 20,6%</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: Arial, 'DejaVu Sans', sans-serif; text-anchor: start; fill: #172b3a" x="323.308444" y="170.041422" transform="rotate(-0 323.308444 170.041422)">4 · 3,7%</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11px; font-family: Arial, 'DejaVu Sans', sans-serif; text-anchor: start; fill: #172b3a" x="323.308444" y="201.858023" transform="rotate(-0 323.308444 201.858023)">4 · 3,7%</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11px; font-family: Arial, 'DejaVu Sans', sans-serif; text-anchor: start; fill: #172b3a" x="311.794561" y="233.674623" transform="rotate(-0 311.794561 233.674623)">1 · 0,9%</text>
+   </g>
+  </g>
+  <g id="text_11">
+   <text style="font-weight: 700; font-size: 17px; font-family: Arial, 'DejaVu Sans', sans-serif; text-anchor: start; fill: #172b3a" x="30.24" y="21.672" transform="rotate(-0 30.24 21.672)">O que ocorreu com as medidas</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 10.5px; font-family: Arial, 'DejaVu Sans', sans-serif; text-anchor: start; fill: #475569" x="30.24" y="44.892" transform="rotate(-0 30.24 44.892)">107 confrontos presidenciais · Situação documentada até 30/09/2026</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 9px; font-family: Arial, 'DejaVu Sans', sans-serif; fill: #475569" transform="translate(30.24 284.505539)">Dos 26 reexames comprovados: 22 mantiveram (84,6%) e 4 modificaram (15,4%).</text>
+   <text style="font-size: 9px; font-family: Arial, 'DejaVu Sans', sans-serif; fill: #475569" transform="translate(30.24 295.668)">Ausência de revisão localizada não prova pendência processual. Unidade: processo.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pae6d5f5c9c">
+   <rect x="302.4" y="86.688" width="370.44" height="160.992"/>
+  </clipPath>
+ </defs>
+</svg>
