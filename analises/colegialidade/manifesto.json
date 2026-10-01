@@ -2,13 +2,17 @@
   "corte_atos": "2026-09-30",
   "algoritmo": "SHA-256",
   "arquivos": {
+    ".gitattributes": {
+      "sha256": "6da9f9025743e675d6c776ebf6ebbc971c2369220b2f3478c6f0adafcb48353c",
+      "bytes": 123
+    },
     "README.md": {
       "sha256": "e2b4b0b25298e5a44e427a1a8167591f030444b123c95de95c0eef475736e8cd",
       "bytes": 7659
     },
     "acordaos.csv": {
-      "sha256": "575cdd7e6c8e8027011183457a5f4fb169f0f7cb8fbef46c1c4c53fea0089aca",
-      "bytes": 189004
+      "sha256": "7fee0d083c69a24ea3b8ea02c3c12712ad99f23b0236d8b28a02c82cdc724e33",
+      "bytes": 188803
     },
     "acordaos.json": {
       "sha256": "6f0b9c2b92564e8caaf5650d9e18a0af32c522559c74f76cc7d30ae7abb4f6c2",
@@ -495,16 +499,16 @@
       "bytes": 4246
     },
     "liminares_confrontos.csv": {
-      "sha256": "cb71caa35249bfb5a2a7307092aca524d3a0cda848149c33eb9e26ad05fba339",
-      "bytes": 148603
+      "sha256": "44b07d4c61098b86c773dc517980e6d523b8827741586afa1b905cdcadd58b27",
+      "bytes": 148495
     },
     "liminares_confrontos.json": {
       "sha256": "9ec9aa0166f08f0b20a835178202755dbffbb7c2b9038fa1f9dc0d6f79075e7d",
       "bytes": 174774
     },
     "pendencias_votacao.csv": {
-      "sha256": "44a91019fb7c97bf32b01821625798b3d5156a31d6d06810d0404779cd78a164",
-      "bytes": 1797
+      "sha256": "bc33c0f213ae535f6b45bb4e11e0dba31cb83a62354dd793497d82b9b80ad8dd",
+      "bytes": 1785
     },
     "reproduzir.py": {
       "sha256": "ca8eb13242b9c651b18fc9d3ea4532ea25c53518b6e16e27217a767be0c9a73d",

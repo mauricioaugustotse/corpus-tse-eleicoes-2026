@@ -1,0 +1,2 @@
+# As peças oficiais são evidência: conservar os bytes originais para SHA-256.
+fontes_pje/*.html -text -diff -whitespace
