@@ -20,7 +20,11 @@ O acesso foi validado em duas consultas novas, sem cache, com dez peças conferi
 python coletar_pecas.py --motor-dir C:/Users/mauri/ProjetoConversor
 ```
 
-O caminho indica a instalação local do motor e deve ser adaptado em outra máquina. O checkpoint é atualizado por peça e processo. Para interromper de modo seguro, criar um arquivo `PARAR` em `coleta_documental/`; para retomar, remover esse arquivo e repetir o comando. As consultas compartilham o acesso com outros programas locais. O relatório abaixo preserva o diagnóstico anterior e deve ser lido como histórico da preparação.
+O caminho indica a instalação local do motor e deve ser adaptado em outra máquina. O checkpoint é atualizado por peça e processo, com escrita atômica e preservação de documentos posteriores já salvos em processos incompletos. Uma trava impede coletores duplicados. A retomada verifica os hashes e a existência dos textos antes de reaproveitar arquivos. Peças do inventário parcial anterior também são reutilizadas por URL e hash; URLs repetidas são deduplicadas.
+
+Para pausar e retomar, use `python controle_coleta.py painel` ou o atalho **Coleta TSE - outubro 2026** criado na Área de Trabalho. Clique em **Pausar** e aguarde **Parada** antes de desligar. A pausa aguarda a operação corrente (uma consulta pode levar até 90 segundos). Depois de ligar o computador, abra o painel e clique em **Retomar**. Fechar o painel não encerra a coleta; a retomada após reinício do computador é manual. Também existem os comandos `python controle_coleta.py pausar`, `retomar` e `status`. Eles não interrompem outros programas.
+
+As consultas compartilham o acesso com outros programas locais. O intervalo de 65 segundos foi preservado; reutilizar arquivos economiza downloads, mas não elimina a necessidade de consultar inventários atualizados. O relatório abaixo preserva o diagnóstico anterior e deve ser lido como histórico da preparação.
 
 O acesso à página de consulta do PJe apresentou verificação humana; o portal de jurisprudência respondeu HTTP 403. Links diretos de peças anteriores foram acessíveis, mas não fornecem o inventário das novas peças. Nenhuma tentativa de contornar a verificação foi realizada.
 

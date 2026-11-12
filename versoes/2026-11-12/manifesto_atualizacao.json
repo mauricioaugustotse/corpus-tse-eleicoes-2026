@@ -105,12 +105,14 @@
   "processos.csv": "3b0219e63382b8bffea751a5094e135b859d645e39e5aa547af5e65868672c5f",
   "README.md": "a8d3ca5ac4fb4bd5c59534261a0080bbea57fe606a92db04a6f95455a99758c4",
   "resumo.json": "f83a35c07007e583ce034646d63aff13dfa768bfb809f47f3811b7dba8907244",
-  "STATUS.md": "719da565098dc9757e0722403fd46f24d74df7ce366136fa2cff437a278f6572",
+  "STATUS.md": "842eac34a4561891ecf15ba9adf9a02ef6e48af6c1720c371ce5651d418e53db",
   "tests/test_tse_corpus_eleicoes_2026.py": "5b34744dfb214561d83aebd4b1c5fe4757caee92b800ee02600cb0150655f2a9",
   "triagem_confrontos.csv": "b498005565ca7d44830a5b5acd7b49ca33a110e0b1fe3b32979b8a0e528240c9",
   "tse_corpus_eleicoes_2026.py": "ef1ad6645f4f0ef7f43ed1301c6f67f1d72f6427a5549855b25b30ff8dcbac05",
   "verificar_atualizacao.py": "8b733a89c2896eca523429f37c34403052d0a47fc23ef19d594a4611f80cf3ef",
-  "coletar_pecas.py": "1f07e7685332f839f29d9d36623e7b395efe5e436f2fca0d68a30a217b3d2fec",
+  "coletar_pecas.py": "03513f77c4258e1ee620473fef62b74510b7c82507833533f629d38d18fca77d",
   "tests/test_coletar_pecas.py": "d1e91e5296fc649757b12fc14abbd24134fd56e750a97d4cc80624c2ff13d9ea",
-  ".gitignore": "746a3e5a0ae850b8f099aabff8db5e40a43d72ec3f193d7bbbbf9f717fcd2718"
+  ".gitignore": "746a3e5a0ae850b8f099aabff8db5e40a43d72ec3f193d7bbbbf9f717fcd2718",
+  "controle_coleta.py": "2c89a9d3d0b56026f32e5915602f4e9b128df9636c14474167fb19906269edc9",
+  "tests/test_retomada_coleta.py": "3c02863f0e000fc034db4315f4da0ef6ed8e124a24ee235add1dbe29a5d4e418"
 }
