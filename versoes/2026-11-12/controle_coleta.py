@@ -51,6 +51,8 @@ def coletor_ativo(pasta):
 def solicitar_pausa(pasta):
     pasta.mkdir(parents=True, exist_ok=True)
     (pasta / 'PARAR').touch()
+    if not coletor_ativo(pasta):
+        return mensagem_estado(estado(pasta))
     return 'Pausa solicitada. Aguarde a confirmação de que a coleta parou.'
 
 def retomar(pasta, motor_dir):
@@ -80,6 +82,15 @@ def estado(pasta):
     if not ativo and dados.get('estado_execucao') == 'erro': situacao = 'Parada após erro — confira o registro de erros'
     return {'ativo':ativo, 'situacao':situacao, **dados}
 
+def mensagem_estado(dados):
+    if not dados['ativo']:
+        if dados.get('estado_execucao') == 'erro':
+            return 'A coleta já está parada após um erro. Pode fechar o painel e desligar; o progresso salvo será reaproveitado na retomada.'
+        return 'Coleta parada. Pode fechar o painel e desligar; o progresso salvo será reaproveitado na retomada.'
+    if dados['situacao'].startswith('Pausando'):
+        return 'Pausa solicitada. Aguarde a operação atual terminar e o estado mudar para Parada.'
+    return 'Coleta em execução. Para interromper, clique em Pausar.'
+
 def interface(motor_dir):
     import tkinter as tk
     from tkinter import messagebox, ttk
@@ -99,7 +110,7 @@ def interface(motor_dir):
     ttk.Label(quadro,text='Antes de desligar: clique em Pausar e aguarde “Parada”.\nFechar esta janela não interrompe a coleta.\nA retomada após reiniciar o computador é feita pelo botão Retomar.',wraplength=540).pack(anchor='w')
     def atualizar(reagendar=True):
         try:
-            d=estado(PASTA);titulo.set(d['situacao'])
+            d=estado(PASTA);titulo.set(d['situacao']);mensagem.set(mensagem_estado(d))
             contagem.set(f"Processos consultados: {d.get('consultas_efetuadas',0)} / {d.get('total_alvos',0)}\nProcessos sem pendências de download: {d.get('processos_sem_pendencias_de_download',0)}\nPeças conferidas: {d.get('pecas_conferidas',0)}")
         except Exception as exc:mensagem.set(str(exc))
         if reagendar:win.after(1500,atualizar)

@@ -110,9 +110,9 @@
   "triagem_confrontos.csv": "b498005565ca7d44830a5b5acd7b49ca33a110e0b1fe3b32979b8a0e528240c9",
   "tse_corpus_eleicoes_2026.py": "ef1ad6645f4f0ef7f43ed1301c6f67f1d72f6427a5549855b25b30ff8dcbac05",
   "verificar_atualizacao.py": "8b733a89c2896eca523429f37c34403052d0a47fc23ef19d594a4611f80cf3ef",
-  "coletar_pecas.py": "03513f77c4258e1ee620473fef62b74510b7c82507833533f629d38d18fca77d",
+  "coletar_pecas.py": "981184a0c8638be18031dea4c5d9818d5a6b2d964c66038672824f41bac309f3",
   "tests/test_coletar_pecas.py": "d1e91e5296fc649757b12fc14abbd24134fd56e750a97d4cc80624c2ff13d9ea",
   ".gitignore": "746a3e5a0ae850b8f099aabff8db5e40a43d72ec3f193d7bbbbf9f717fcd2718",
-  "controle_coleta.py": "2c89a9d3d0b56026f32e5915602f4e9b128df9636c14474167fb19906269edc9",
-  "tests/test_retomada_coleta.py": "3c02863f0e000fc034db4315f4da0ef6ed8e124a24ee235add1dbe29a5d4e418"
+  "controle_coleta.py": "f64da331d486e8809256ff84630c01a5b77c5aedb5f673048484bda51e17155e",
+  "tests/test_retomada_coleta.py": "7d837ba883ce1c0ce3466adedd62963b8ef1721a787bd4b2a02aa5ad1f138a31"
 }

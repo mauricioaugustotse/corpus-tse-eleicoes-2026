@@ -13,7 +13,15 @@ def salvar_bytes(path, blob):
     path.parent.mkdir(parents=True,exist_ok=True)
     with tempfile.NamedTemporaryFile(dir=path.parent,delete=False) as f:
         temp=Path(f.name);f.write(blob);f.flush();os.fsync(f.fileno())
-    try:temp.replace(path)
+    try:
+        # No Windows, uma leitura concorrente pode bloquear a troca por instantes.
+        for tentativa in range(8):
+            try:
+                temp.replace(path)
+                break
+            except PermissionError:
+                if tentativa == 7:raise
+                time.sleep(min(0.05 * 2**tentativa, 1.0))
     finally:temp.unlink(missing_ok=True)
 def preservar_documentos(registro, novos):
     docs={d['url']:d for d in registro.get('documentos',[])}
@@ -111,7 +119,7 @@ def executar(args):
                             with fitz.open(stream=pdf,filetype='pdf') as f:texto='\n'.join(p.get_text() for p in f)
                             ext='.pdf'
                         else:
-                            texto=html.unescape(re.sub('<[^>]+>',' ',r.content.decode('utf-8',errors='replace')));ext='.html'
+                            texto=html.unescape(re.sub('<[^>]+>',' ',blob.decode('utf-8',errors='replace')));ext='.html'
                         proprio=tse.numero_da_peca(texto)
                         if proprio!=cnj:raise ValueError('cabeçalho não confirma o CNJ solicitado')
                         nome=re.sub(r'\D','',cnj)+'_'+hashlib.sha256(url.encode()).hexdigest()[:16]
