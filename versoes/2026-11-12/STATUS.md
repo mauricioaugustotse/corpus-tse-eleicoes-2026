@@ -14,7 +14,9 @@ Extração realizada em 12/11/2026, com cinco arquivos oficiais gerados em 11/11
 
 O acesso à página de consulta do PJe apresentou verificação humana; o portal de jurisprudência respondeu HTTP 403. Links diretos de peças anteriores foram acessíveis, mas não fornecem o inventário das novas peças. Nenhuma tentativa de contornar a verificação foi realizada.
 
-É necessário obter uma exportação oficial do SJUR/PJe pelos meios normais de acesso, cobrindo os atos selecionados e as peças até o corte, inclusive certidões. A triagem completa está em `triagem_confrontos.csv` e seus atos em `atos_alvos_curadoria.csv`. O inventário de acórdãos está em `acordaos_para_conferencia.csv`.
+O atalho indicado pelo usuário abre `pje_links_gui.py`, cujo motor utiliza a listagem documental da Consulta Unificada e mantém um cache local. Uma chamada normal à listagem foi encerrada pelo servidor com WinError 10054. O cache continha links para 39 dos processos-alvo: foram recuperadas 78 das 81 peças públicas distintas selecionadas; três retornaram erro. O inventário com URLs, origem temporal do cache, hashes e falhas está em `inventario_documental_parcial.json`; as peças estão em `pecas_cache/`. O cache é parcial e não comprova que não houve atos posteriores. Nenhum resultado jurídico foi inferido automaticamente.
+
+É necessário obter uma exportação oficial do SJUR/PJe pelos meios normais de acesso, cobrindo os atos selecionados e as peças até o corte, inclusive certidões. A triagem automática está em `triagem_confrontos.csv` e seus atos em `atos_alvos_curadoria.csv`. O inventário de acórdãos está em `acordaos_para_conferencia.csv`. A triagem reaproveita os identificadores nominais das campanhas da versão anterior e também precisa de revisão de eventuais novos representantes formais.
 
 Faltam a curadoria dos novos casos e dos desdobramentos dos antigos; os relatos; a apuração das votações; a atualização dos gráficos interativos e da versão estática; e a revisão final das seções 1 a 6. Os HTMLs desta pasta são as alternativas SVG do coletor, não substitutos dos anexos interativos do Notion. A cópia local dos anexos atuais foi preservada para essa etapa.
 
