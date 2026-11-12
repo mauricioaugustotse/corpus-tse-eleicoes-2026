@@ -1,3 +1,4 @@
 # Preserve os bytes dos arquivos congelados, inclusive finais de linha de CSVs.
 versoes/2026-10-01/** -text
+versoes/2026-11-12/** -text
 *.zip binary
