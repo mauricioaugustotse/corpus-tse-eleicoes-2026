@@ -12,6 +12,16 @@ Extração realizada em 12/11/2026, com cinco arquivos oficiais gerados em 11/11
 
 ## Pendências que impedem a publicação integral no Notion
 
+### Retomada da coleta coordenada
+
+O acesso foi validado em duas consultas novas, sem cache, com dez peças conferidas pelo motor `pje_links_motor.py`. A exportação manual deixou de ser requisito para prosseguir. O coletor `coletar_pecas.py` reutiliza esse motor, sua trava global e intervalo mínimo de 65 segundos. Ele cobre 1.015 CNJs: a união dos candidatos a confronto, dos alvos anteriores e dos processos com acórdão. O diretório local `coleta_documental/` contém o checkpoint e o progresso; a coleta não atribui resultados jurídicos.
+
+```powershell
+python coletar_pecas.py --motor-dir C:/Users/mauri/ProjetoConversor
+```
+
+O caminho indica a instalação local do motor e deve ser adaptado em outra máquina. O checkpoint é atualizado por peça e processo. Para interromper de modo seguro, criar um arquivo `PARAR` em `coleta_documental/`; para retomar, remover esse arquivo e repetir o comando. As consultas compartilham o acesso com outros programas locais. O relatório abaixo preserva o diagnóstico anterior e deve ser lido como histórico da preparação.
+
 O acesso à página de consulta do PJe apresentou verificação humana; o portal de jurisprudência respondeu HTTP 403. Links diretos de peças anteriores foram acessíveis, mas não fornecem o inventário das novas peças. Nenhuma tentativa de contornar a verificação foi realizada.
 
 O atalho indicado pelo usuário abre `pje_links_gui.py`, cujo motor utiliza a listagem documental da Consulta Unificada e mantém um cache local. Uma chamada normal à listagem foi encerrada pelo servidor com WinError 10054. O cache continha links para 39 dos processos-alvo: foram recuperadas 78 das 81 peças públicas distintas selecionadas; três retornaram erro. O inventário com URLs, origem temporal do cache, hashes e falhas está em `inventario_documental_parcial.json`; as peças estão em `pecas_cache/`. O cache é parcial e não comprova que não houve atos posteriores. Nenhum resultado jurídico foi inferido automaticamente.
