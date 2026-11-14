@@ -11,6 +11,7 @@ A atualização permanece em preparação. Não publicar os percentuais desta et
 - Apuração geral das votações: 623 unânimes, 89 divergentes e 1 sem vínculo documental seguro entre os 713 registros. A lacuna é `0601104-61.2026.6.00.0000|4521`. Votos vencidos contados por ministro e julgamento.
 - Onze gráficos interativos atualizados nos modelos da página, com PNGs derivados dos próprios HTMLs. O recorte presidencial ainda poderá mudar com o complemento.
 - Substituições editoriais estatísticas preparadas em `alteracoes_estatisticas.json`; relatos documentados em `relatos.csv/md`. Ainda faltam a integração editorial final e a publicação no Notion.
+- `pagina_proposta.md` contém o rascunho integral das seções 1 a 6, reconstruído por `montar_rascunho_pagina.py`: tabelas, listas nominais, 428 relatos e onze referências gráficas locais. A auditoria confirma as sete seções e a seção 7 idêntica. Ainda exige revisão editorial final, integração do complemento e upload dos anexos antes de publicar.
 - Fontes públicas preservadas nos ZIPs de `documentos_oficiais/`, com índice e hashes em `inventario_documental.json`. Não adicionar ao Git os caches gerais do motor, logs ou URLs assinadas do backup do Notion.
 
 ## Coleta complementar em execução
