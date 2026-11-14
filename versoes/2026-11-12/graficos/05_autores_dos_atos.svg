@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 627" role="img" aria-label="Autores dos atos" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="32" y="38" font-size="24" font-weight="700" fill="#123">Autores dos atos</text>
+<text x="32" y="64" font-size="14" fill="#475569">03/10/2025 a 31/10/2026; n=2606 atos; fonte: PJe/TSE; NM_AUTOR_DECISAO não é relatoria</text>
+<text x="286" y="111" font-size="15" text-anchor="end" fill="#123">NUNES MARQUES</text>
+<rect x="300" y="92" width="440" height="28" rx="3" fill="#155e75"/>
+<text x="748" y="112" font-size="15" fill="#123">632</text>
+<text x="286" y="158" font-size="15" text-anchor="end" fill="#123">ANDRÉ MENDONÇA</text>
+<rect x="300" y="139" width="427" height="28" rx="3" fill="#155e75"/>
+<text x="735" y="159" font-size="15" fill="#123">614</text>
+<text x="286" y="205" font-size="15" text-anchor="end" fill="#123">ESTELA ARANHA</text>
+<rect x="300" y="186" width="379" height="28" rx="3" fill="#155e75"/>
+<text x="687" y="206" font-size="15" fill="#123">544</text>
+<text x="286" y="252" font-size="15" text-anchor="end" fill="#123">MARCO AURÉLIO BELLIZZE</text>
+<rect x="300" y="233" width="164" height="28" rx="3" fill="#155e75"/>
+<text x="472" y="253" font-size="15" fill="#123">235</text>
+<text x="286" y="299" font-size="15" text-anchor="end" fill="#123">DIAS TOFFOLI</text>
+<rect x="300" y="280" width="116" height="28" rx="3" fill="#155e75"/>
+<text x="424" y="300" font-size="15" fill="#123">167</text>
+<text x="286" y="346" font-size="15" text-anchor="end" fill="#123">RICARDO VILLAS BÔAS CUEVA</text>
+<rect x="300" y="327" width="104" height="28" rx="3" fill="#155e75"/>
+<text x="412" y="347" font-size="15" fill="#123">149</text>
+<text x="286" y="393" font-size="15" text-anchor="end" fill="#123">FLORIANO DE AZEVEDO MARQUES</text>
+<rect x="300" y="374" width="79" height="28" rx="3" fill="#155e75"/>
+<text x="387" y="394" font-size="15" fill="#123">114</text>
+<text x="286" y="440" font-size="15" text-anchor="end" fill="#123">SEBASTIÃO REIS JÚNIOR</text>
+<rect x="300" y="421" width="53" height="28" rx="3" fill="#155e75"/>
+<text x="361" y="441" font-size="15" fill="#123">76</text>
+<text x="286" y="487" font-size="15" text-anchor="end" fill="#123">ANTONIO CARLOS FERREIRA</text>
+<rect x="300" y="468" width="50" height="28" rx="3" fill="#155e75"/>
+<text x="358" y="488" font-size="15" fill="#123">72</text>
+<text x="286" y="534" font-size="15" text-anchor="end" fill="#123">LARISSA ALMEIDA NASCIMENTO</text>
+<rect x="300" y="515" width="1" height="28" rx="3" fill="#155e75"/>
+<text x="309" y="535" font-size="15" fill="#123">2</text>
+<text x="286" y="581" font-size="15" text-anchor="end" fill="#123">Demais</text>
+<rect x="300" y="562" width="1" height="28" rx="3" fill="#155e75"/>
+<text x="309" y="582" font-size="15" fill="#123">1</text>
+</svg>

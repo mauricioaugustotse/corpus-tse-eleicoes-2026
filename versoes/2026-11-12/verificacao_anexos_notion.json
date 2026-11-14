@@ -1,0 +1,62 @@
+[
+  {
+    "arquivo": "01_tipos_ato_restaurado_notion_agent_chart.html",
+    "sha256": "9f96599ee2b8586a89d0102a23081db0c8d6913570704f0f399df90f6ab8f97b",
+    "identico_ao_enviado": true
+  },
+  {
+    "arquivo": "01_tipos_ato_restaurado_notion_agent_chart.png",
+    "sha256": "68356428216a226e9aee09f0b9ef87a225b4d3a10b3ca5d1cc6023b3ccf1161b",
+    "identico_ao_enviado": true
+  },
+  {
+    "arquivo": "02_atos_por_mes_notion_agent_chart.html",
+    "sha256": "d7474de508139a5aff45d4b1856ebc8a5d0f04165b0aff2328edaeac5029fff8",
+    "identico_ao_enviado": true
+  },
+  {
+    "arquivo": "03_ritmo_acumulado_notion_agent_chart.html",
+    "sha256": "fb9475695f8985c1fa7651e57d239ac9d20b281cc2aa2f9e315c5ce9d87947ae",
+    "identico_ao_enviado": true
+  },
+  {
+    "arquivo": "04_classes_por_ato_notion_agent_chart.html",
+    "sha256": "21921360500db7b61593b96721ed33bdd2ed304bc1c243e12c534a24b3b23e27",
+    "identico_ao_enviado": true
+  },
+  {
+    "arquivo": "05_autores_dos_atos_notion_agent_chart.html",
+    "sha256": "ad9aa5d79542502b9b176db9bbe421db3513b8c500487ffcbe8299627bf8f2bc",
+    "identico_ao_enviado": true
+  },
+  {
+    "arquivo": "07a_individual_notion_agent_chart.html",
+    "sha256": "e269d0c9e5ad7c34e31ab87d7966a047daf07b536b2c3208be311a3ac645b025",
+    "identico_ao_enviado": true
+  },
+  {
+    "arquivo": "08a_individual_notion_agent_chart.html",
+    "sha256": "d9c25a18e63ab4e14e61f23e55d921c92a74fdc70c7bb76a14c25af77c8d1227",
+    "identico_ao_enviado": true
+  },
+  {
+    "arquivo": "08b_individual_notion_agent_chart.html",
+    "sha256": "2c011ac2ff770c9ad7570b7e0d4e116a981582004ef7761ddae1d26f1443dd45",
+    "identico_ao_enviado": true
+  },
+  {
+    "arquivo": "09a_individual_notion_agent_chart.html",
+    "sha256": "54598fa75ebbd48575d615f3e5a217642195b3432560474d308b41b72793bb3f",
+    "identico_ao_enviado": true
+  },
+  {
+    "arquivo": "09b_individual_notion_agent_chart.html",
+    "sha256": "d2a114783dc3699879ea17170381845a92da38b7c8b4eaf8e4e69761090b44d8",
+    "identico_ao_enviado": true
+  },
+  {
+    "arquivo": "06_composicao_comunicacao_notion_agent_chart.html",
+    "sha256": "82b879a8c87aed51dbb81299f7d68aac7931a2f59eec629cc411633b88324078",
+    "identico_ao_enviado": true
+  }
+]

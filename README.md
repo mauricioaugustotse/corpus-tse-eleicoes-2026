@@ -1,38 +1,39 @@
 # Corpus público do TSE para o ciclo das Eleições 2026
 
-Este repositório permite conferir os números do [relatório no Notion](https://app.notion.com/p/2816527d9bee432da3acce02566b1534). O [pacote de dados](versoes/2026-10-01/LEIA_PRIMEIRO.md) reúne os cinco arquivos do conjunto [Processual – 2026 do TSE](https://dadosabertos.tse.jus.br/id/dataset/processual-2026) gerados em **1º/10/2026**. Selecionamos os atos com data de **03/10/2025 a 30/09/2026**, inclusive.
+Este repositório permite conferir os números do [relatório atualizado no Notion](https://app.notion.com/p/2816527d9bee432da3acce02566b1534). O [pacote com corte em 31/10/2026](versoes/2026-11-12/README.md) corresponde à versão publicada em 14/11/2026. Os cinco arquivos do conjunto [Processual – 2026 do TSE](https://dadosabertos.tse.jus.br/id/dataset/processual-2026) foram gerados em **11/11/2026** e baixados em **12/11/2026**. A consulta documental foi encerrada em **14/11/2026**. O período dos atos selecionados é **03/10/2025 a 31/10/2026**, inclusive.
 
 ## Confira sem programar
 
-1. Abra [atos.csv](versoes/2026-10-01/atos.csv). As **933 linhas de dados** representam registros classificados pelo TSE como Decisão ou Acórdão. Um processo pode ter mais de um ato.
-2. Abra [processos.csv](versoes/2026-10-01/processos.csv). São **751 processos**, um por número CNJ. A coluna `FL_RECORTE_COMUNICACAO` marca os **286 processos** com assunto Propaganda Eleitoral ou classe Direito de Resposta. Eles somam **364 atos**.
-3. Abra [confrontos.csv](versoes/2026-10-01/confrontos.csv). A lista reúne **132 processos candidatos** com representantes das campanhas de Lula e Flávio Bolsonaro em polos opostos. O motivo de cada inclusão ou exclusão aparece na própria linha.
-4. Abra [relatos.csv](versoes/2026-10-01/relatos.csv). Os **107 CNJs relatados** são exatamente os 107 marcados `sim` na coluna `incluir_comparativo` de `confrontos.csv`.
+1. [atos.csv](versoes/2026-11-12/atos.csv): **2.606 atos**, classificados na fonte como 1.893 decisões e 713 acórdãos. Um processo pode ter vários atos.
+2. [processos.csv](versoes/2026-11-12/processos.csv): **1.841 processos**, um por CNJ. O filtro de propaganda eleitoral ou direito de resposta reúne **1.005 processos**, contando uma vez os oito presentes nos dois grupos.
+3. [confrontos.csv](versoes/2026-11-12/confrontos.csv): **872 candidatos**, divididos em **432 comparáveis, 201 lacunas documentais e 239 demais exclusões**, com motivos individualizados.
+4. [relatos.csv](versoes/2026-11-12/relatos.csv): **432 relatos**, com os mesmos CNJs dos confrontos incluídos. A [versão em texto](versoes/2026-11-12/relatos.md) apresenta objeto, medida, etapa e fontes.
 
-Para abrir os CSVs no Excel, use **Dados → De Texto/CSV**, escolha **UTF-8** e o separador **ponto e vírgula**. Não conte o cabeçalho. O [dicionário](versoes/2026-10-01/dicionario.md) explica as colunas oficiais e o [dicionário da curadoria](versoes/2026-10-01/dicionario_curadoria.md) explica a classificação dos confrontos.
+No Excel, use **Dados → De Texto/CSV**, escolha **UTF-8** e o separador **ponto e vírgula**. Não conte o cabeçalho. O [dicionário estatístico](versoes/2026-11-12/dicionario.md) e o [dicionário da curadoria](versoes/2026-11-12/dicionario_curadoria.md) explicam as unidades.
 
-| Número citado | Onde conferir |
+| Indicador | Resultado documentado até o corte |
 | --- | --- |
-| 933 atos em 751 processos | [atos.csv](versoes/2026-10-01/atos.csv) e [processos.csv](versoes/2026-10-01/processos.csv) |
-| 286 processos no filtro de comunicação e 364 atos | `FL_RECORTE_COMUNICACAO` nos dois CSVs e [resumo.json](versoes/2026-10-01/resumo.json) |
-| 107 confrontos com resultado documentado | `incluir_comparativo=sim` em [confrontos.csv](versoes/2026-10-01/confrontos.csv) e 107 linhas em [relatos.csv](versoes/2026-10-01/relatos.csv) |
-| Medidas atendidas à campanha de Lula, integral ou parcialmente | 29 de 48 processos classificados, ou 60,4% |
-| Medidas atendidas à campanha de Flávio, integral ou parcialmente | 20 de 59 processos classificados, ou 33,9% |
+| Atos de outubro | 1.669 |
+| Confrontos comparáveis | 432: 427 no corpus e 5 em suplemento documental |
+| Atendimento à campanha de Lula, total ou parcial | 121 de 218, ou 55,5% |
+| Atendimento à campanha de Flávio Bolsonaro, total ou parcial | 69 de 214, ou 32,2% |
+| Acórdãos do corpus | 623 unânimes, 89 com divergência e 1 com votação não apurada, entre 713 registros |
+| Julgamentos colegiados no recorte presidencial | 296 em 282 processos: 238 unânimes e 58 com divergência |
 
-Essas taxas descrevem **apenas os 107 resultados documentados**. Em sete processos com ato em 30/09, a peça ainda não pôde ser lida. Eles constam nominalmente do CSV como pendências e não recebem resultado por suposição. Há outras duas pendências de leitura. Os números podem mudar após essa conferência. O pacote preserva [oito peças examinadas de 30/09](versoes/2026-10-01/pecas/indice_30set.json) com seus hashes. Uma liminar concedida ou negada não significa decisão final da ação.
+As autoridades dos totais são [resumo.json](versoes/2026-11-12/resumo.json), [campanha_resumo.json](versoes/2026-11-12/campanha_resumo.json) e [apuracao_colegialidade_resumo.json](versoes/2026-11-12/apuracao_colegialidade_resumo.json). A votação conta julgamentos; o atendimento e a situação da medida contam processos. Liminar não equivale ao julgamento final da ação, e essas taxas não demonstram preferência política do tribunal.
 
-O filtro de comunicação usa campos oficiais, mas pode deixar outras disputas sobre comunicação fora do grupo. Dos 107 confrontos classificados, **106** integram o corpus de atos. O CNJ **0601315-97.2026.6.00.0000** tem resultado documentado por certidão e aparece só como suplemento documental dos confrontos. Ele não aumenta os 933 atos nem os 751 processos do painel geral.
+As **1.295 consultas previstas foram concluídas**. Nos 201 casos com lacuna, não foi localizada peça decisória elegível até o corte. Eles não são uma fila de leitura ainda não executada nem prova de ausência de atos; permanecem fora das taxas. Há zero candidatos aguardando revisão nesta rodada, sem eliminar as lacunas de fonte. Os cinco processos suplementares não aumentam as contagens do extrato estatístico.
 
-## Votações e revisão das liminares
+## Fontes, gráficos e reprodução
 
-A [análise documental da colegialidade](analises/colegialidade) conserva o corte em **30/09/2026** e individualiza as fontes: dos 200 registros de acórdão, **174 têm votação unânime identificada, 15 apresentam divergência e 11 permanecem sem votação apurada**. Nos 107 confrontos presidenciais, há **22 liminares mantidas e quatro modificadas**, entre 26 reexames colegiados comprovados. A planilha separa ainda uma tutela decidida diretamente pelo colegiado, 76 liminares sem revisão colegiada comprovada e quatro decisões individuais de mérito. Ausência de revisão localizada não é prova de pendência processual.
+Os [cinco ZIPs estatísticos](versoes/2026-11-12/originais) têm geração e hashes em [fontes.json](versoes/2026-11-12/fontes.json). O [inventário documental](versoes/2026-11-12/inventario_documental.json) registra **2.795 entradas por URL distinta**, preservadas em **14 ZIPs**, com caminhos e hashes. Os arquivos estão em [documentos_oficiais](versoes/2026-11-12/documentos_oficiais); extraia-os na pasta da versão, conservando os caminhos internos, para conferir as fontes.
 
-As [planilhas e peças oficiais](analises/colegialidade/README.md) permitem conferir os ministros vencidos e os denominadores. Os [cinco gráficos da colegialidade](analises/colegialidade/graficos) distinguem o universo dos 200 acórdãos e o recorte dos confrontos.
+Os [onze gráficos interativos](versoes/2026-11-12/graficos_interativos) preservam os modelos, cores e controles da página. Os HTMLs carregam Chart.js pela internet, e os PNGs foram derivados dos próprios HTMLs. A pasta [graficos](versoes/2026-11-12/graficos) contém as alternativas SVG do coletor. O [guia técnico](REPRODUCAO.md) explica a reprodução dos dados congelados.
 
-As votações foram apuradas nos extratos das exportações oficiais em CSV do [SJUR](https://jurisprudencia.tse.jus.br/) e nas peças do PJe. A coleta utilizou Python e Playwright para operar a pesquisa e a exportação do portal. O tratamento em Python normalizou os números CNJ, selecionou os registros pertinentes e conciliou as fontes com cada ato do corpus; a classificação jurídica foi conferida na proclamação dos julgamentos. O [guia de reprodução](REPRODUCAO.md#reproduzir-a-apuração-das-votações) explica os programas e como examinar outras exportações do SJUR.
+O [estado da preparação](versoes/2026-11-12/STATUS.md) registra a consulta encerrada, os limites e os 34 testes aprovados. A atualização editorial das seções 1 a 6 preserva integralmente a seção 7.
 
-## Arquivos e gráficos
+## Versão histórica preservada
 
-Os [seis gráficos do corpus](versoes/2026-10-01/graficos) apresentam os dados dos dois CSVs oficiais. Os onze HTMLs, contando os cinco da colegialidade, reproduzem os gráficos publicados no Notion e carregam a biblioteca Chart.js pela internet. Os SVGs são alternativas estáticas para abrir sem conexão, com apresentação própria dos programas de reprodução. Os valores exatos estão em [resumo.json](versoes/2026-10-01/resumo.json). Os [cinco ZIPs oficiais](versoes/2026-10-01/originais) foram preservados. [fontes.json](versoes/2026-10-01/fontes.json) registra seus endereços, datas de geração e hashes SHA-256. O [manifesto](versoes/2026-10-01/manifesto.json) permite conferir os demais arquivos.
+O [pacote de 1º/10/2026](versoes/2026-10-01/LEIA_PRIMEIRO.md), com corte em **30/09/2026**, conserva 933 atos, 751 processos e 107 confrontos. A [tag histórica](https://github.com/mauricioaugustotse/corpus-tse-eleicoes-2026/tree/v2026-10-01-corte-2026-09-30/versoes/2026-10-01) e a [análise histórica da colegialidade](analises/colegialidade/README.md) mantêm seus próprios arquivos e denominadores.
 
-O [guia técnico](REPRODUCAO.md) ensina a repetir os cálculos e a baixar outra extração. Os 933 registros não são 933 julgamentos definitivos. Alguns atos chamados “Decisão” só dão andamento ao processo, e o portal do TSE pode atualizar seus arquivos.
+Na nova extração, o período até setembro contém 937 atos. O [relatório de diferenças](versoes/2026-11-12/relatorio_diferencas.md) separa essa revisão retroativa dos 1.669 atos de outubro. `SQ_DECISAO` não identifica o mesmo documento entre extrações; as versões não devem ser concatenadas.

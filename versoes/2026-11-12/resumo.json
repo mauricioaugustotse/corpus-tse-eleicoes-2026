@@ -1,0 +1,171 @@
+{
+  "atos_acumulados_por_mes": {
+    "2025-10": 2,
+    "2025-11": 3,
+    "2025-12": 3,
+    "2026-01": 4,
+    "2026-02": 5,
+    "2026-03": 6,
+    "2026-04": 6,
+    "2026-05": 8,
+    "2026-06": 65,
+    "2026-07": 119,
+    "2026-08": 332,
+    "2026-09": 937,
+    "2026-10": 2606
+  },
+  "atos_por_autor": {
+    "ANDRÉ MENDONÇA": 614,
+    "ANTONIO CARLOS FERREIRA": 72,
+    "CÁRMEN LÚCIA": 1,
+    "DIAS TOFFOLI": 167,
+    "ESTELA ARANHA": 544,
+    "FLORIANO DE AZEVEDO MARQUES": 114,
+    "LARISSA ALMEIDA NASCIMENTO": 2,
+    "MARCO AURÉLIO BELLIZZE": 235,
+    "NUNES MARQUES": 632,
+    "RICARDO VILLAS BÔAS CUEVA": 149,
+    "SEBASTIÃO REIS JÚNIOR": 76
+  },
+  "atos_por_classe": {
+    "AE": 3,
+    "AIJE": 46,
+    "AJDesCargEle": 1,
+    "AREspE": 29,
+    "CtaEl": 1,
+    "CumSen": 1,
+    "DR": 511,
+    "HCCrim": 4,
+    "LT": 2,
+    "MSCiv": 72,
+    "NIP": 87,
+    "PA": 67,
+    "PAP": 2,
+    "PetCiv": 126,
+    "RAEL": 5,
+    "RCand": 60,
+    "REl": 1,
+    "REspEl": 317,
+    "RHC": 1,
+    "RMS": 3,
+    "RO-El": 186,
+    "Rcl": 20,
+    "RepEsp": 22,
+    "Rp": 931,
+    "RpCrNotCrim": 2,
+    "SS-El": 5,
+    "TutAntAnt": 16,
+    "TutCautAnt": 85
+  },
+  "atos_por_mes": {
+    "2025-10": 2,
+    "2025-11": 1,
+    "2025-12": 0,
+    "2026-01": 1,
+    "2026-02": 1,
+    "2026-03": 1,
+    "2026-04": 0,
+    "2026-05": 2,
+    "2026-06": 57,
+    "2026-07": 54,
+    "2026-08": 213,
+    "2026-09": 605,
+    "2026-10": 1669
+  },
+  "atos_por_mes_tipo": {
+    "2025-10": {
+      "Acórdão": 0,
+      "Decisão": 2
+    },
+    "2025-11": {
+      "Acórdão": 0,
+      "Decisão": 1
+    },
+    "2025-12": {
+      "Acórdão": 0,
+      "Decisão": 0
+    },
+    "2026-01": {
+      "Acórdão": 0,
+      "Decisão": 1
+    },
+    "2026-02": {
+      "Acórdão": 1,
+      "Decisão": 0
+    },
+    "2026-03": {
+      "Acórdão": 0,
+      "Decisão": 1
+    },
+    "2026-04": {
+      "Acórdão": 0,
+      "Decisão": 0
+    },
+    "2026-05": {
+      "Acórdão": 0,
+      "Decisão": 2
+    },
+    "2026-06": {
+      "Acórdão": 10,
+      "Decisão": 47
+    },
+    "2026-07": {
+      "Acórdão": 9,
+      "Decisão": 45
+    },
+    "2026-08": {
+      "Acórdão": 47,
+      "Decisão": 166
+    },
+    "2026-09": {
+      "Acórdão": 135,
+      "Decisão": 470
+    },
+    "2026-10": {
+      "Acórdão": 511,
+      "Decisão": 1158
+    }
+  },
+  "atos_por_tipo": {
+    "Acórdão": 713,
+    "Decisão": 1893
+  },
+  "controle": {
+    "atos_anteriores_ao_inicio": 0,
+    "atos_posteriores_ao_fim": 456,
+    "atos_tse_decisao_ou_acordao_sem_corte_inicial": 3062,
+    "data_fim_parametrizada": "2026-10-31",
+    "fim": "2026-10-31",
+    "inicio": "2025-10-03",
+    "processos_tse_no_arquivo": 4354,
+    "ultima_data_disponivel": "2026-11-10"
+  },
+  "filtro_tribunal": "NR_INSTANCIA=3; SG_UF_TRIBUNAL=DF",
+  "fim_decisao": "2026-10-31",
+  "fonte": "https://dadosabertos.tse.jus.br/id/dataset/processual-2026",
+  "geracao_oficial": "11/11/2026",
+  "graficos": [
+    "01_tipos_ato",
+    "02_atos_por_mes",
+    "03_ritmo_acumulado",
+    "04_classes_por_ato",
+    "05_autores_dos_atos",
+    "06_composicao_comunicacao"
+  ],
+  "inicio_decisao": "2025-10-03",
+  "processos_por_grupo_comunicacao": {
+    "DR, sem propaganda": 326,
+    "Demais assuntos": 836,
+    "Propaganda e DR": 8,
+    "Propaganda, sem DR": 671
+  },
+  "tipos_incluidos": [
+    "Decisão",
+    "Acórdão"
+  ],
+  "total_atos": 2606,
+  "total_processos": 1841,
+  "total_processos_comunicacao": 1005,
+  "unidade_ato": "NR_PROCESSO + SQ_DECISAO",
+  "unidade_processo": "NR_PROCESSO"
+}

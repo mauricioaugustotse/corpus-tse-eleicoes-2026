@@ -1,0 +1,4043 @@
+{
+  "auditado_em": "2026-11-14T19:02:24.510522+00:00",
+  "corte": "2026-10-31",
+  "checkpoint_sha256_no_diagnostico": "bf4545482487c9e7c61dd4031278ac3c963ec60c4a10f2ac6529ef74dab1333f",
+  "resumo": {
+    "processos_auditados": 149,
+    "caches_disponiveis": 149,
+    "processos_com_fonte_instancia3_cnj_exato": 149,
+    "processos_com_decisoes_nulas": 149,
+    "processos_com_documentos_elegiveis": 0,
+    "processos_com_algum_documento_no_cache": 25,
+    "processos_com_documentos_lista_vazia": 124,
+    "total_documentos_no_cache": 29,
+    "tipos_publicos_tse_nao_elegiveis": {
+      "Intimação": 20,
+      "Receita": 1,
+      "Dissidência partidária": 2,
+      "Proposta de governo": 1
+    },
+    "tipos_documentos_outra_origem": {
+      "Decisão": 2,
+      "Intimação": 2,
+      "Despacho": 1
+    },
+    "processos_sem_documentos_elegiveis_neste_inventario": 149,
+    "documentos_elegiveis_urls_unicas_por_processo": 0,
+    "documentos_elegiveis_urls_unicas_globais": 0,
+    "tipos_elegiveis": {},
+    "primeira_data_elegivel": null,
+    "ultima_data_elegivel": null
+  },
+  "limite": "decisoes=null não equivale a ausência de atos. A seleção usa documentos públicos da instância 3, CNJ exato, storage TSE e data de assinatura/juntada até o corte. Nenhuma consulta POST ou GET foi realizada; nenhum checkpoint foi alterado.",
+  "processos": [
+    {
+      "cnj": "0600022-24.2026.6.21.0157",
+      "cache_disponivel": true,
+      "cache_sha256": "86e9f6bda60c3122a5606fc2dc0edb63d1c8ddba5b86b1529e4b7cfd4a2365ab",
+      "cache_instante": 1794660110.9077842,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0600022-24.2026.6.21.0157",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 5,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {
+        "storage_ausente_ou_nao_tse": 5
+      },
+      "documentos_outra_origem": [
+        {
+          "id_documento": 180220526,
+          "tipo": "Decisão",
+          "storage": "regional/rs/2026/10/23/20/10/43/9ab5d4cef0c62ab4abcc7dce43894c4296ac71804a8fb335d2318ae38a0bb4ca",
+          "data_assinatura": "2026-10-23T20:10:49",
+          "data_juntada": "2026-10-23T20:10:49.355"
+        },
+        {
+          "id_documento": 180220522,
+          "tipo": "Decisão",
+          "storage": "regional/rs/2026/10/22/17/5/33/bb45ae98c28a52e43f94fbcf7578e4206a02aa105f94ff8346c12f440a7accf3",
+          "data_assinatura": "2026-10-22T17:05:38",
+          "data_juntada": "2026-10-22T17:05:38.232"
+        },
+        {
+          "id_documento": 180220519,
+          "tipo": "Intimação",
+          "storage": "pje1g/rs/2026/10/22/15/23/2/8f0bfbf193e86ef8af2097e267531cdfde99c01a379bc2c22c7c8bd8d6b58f3f",
+          "data_assinatura": "2026-10-22T15:38:15",
+          "data_juntada": "2026-10-22T15:38:15.314"
+        },
+        {
+          "id_documento": 180220518,
+          "tipo": "Intimação",
+          "storage": "pje1g/rs/2026/10/22/15/23/2/8f0bfbf193e86ef8af2097e267531cdfde99c01a379bc2c22c7c8bd8d6b58f3f",
+          "data_assinatura": "2026-10-22T15:38:15",
+          "data_juntada": "2026-10-22T15:38:15.258"
+        },
+        {
+          "id_documento": 180220517,
+          "tipo": "Despacho",
+          "storage": "pje1g/rs/2026/10/22/15/23/2/8f0bfbf193e86ef8af2097e267531cdfde99c01a379bc2c22c7c8bd8d6b58f3f",
+          "data_assinatura": "2026-10-22T15:23:07",
+          "data_juntada": "2026-10-22T15:23:07.539"
+        }
+      ],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0600292-19.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "8bd00a2dc3653e1cff4a7c746b5c451c39551049a0780f5964b9a895aa3e984e",
+      "cache_instante": 1794660241.6453884,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0600292-19.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0600319-02.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "3a643665b5df4968542c4a6c87029ca3fa25b489fb12399a0eee7abeedabc645",
+      "cache_instante": 1794660307.0009718,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0600319-02.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0600378-87.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "be8802fd1a3b426a46bcfdbb920d356ec4b8ec5ec3fe82b8842fb45d0df09565",
+      "cache_instante": 1794660372.4590108,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0600378-87.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0600384-94.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "ae3b2ccc2dc9ac42a9ff7844f5443826ce2afbb60caaa5bc5ce30ef5f4b32212",
+      "cache_instante": 1794660438.081872,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0600384-94.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0600543-37.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "61fd80bdfa9b54b8102f00e32fd7236255656c01b6e6d4d0ede661477b2769eb",
+      "cache_instante": 1794660503.708534,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0600543-37.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0600567-65.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "a29166d3b05727515e687a8df2b9d9a2c9cd059edc4857b21ebeb8dce799ec49",
+      "cache_instante": 1794660569.2199266,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0600567-65.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0600568-50.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "71cd81d9f2326f93a5b6551a1fb47fcb810363c063a0c667da994ebe60ae5b74",
+      "cache_instante": 1794660634.8028705,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0600568-50.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0600569-35.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "2bb946acb4bd41b41bec64bc9384f6639cbae1e7239524b354c3fb76ad02ecbd",
+      "cache_instante": 1794660700.3721814,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0600569-35.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0600686-26.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "f4aafc4cbab81b3e3c6d71b51a7da282a86625090746f27229a4760ff19a524c",
+      "cache_instante": 1794660765.9749985,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0600686-26.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0600784-11.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "0ff157d5004f7562f927d1244b5057eb561a7d148cd0f56a625097f95c2cc020",
+      "cache_instante": 1794661028.2474952,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0600784-11.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0600797-10.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "5ef3781eec53d4b63f1f0f52ae4e4d2a8cd1f4112703cc7c18264c675a21ae98",
+      "cache_instante": 1794661093.8717704,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0600797-10.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0600811-91.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "c1395229867810803f7ef692e82861afc939a650798d38c3da9cd95b4086a65c",
+      "cache_instante": 1794661159.234565,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0600811-91.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0600864-72.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "ae5f3f5b3dae556d09622f9efa4f7a08b948c350cb6d110561d3bc8984c6c606",
+      "cache_instante": 1794661224.5969183,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0600864-72.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0601013-68.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "67a18ad2ab736d24f17d1e544898b20fe55c514ccdabb8e11d9c7bb6b27241e5",
+      "cache_instante": 1794661355.411863,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0601013-68.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0601761-03.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "dadbf76880651ceb8e57fab672d867b9af4ba3b9b642655fd0002c61d7c24956",
+      "cache_instante": 1794661748.4104857,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0601761-03.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0601777-54.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "23173903528f968018eafdf45e2b19954a9c0827f86ccc848ae7e0c0e28bc89f",
+      "cache_instante": 1794661813.8331263,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0601777-54.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0601804-37.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "533b4c422977001a128cc10b5a12145ad815200229ff8a0ef389e918a43ca68e",
+      "cache_instante": 1794661879.2396464,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0601804-37.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0601893-60.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "5c165e2c6bc64125e0207e909b891fa80aa14eb23bb4295c6e38e01436cbe6ad",
+      "cache_instante": 1794662075.3924925,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0601893-60.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0601945-56.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "5800e2e7dbcf0461655fd8b9631377a9c3b4b318173f52df352e2de055a06133",
+      "cache_instante": 1794662140.7551575,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0601945-56.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0601991-45.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "4e9d1424126faf5584cf0d1f81ddf5560cdf406eca4f794a71e62d907e54b318",
+      "cache_instante": 1794662402.3462837,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0601991-45.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0601992-30.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "6f96040abe3fa3031a84c546f787a82b7ae3762adfa6db904cbed0063f51b14f",
+      "cache_instante": 1794662467.817606,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0601992-30.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602066-84.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "acfd68c2bd2b44ded4a2b924f0ffe004326088989a0c0702eefc771469cf76a9",
+      "cache_instante": 1794662729.4410949,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602066-84.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602082-38.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "00938616fd6c8a5f2425af565ccb0747f47490ec851a369c1c4523b5420915a5",
+      "cache_instante": 1794662860.238367,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602082-38.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602092-82.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "a4c562e74a90e508300d6de3b3c0da4111b5348dda36dfb2278ae13801f353a8",
+      "cache_instante": 1794662991.0176466,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602092-82.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602121-35.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "420e12d0f8cbd97b7962ff8db6b0f4e72e871d015555d0128b9861ce8481148d",
+      "cache_instante": 1794663121.8171513,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602121-35.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602122-20.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "6dd87d54316fcffde219f538ba61cd07bd43b905641f19b043ff98a110352a51",
+      "cache_instante": 1794663187.1844537,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602122-20.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602142-11.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "27ef184dc6e8b0bff3824d8f92ff259343054a2854eb643daf61e9362f11957d",
+      "cache_instante": 1794663383.338602,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602142-11.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602147-33.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "261f78b25215e907752e47acf068b64977e849cf86da57554272b636c2325e54",
+      "cache_instante": 1794663448.743173,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602147-33.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602149-03.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "2fb7dcce492bda7e1c8c547b53e9678ed3bc438744a8b2747a6a5e0df7abc663",
+      "cache_instante": 1794663514.140453,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602149-03.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602164-69.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "56df66519123fa47de625b64007cdf3f5c17a65aeb42c54b58fdc5855a96532f",
+      "cache_instante": 1794663579.5512915,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602164-69.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602176-83.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "92bbc327fb872cd4cf249a8221a93aa2d2cb7c845382666fcfe16e4f0e186bc6",
+      "cache_instante": 1794663710.452128,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602176-83.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602177-68.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "34b755cc6d44567c3c3521f5cd3b40c0959d1dfce8ebee815de01a25e2fb9bea",
+      "cache_instante": 1794663775.8539684,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602177-68.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602187-15.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "b69b495fa3f5b3990ceb1d8710ba60e6fdc39d2c6d774d0cdb2c8f325cef187f",
+      "cache_instante": 1794663906.6425984,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602187-15.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602195-89.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "5f4968a0a526a7ca0e7dda501b2c38411d36f6cc66da7c24201a478b0f39e1ab",
+      "cache_instante": 1794663972.0207117,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602195-89.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602224-42.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "11000ff920699e61d538d7fdbcfb28482997ab4c2783893472652a2942ec031c",
+      "cache_instante": 1794664102.7651124,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602224-42.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602228-79.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "70618480d32da22f48f219ff5e9a75d1291879ec645b8383056ed0f92c039e2d",
+      "cache_instante": 1794664233.4935489,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602228-79.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602235-71.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "4b4c4b153a82dcae545aa30218723fcec873403acd4e35554ed1d2c103614c4a",
+      "cache_instante": 1794664364.2504313,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602235-71.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602246-03.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "f17989e348da0d63aee9ff15d47bfcdec2f262e1447acb0f298cb4aaa8b8ad60",
+      "cache_instante": 1794664494.989533,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602246-03.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602247-85.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "18766388113e18baef27a085aba6093e231ad2440c5666fa1fcd27bdbcedb7f2",
+      "cache_instante": 1794664560.359415,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602247-85.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602280-75.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "e0bb3a5fd02a4184bafcbfbb0927b03d1fdef610e18185e55fe2630c3d3bee1f",
+      "cache_instante": 1794664691.9872942,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602280-75.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602281-60.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "67af5c3f242a4e8db2e457720a85690ec91cd17d2d6cda1415150d79fb70fd9e",
+      "cache_instante": 1794664757.3738577,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602281-60.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602282-45.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "a8eee031ed9be795dc12ad9c4cb81e8c128b1f51ed391598e21c0a2ef5d1f4dd",
+      "cache_instante": 1794664822.7281106,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602282-45.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602284-15.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "82da989fee8164c477b6a82c65bd5915448ed59764dd0f34404620116c7db7b4",
+      "cache_instante": 1794664888.0864117,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602284-15.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602297-14.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "556840923588dcd8ae872d905f4ea2dee761a090ba626281f40bc83253047311",
+      "cache_instante": 1794665150.1211314,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602297-14.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602302-36.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "e6f900078cecf90796a4e7dcec2338fd7d39dbdd9ced53c62b22c0302432c935",
+      "cache_instante": 1794665280.8580065,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602302-36.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602308-43.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "5754e3aef305c03b7532b2962a3af9d871804a0cf3f1e807fc533e7f847b0626",
+      "cache_instante": 1794665346.2461486,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602308-43.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602309-28.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "c03dd130a90cc17cce244b96e3f700a8de0bb31280b6a9e9362ae8ff38e41cbd",
+      "cache_instante": 1794665411.663815,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602309-28.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602310-13.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "d567cf83c8129a46973b1db1750ae9f4891f9c8fe239067a9c123785ba713722",
+      "cache_instante": 1794665477.0347874,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602310-13.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602322-27.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "6077d809d3ae6c0140476d3d0c50548fa4a73473205436c42403a295a81e03a8",
+      "cache_instante": 1794665673.2599401,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602322-27.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602324-94.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "6664553d267f24891b043d31a33760ea132a60dfd2c1b51c607034405847abec",
+      "cache_instante": 1794665738.6601706,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602324-94.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602348-25.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "cae32262036baebcc4bc4724f6f06a5a3a7a15b49aa8162a8923e2fc91cbbab2",
+      "cache_instante": 1794665804.0841968,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602348-25.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602349-10.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "93597f3afb8410fba098b4a775252ae58a19e0e4592477457e77b2574950cc44",
+      "cache_instante": 1794665869.4725459,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602349-10.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602355-17.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "e188a7228a33069655551aeb9395db9e1825a482a1435d2fee1ca2a70aef7887",
+      "cache_instante": 1794665934.8568163,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602355-17.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602369-98.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "4286859a5178b92e0c0f9b7ce838cd9f1a4851674290b8ce1d34d223f40053a6",
+      "cache_instante": 1794666130.9740167,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602369-98.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602372-53.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "aa6270b1acd900b546e8b6d4168b53bdb9a8ecb8800e726f5baad94bff88ccdc",
+      "cache_instante": 1794666196.3815844,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602372-53.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602378-60.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "748ecc5d768784e47e3a5f393159afa2aa2c4e326b27d57791ee2c720cde7907",
+      "cache_instante": 1794666392.517744,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602378-60.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602437-48.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "27a7e26fdd8c3b3aaf7622e847649f78cc1b9f652654915221321963f1467c88",
+      "cache_instante": 1794666524.1376283,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602437-48.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602439-18.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "882c39c152653629994aa33be222ce2f343966d6aefd0d7cc9f64198051bf4a8",
+      "cache_instante": 1794666589.5559165,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602439-18.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602442-70.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "8d68d10ba808c41cc821d1a3be6fbde72dc5d9d40d88e9515d0755d12cc9a721",
+      "cache_instante": 1794666720.2686625,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602442-70.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602450-47.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "7d1f97915e83bbd791b87ae21b0b7d609a86d80eeeac5e257b4fffdb194f3409",
+      "cache_instante": 1794666916.4939902,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602450-47.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602453-02.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "7393ce0f76e4cf923a75f7d5723bd8db8413909ca20962e7aa05c45d4453cef6",
+      "cache_instante": 1794666981.88588,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602453-02.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602486-89.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "7c2169095216aa44fea792e62d3fce0fe5854c92064a04559911e808bc1d7862",
+      "cache_instante": 1794667112.7040462,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602486-89.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602487-74.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "194f1d960190744d0976e2dae17833dc28ac7b04fde678e56d8597f147046c3f",
+      "cache_instante": 1794667178.1273475,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602487-74.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602491-14.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "d6cf734138744735a13ea83f62000d5e764cbea7f4e72766597f5ae387eb5a2e",
+      "cache_instante": 1794667308.8639972,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602491-14.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602515-42.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "d4faeff841115ec8f67cc304788ed65d15da24be1348234a0b4d923030a245c1",
+      "cache_instante": 1794667504.984315,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602515-42.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602519-79.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "e75b360dc4c19c0ca367d879620991884f39ebf0bc1b0c67afb3339b5d732aa3",
+      "cache_instante": 1794667570.4293432,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602519-79.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602593-36.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "2c8818902bac01da3e36e11781fbe71f75eb9d54421e5a4208fa193c2671181e",
+      "cache_instante": 1794667635.8400521,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602593-36.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602596-88.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "a3ea20cd449ce27ed85e1fc2e0b371d302856533d448b77b8afaf035e2cd892b",
+      "cache_instante": 1794667701.241343,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602596-88.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602699-95.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "e531b06b1e204f376e191aa6c6e1d1563a389be22449d6a6506088f537632d0c",
+      "cache_instante": 1794667962.9283326,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602699-95.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602705-05.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "9634e2a467fe3b29432e63f9dc2b99d760bc35ab8bfa9e377f6d3e8f262080a8",
+      "cache_instante": 1794668028.3223155,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602705-05.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602775-22.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "7d9194372f9c2f13e53703e49a9957e10bb55e1aa611af6aeaf358ff244e4fa2",
+      "cache_instante": 1794668093.7434485,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602775-22.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602820-26.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "5cc054843e160f7fdb7b9a6f5658525e6c45e33b76449dcee02789152a1354f8",
+      "cache_instante": 1794668355.398655,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602820-26.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602828-03.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "be2d4e4433515513567f971a497a06d7b108bc0c30587b67de47feda67434ff9",
+      "cache_instante": 1794668486.2500281,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602828-03.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602863-60.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "a867eaa7ec9e4b2b23f36d620d48716a526c2ab6f6a94e30b16c558e4023bb31",
+      "cache_instante": 1794669009.6471019,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602863-60.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602869-67.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "abf743da53903f0ef67dc3afb2dd28cd2cbfb668d61ef1a28bd2e7b0da63fe4a",
+      "cache_instante": 1794669075.0571506,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602869-67.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602873-07.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "9a2f450b3e49d763faaed9f3f7f73ecd1bc286f3c39746d86e810a08a498f196",
+      "cache_instante": 1794669140.4954326,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602873-07.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602878-29.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "1fb74c04ea973156889e82c9c11908ab92a1fb333d4feb808dc73851c704ae81",
+      "cache_instante": 1794669205.864869,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602878-29.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602891-28.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "dff26e379bfccf81c8ff387d13b82b4a22d8c757f92b60b8c9dc99ce84c5806f",
+      "cache_instante": 1794669336.6131794,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602891-28.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602904-27.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "4d994f31eec0da4830189f8b2887403c92652a4305cf28664f8384016e9e7ff4",
+      "cache_instante": 1794669401.9939475,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602904-27.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602927-70.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "9f694c076740f8abb22b176b6be44a59e2023ef20b47ebfb3bc4e3c27f3f63ea",
+      "cache_instante": 1794669532.7199302,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602927-70.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602948-46.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "616884e4cb2828556f50fad5de29613c9bc169397deda63dc4fe7d1b9a8f4ae6",
+      "cache_instante": 1794669728.8474777,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602948-46.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Receita": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602952-83.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "52fff219c60ef4ed93e42c89bc78a196c028b85bd3fa1809d427bb5b950e9b45",
+      "cache_instante": 1794669990.4665308,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602952-83.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602960-60.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "6804f976167dafd51b4d22d77a9b6acc718fd62bc26066a89b0e4a52d6127a45",
+      "cache_instante": 1794670055.88271,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602960-60.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602981-36.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "d1ecc4779597f2c7b1fefe81a2bfbf2899b422c86726a4325d2448f9f327585b",
+      "cache_instante": 1794670317.4341366,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602981-36.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602983-06.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "d5bfca69c5b0d3fd7faa804bd99041b2b4c9d9c641da4ef121afaaf0ff6df3f1",
+      "cache_instante": 1794670382.8042858,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602983-06.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602985-73.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "e0b7ec565b0b7ce4077cddd91e04471196d7434a6acf028fc7af8ade742fb29f",
+      "cache_instante": 1794670448.182799,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602985-73.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0602998-72.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "45328e9de259d8a9f3b36c4c22fb38b508baec8189ed716a3bf5adb30b3ed61c",
+      "cache_instante": 1794670775.093698,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0602998-72.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603055-90.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "c46c8ecafcf1131f1bd9e8d8dda0793b1c6b670c24af5d9e060d6bf2f638d92a",
+      "cache_instante": 1794670971.2310028,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603055-90.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603073-14.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "6df4cf80bc96034268aa95cadde79f162097bce8ed08f28f423ad78eae052a7d",
+      "cache_instante": 1794671298.3505995,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603073-14.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603101-79.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "b77707a40cb4f45893e366aa28b9968f8e66368af072058150e9fc3382365f59",
+      "cache_instante": 1794671758.2231324,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603101-79.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603105-19.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "0b243a9fa4a32633ca43cdf7a977e7c007ed3b733bd0ee3031f538a69dcfb531",
+      "cache_instante": 1794671889.0590148,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603105-19.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603107-86.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "f7fac0de2859ff77952f64961c39eac3860633d1d7b46c98520227f04b2913ab",
+      "cache_instante": 1794671954.5491226,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603107-86.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603118-18.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "07ea37a460941ec686fc87618baa8730fd47119c95c93ca94206f6eea5bc6fdf",
+      "cache_instante": 1794672019.9783378,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603118-18.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603120-85.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "4669524733ad992b8995837094172a5e12ecbff7204e694e12814bf001e49737",
+      "cache_instante": 1794672085.5217092,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603120-85.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603124-25.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "12978a414bcab2cee9692271599fa5dc18f7cf8aae141680edd66e78423375fb",
+      "cache_instante": 1794672152.218564,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603124-25.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603127-77.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "6a5f4f2a5b6385633579b22acec5926e5f010a0f580bec00baa726afd05b0191",
+      "cache_instante": 1794672217.5666947,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603127-77.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603136-39.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "2f232fe44a784012736ac843b7aab7019cee82a989b1a09f3f9f92d9a8f9afa7",
+      "cache_instante": 1794672282.9294152,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603136-39.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603145-98.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "ec19607304c960d709e880fe32ef21cc54dc368e9e5f17a36af85141af54a1aa",
+      "cache_instante": 1794672348.2831395,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603145-98.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603146-83.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "2bc86a270bd95c371a14e28658a46b209e129830c1bf352043abf551224983fd",
+      "cache_instante": 1794672413.6558375,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603146-83.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603165-89.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "21d9b10d62bccc5bd1e02ccc03aa9ef23001ff67ca7527d5534116e3b71e0c5d",
+      "cache_instante": 1794672871.4688625,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603165-89.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603166-74.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "58d798ac922bf4392c7b97411cd13506081f976bd8a827e2d96885f4e581aaf0",
+      "cache_instante": 1794672936.8464556,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603166-74.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603168-44.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "2e93038744109955b6689ed3922b7c5eb916a13bb60f1f747048b3247903e796",
+      "cache_instante": 1794673002.198186,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603168-44.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603182-28.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "fb52703a01bb5f2fd9a67d071580d2a1b8c243524dbc6538b79b4801f1ab4551",
+      "cache_instante": 1794673394.401038,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603182-28.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603186-65.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "d6407e3fbddd42b0af60b58a984275a1230b6798f134c257a374d7302ae7ec39",
+      "cache_instante": 1794673525.119107,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603186-65.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603200-49.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "3f4ac9b585cce9c6f00a89d8a4eee6047543bb772d31f2d2512bc89ace07dfb8",
+      "cache_instante": 1794673590.6185777,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603200-49.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603203-04.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "89cf588af13a2c7c1e2643a53c670b47b9e6e32506390ef8426d405aa0761468",
+      "cache_instante": 1794673786.820292,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603203-04.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603205-71.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "d87b788c2e2d646833b9c0fbf0ceeee4ce1d8f7053f6a34f2c2a31c56bb9e4cb",
+      "cache_instante": 1794673852.180018,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603205-71.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603206-56.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "d4e4d74e36c5b190cb5be2e7ac48b5b7de7ff32eeea4a9d03d222908be984063",
+      "cache_instante": 1794673917.5542488,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603206-56.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603207-41.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "04a980900c3a7951b5a4d3e252e9868fdd66cce057c83f1837daddcc805de192",
+      "cache_instante": 1794673982.9250326,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603207-41.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Dissidência partidária": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603212-63.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "fec1da26b41500bbb45a2c63bbb297e441c18c258df5af149e53499f6eb20786",
+      "cache_instante": 1794674048.2707722,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603212-63.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603218-70.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "dc5364c11cd771514811c4da3bc667c675997a82a76e589ad7f55790a8d7867a",
+      "cache_instante": 1794674178.993813,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603218-70.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603238-61.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "2c041ad75259630fda0871cfbc645da35ee0bceb4ab771b6ddbb30135099ebbf",
+      "cache_instante": 1794674571.2951493,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603238-61.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603245-53.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "10ec18b2b43aa4e31de76e9c56924f7e9a1f10b78f6a9bc91781c793e5423348",
+      "cache_instante": 1794674636.6689343,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603245-53.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603247-23.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "a3307109b15ee752307cfa9c7b818221d176e0672dcfd437d35f133628eacf4b",
+      "cache_instante": 1794674767.4247804,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603247-23.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603248-08.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "a54430cbed89b85204e3b7f6505485dbef95e567ac16040a21bb69c7f1774a53",
+      "cache_instante": 1794674832.8060813,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603248-08.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603251-60.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "7007234a7a3bdf1673b9adeaa6f5a959761b7787e6055a5a8d42f9dccd44cff6",
+      "cache_instante": 1794674898.1948056,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603251-60.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603260-22.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "e19deba15ffbed9c4ba5e0217c4a8e4896f4d622efe1f0836399b62f9090a415",
+      "cache_instante": 1794675094.4042845,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603260-22.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603264-59.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "7bf1e4f68f46e0e294bc2f7889018b5f4148130b58d52c03a9e380d097f3a528",
+      "cache_instante": 1794675159.800304,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603264-59.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603273-21.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "99785841731b8db6a2985f1f8f4276d8808cea79660c0d0043544d71cf434a87",
+      "cache_instante": 1794675225.235632,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603273-21.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603274-06.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "a142a05e4eccef57fa40e8dfb3b2d791172e742727e35360cde4ef67d951e435",
+      "cache_instante": 1794675290.6471276,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603274-06.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603277-58.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "f4e5e5298aa0acd0088538e393dcf542dddea8c173f004da108accd12d1a504b",
+      "cache_instante": 1794675356.0659635,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603277-58.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603278-43.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "9b657464e83f537c6604f351fe57eae7a75b33ff9ded6a904a6fb49b1a4a1d3b",
+      "cache_instante": 1794675421.4584732,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603278-43.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603281-95.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "e98e57a6924f902a926ed8ed890cbe99d24cbfef4d8afa53987d11c672b1cfec",
+      "cache_instante": 1794675552.2487416,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603281-95.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Dissidência partidária": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603282-80.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "2ab1c91a300171886431c9520f8e56e0cd94920a68487d555d48fefbe59a6a1d",
+      "cache_instante": 1794675617.6131718,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603282-80.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603287-05.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "cb44d3d08da69ef3d9d1a4b7e88697c0f86b661e0b00f452b4ef83f7b8c705e7",
+      "cache_instante": 1794675748.3353238,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603287-05.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603288-87.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "4ea28260dfef30e39111d7785ff804bfebd7db418fe8acf272263f39865111cd",
+      "cache_instante": 1794675813.7046046,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603288-87.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603290-57.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "b56d24631c5e4913f41f6f9859e0ce537aa25e7902314129aac26ed373f8c6ad",
+      "cache_instante": 1794675944.508282,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603290-57.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Intimação": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603291-42.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "af6ff6ecb471ed12e384439cef8d733c89cffc50a6ee0f01ca83b703b1676aa0",
+      "cache_instante": 1794676009.8862777,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603291-42.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603293-12.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "7a3d2daf64f387b9bd8736990c1820ea21897f2eb524f37d0c35c71bb5a1ae1b",
+      "cache_instante": 1794676140.6297271,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603293-12.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603296-64.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "e195bcecb528bca69f6681005a9afa538c8fd907f36b8fb7573c76d1c3b753c0",
+      "cache_instante": 1794676206.0517974,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603296-64.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603298-34.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "1787f1a1e3a23301006cf89d72feb536be84201f32d07af1d1982c2ac51c423d",
+      "cache_instante": 1794676271.439811,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603298-34.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603302-71.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "521ec874d18519833e77ae6228b42ea8af76a7c743073ab93ecc2a2a78ca99fc",
+      "cache_instante": 1794676467.6584706,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603302-71.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603317-40.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "a4d32aa565f46634ccf5f52a09965b9ee71eb1b6042948bd68638d46c48dec2d",
+      "cache_instante": 1794676663.862914,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603317-40.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603319-10.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "64154f73c517a2dbdc631cfb4af688c1c0ef501b161b6d50c0876ee52038eecb",
+      "cache_instante": 1794676729.2827485,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603319-10.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603320-92.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "cd9d88c0522da152e41e2a2bc2e73725f03902893154200d2c48dfcdb2772e6a",
+      "cache_instante": 1794676794.6976538,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603320-92.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603322-62.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "c58827d4f5509baa99d7bc625324672c3ab1a9c3a1f35c34c96b2156ac503f32",
+      "cache_instante": 1794676860.1445599,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603322-62.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603331-24.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "6c8c16134ee6c67d6353536805aae6da761ee21d4857300dc40f4a7312b66e5a",
+      "cache_instante": 1794677056.3663936,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603331-24.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603333-91.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "4f2be957a3de9813ffc43608aa2b4efa76c57ca343d77aec81171d7d681a81df",
+      "cache_instante": 1794677187.1870875,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603333-91.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603342-53.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "3b52e35785333eb12b54e77cd14f3349570e6f7e722a7bc583601f7142849cba",
+      "cache_instante": 1794677383.8303354,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603342-53.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603343-38.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "637984ef6604d59487513d01bc2df946070914d25fea3cd8411db60f9440c5af",
+      "cache_instante": 1794677449.2467964,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603343-38.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603345-08.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "90a39e95f7518b9e6c10b4c04137ddf765dd2c626392bb4cb8150db1ac3e30a2",
+      "cache_instante": 1794677580.0735683,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603345-08.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603346-90.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "82d14ba7f75d41be730e68ff13777a538129e364419a48dcff07b9e7c0d28ed7",
+      "cache_instante": 1794677645.461969,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603346-90.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603350-30.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "0f211cabdbbfd6e2ee3aba2f8a395d27d427b403fb9de928df1167a4835ab15f",
+      "cache_instante": 1794677776.2712865,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603350-30.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603354-67.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "441cab68db38922221244f70e6c98d451aebd1379027efdd490be9a54b371f2a",
+      "cache_instante": 1794677907.0321164,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603354-67.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603373-73.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "2fd8778f38b810ad30b28270d19af869a74c062002271e148ac879bb15dcb7a3",
+      "cache_instante": 1794678103.1361835,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603373-73.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603376-28.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "45a4f6882639a0fe4ead62de508f84ce9f7d40cc28e59f49363272d777271ac9",
+      "cache_instante": 1794678168.5095465,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603376-28.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603381-50.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "fc22471b48cc9d9b32b3c762a910a5d55a6b921c13234c3dac39b6cd342e3bf7",
+      "cache_instante": 1794678299.2459483,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603381-50.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 1,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {
+        "Proposta de governo": 1
+      },
+      "descartes_selecao": {
+        "tipo_fora_selecao": 1
+      },
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    },
+    {
+      "cnj": "0603387-57.2026.6.00.0000",
+      "cache_disponivel": true,
+      "cache_sha256": "9ab74caf98066f056e5022a966393d34c1b6f91bf20c5b314da09204ba99d4a7",
+      "cache_instante": 1794678364.6020703,
+      "tipo_processos": "list",
+      "fontes_encontradas": [
+        {
+          "cnj": "0603387-57.2026.6.00.0000",
+          "instancia": 3,
+          "orgao": "TSE",
+          "documentos_tipo": "list",
+          "decisoes_tipo": "NoneType",
+          "quantidade_documentos": 0,
+          "quantidade_decisoes": 0
+        }
+      ],
+      "documentos_elegiveis_registros": 0,
+      "documentos_elegiveis_urls_unicas": 0,
+      "tipos_elegiveis_urls_unicas": {},
+      "tipos_publicos_tse_registros": {},
+      "descartes_selecao": {},
+      "documentos_outra_origem": [],
+      "documentos_elegiveis": [],
+      "conclusao_cobertura": "nenhuma peça elegível encontrada neste inventário; isso não prova ausência de atos no processo"
+    }
+  ]
+}

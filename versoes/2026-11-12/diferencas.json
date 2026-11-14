@@ -1,0 +1,20 @@
+{
+  "corte": "2026-10-31",
+  "extracao": "2026-11-12",
+  "geracao_oficial": "2026-11-11",
+  "atos": 2606,
+  "processos": 1841,
+  "atos_outubro": 1669,
+  "atos_ate_setembro_na_nova_extracao": 937,
+  "assinaturas_acrescidas_ate_setembro": 27,
+  "assinaturas_removidas_ate_setembro": 23,
+  "nota_comparacao": "Assinatura CNJ, data, tipo e autor; diferenças exigem leitura, pois não constituem identificador documental único. SQ_DECISAO não compara extrações.",
+  "alvos_triagem": 591,
+  "alvos_anteriores_localizados": 131,
+  "alvos_novos": 460,
+  "curadoria_outubro": "consulta complementar integrada; ver campanha_resumo.json e as fontes por CNJ",
+  "nota_triagem": "alvos_triagem registra a selecao inicial do extrato; a base integral e documentada em triagem_base_integral.json",
+  "alvos_base_integral": 872,
+  "resultados_documentados": 432,
+  "lacunas_documentais": 201
+}

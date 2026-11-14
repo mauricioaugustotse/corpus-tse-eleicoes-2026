@@ -1,0 +1,57 @@
+{
+  "corte": "2026-10-31",
+  "metodo": "Proclamação isolada do EXTRATO DA ATA ou certidão. Voto parcialmente vencido conta como divergência. Uma ocorrência por ministro e julgamento. Vínculos ambíguos não recebem votação por aproximação.",
+  "corpus": {
+    "total": 713,
+    "votacao": {
+      "unânime": 623,
+      "com divergência": 89,
+      "não apurada": 1
+    },
+    "ministros_vencidos": {
+      "Floriano de Azevedo Marques": 34,
+      "Estela Aranha": 17,
+      "Dias Toffoli": 19,
+      "André Mendonça": 45,
+      "Nunes Marques": 33,
+      "Antonio Carlos Ferreira": 1,
+      "Sebastião Reis Júnior": 20,
+      "Ricardo Villas Bôas Cueva": 13
+    }
+  },
+  "pendencias_vinculo": [
+    "0601104-61.2026.6.00.0000|4521"
+  ],
+  "divergencias_sem_nome": [],
+  "presidencial": {
+    "total": 296,
+    "votacao": {
+      "com divergência": 58,
+      "unânime": 238
+    },
+    "ministros_vencidos": {
+      "André Mendonça": 38,
+      "Floriano de Azevedo Marques": 20,
+      "Dias Toffoli": 16,
+      "Nunes Marques": 31,
+      "Estela Aranha": 12,
+      "Ricardo Villas Bôas Cueva": 6,
+      "Sebastião Reis Júnior": 6
+    },
+    "processos_comparaveis": 432,
+    "processos_com_julgamento_colegiado": 282,
+    "situacao_confrontos": {
+      "sem revisão comprovada": 107,
+      "mantida": 138,
+      "modificada": 16,
+      "mérito colegiado": 34,
+      "liminar modificada": 11,
+      "liminar mantida": 52,
+      "mérito individual": 3,
+      "decisão individual de mérito": 43,
+      "decisão colegiada de mérito": 27,
+      "modificada individualmente": 1
+    },
+    "aviso": "Votação conta julgamentos únicos documentados dos CNJs incluídos; situação da medida conta um CNJ. Um processo pode ter vários julgamentos. Pendências de situação ficam explícitas."
+  }
+}

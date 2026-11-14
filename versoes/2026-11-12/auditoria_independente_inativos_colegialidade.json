@@ -1,0 +1,317 @@
+{
+  "metodo": "Segunda leitura manual dos dispositivos e dez proclamações; seleção intencional de casos com dificuldades de interpretação, sem inferência estatística da taxa de erro.",
+  "inativos": [
+    {
+      "cnj": "0601896-15.2026.6.00.0000",
+      "parecer": "exclusão coerente",
+      "justificativa": "Reconhece probabilidade do direito quanto ao impulsionamento negativo; nega a urgência porque o anúncio já cessou. Não rejeita materialmente a alegação de ilicitude.",
+      "documento": 179922921,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/17/16/24/56/46820aa1062dfab83c899d66dce6bac8a7108ef557b4e573a0ff5ca2c5805fb5",
+      "arquivo": "coleta_documental/pecas/06018961520266000000_c0d39c3f30cbc7ae.html",
+      "sha256": "46820aa1062dfab83c899d66dce6bac8a7108ef557b4e573a0ff5ca2c5805fb5",
+      "data_metadata": "2026-10-09",
+      "requer_decisao_curatorial": false
+    },
+    {
+      "cnj": "0601916-06.2026.6.00.0000",
+      "parecer": "exclusão coerente",
+      "justificativa": "Reconhece probabilidade do direito; anúncio encerrado e ausência de risco concreto de reativação. Proibição de conteúdos futuros e distintos é genérica, sem medida individualizada remanescente.",
+      "documento": 179922910,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/17/16/23/31/069c8182283f139e87a5c39fbb0fe8259a7da2a566c5ca2c43c609faf0171204",
+      "arquivo": "coleta_documental/pecas/06019160620266000000_4e1a7f99f2efd0fb.html",
+      "sha256": "069c8182283f139e87a5c39fbb0fe8259a7da2a566c5ca2c43c609faf0171204",
+      "data_metadata": "2026-10-09",
+      "requer_decisao_curatorial": false
+    },
+    {
+      "cnj": "0602698-13.2026.6.00.0000",
+      "parecer": "exclusão coerente",
+      "justificativa": "Reconhece o caráter negativo e a probabilidade do direito; dois impulsionamentos pretéritos não provam reativação iminente. Dados e sanção ficam para a instrução.",
+      "documento": 180223456,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/29/11/27/46/17a9e24ad413370bbc6ee55cfc6b1365601114855a3efd95a3b8311a9ca877ba",
+      "arquivo": "coleta_documental/pecas/06026981320266000000_a6008d4f25b71d91.html",
+      "sha256": "17a9e24ad413370bbc6ee55cfc6b1365601114855a3efd95a3b8311a9ca877ba",
+      "data_metadata": "2026-10-24",
+      "requer_decisao_curatorial": false
+    },
+    {
+      "cnj": "0602700-80.2026.6.00.0000",
+      "parecer": "exclusão coerente",
+      "justificativa": "A própria fundamentação admite a probabilidade do direito, mas o encerramento do impulsionamento esvazia a suspensão e não há risco concreto de reativação.",
+      "documento": 179954179,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/20/17/59/38/9a4521704206cb7d8001145cea45318cdb4a46265da2dd30d18e673c7827cd42",
+      "arquivo": "coleta_documental/pecas/06027008020266000000_a1e37f44e854ad7a.html",
+      "sha256": "9a4521704206cb7d8001145cea45318cdb4a46265da2dd30d18e673c7827cd42",
+      "data_metadata": "2026-10-15",
+      "requer_decisao_curatorial": false
+    },
+    {
+      "cnj": "0602712-94.2026.6.00.0000",
+      "parecer": "rever exclusão; recomendação de inclusão como cautelar não atendida",
+      "justificativa": "Há fundamento material próprio: a chamada Lula no Flow e o trocadilho com Flávio não evidenciam de plano caráter negativo nem imputação depreciativa explícita. A peça também afasta o perigo de dano por inatividade. É hipótese mista, distinta da simples falta de objeto; não classificar como improcedência definitiva.",
+      "documento": 179954178,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/18/19/59/56/e1fa09e2678506c0c17620679bde941bbbde666ba5f074f3db748ae565f94398",
+      "arquivo": "coleta_documental/pecas/06027129420266000000_463f6bb59e985f03.html",
+      "sha256": "e1fa09e2678506c0c17620679bde941bbbde666ba5f074f3db748ae565f94398",
+      "data_metadata": "2026-10-15",
+      "requer_decisao_curatorial": true
+    },
+    {
+      "cnj": "0602789-06.2026.6.00.0000",
+      "parecer": "exclusão coerente",
+      "justificativa": "Reconhece probabilidade do direito sobre o impulsionamento negativo do Tesouraço; os dois anúncios estão inativos, única razão concreta para negar a medida de circulação.",
+      "documento": 180196775,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/21/18/25/51/35494840f8055d74b184558b9327e1efe95f5925d54f56bdfa69fc4ab7fb4df4",
+      "arquivo": "coleta_documental/pecas/06027890620266000000_715b1a34fbe1b6f5.html",
+      "sha256": "35494840f8055d74b184558b9327e1efe95f5925d54f56bdfa69fc4ab7fb4df4",
+      "data_metadata": "2026-10-21",
+      "requer_decisao_curatorial": false
+    },
+    {
+      "cnj": "0602802-05.2026.6.00.0000",
+      "parecer": "exclusão coerente",
+      "justificativa": "Impulsionamento encerrado e sem reativação concreta; pedido orgânico não integra o objeto urgente e sanção fica reservada.",
+      "documento": 180259593,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/3/17/39/21/0ecabab9d8c04228034c7d23ea92a807e2a31672f00b3b2cf5a0ca4d84e5d5f7",
+      "arquivo": "coleta_documental/pecas/06028020520266000000_3722b1d102ee3960.html",
+      "sha256": "0ecabab9d8c04228034c7d23ea92a807e2a31672f00b3b2cf5a0ca4d84e5d5f7",
+      "data_metadata": "2026-10-24",
+      "requer_decisao_curatorial": false
+    },
+    {
+      "cnj": "0602860-08.2026.6.00.0000",
+      "parecer": "exclusão coerente",
+      "justificativa": "Publicação já indisponível e nenhum risco concreto de republicação; não decide a veracidade das imputações sobre INSS e reserva a sanção.",
+      "documento": 180225295,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/24/17/11/4/3f2c0ee9bdbdbaa93f21c8ea62e893b0e711cc92dab72d8d79fb019060144d28",
+      "arquivo": "coleta_documental/pecas/06028600820266000000_f26b2fcc2ee2df57.html",
+      "sha256": "3f2c0ee9bdbdbaa93f21c8ea62e893b0e711cc92dab72d8d79fb019060144d28",
+      "data_metadata": "2026-10-24",
+      "requer_decisao_curatorial": false
+    },
+    {
+      "cnj": "0602876-59.2026.6.00.0000",
+      "parecer": "exclusão coerente",
+      "justificativa": "Retirada do vídeo esvazia expressamente remoção e abstenção de republicação; prossegue apenas a pretensão de multa.",
+      "documento": 180216916,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/23/19/48/6/221742e3c11816d5b97d2377cad01ba785bf5a9d2b9808c85ebb30592d4efa82",
+      "arquivo": "coleta_documental/pecas/06028765920266000000_e8c714803fb25237.html",
+      "sha256": "221742e3c11816d5b97d2377cad01ba785bf5a9d2b9808c85ebb30592d4efa82",
+      "data_metadata": "2026-10-23",
+      "requer_decisao_curatorial": false
+    },
+    {
+      "cnj": "0602934-62.2026.6.00.0000",
+      "parecer": "exclusão coerente",
+      "justificativa": "Admite plausibilidade da alegação de conteúdo patrocinado negativo; anúncios encerrados, sem risco concreto de retomada. Mérito sancionatório preservado.",
+      "documento": 180223484,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/28/22/36/36/2fe8612356510a3dd9cf24dfdf28febe348b89e623e0d7bb5d3032f1bf776ca7",
+      "arquivo": "coleta_documental/pecas/06029346220266000000_98449b880d0d449e.html",
+      "sha256": "2fe8612356510a3dd9cf24dfdf28febe348b89e623e0d7bb5d3032f1bf776ca7",
+      "data_metadata": "2026-10-24",
+      "requer_decisao_curatorial": false
+    },
+    {
+      "cnj": "0603297-49.2026.6.00.0000",
+      "parecer": "exclusão coerente",
+      "justificativa": "Anúncio inativo, ausência de perigo atual e inadequação de abstenção genérica; nenhuma conclusão desfavorável de mérito sobre a ilicitude.",
+      "documento": 180220003,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/24/17/13/31/9d545d4b153c838673d47d9dab330b07c70828154b956a78f129c8efbc1ac5d0",
+      "arquivo": "coleta_documental/pecas/06032974920266000000_628b35f0a91bebec.html",
+      "sha256": "9d545d4b153c838673d47d9dab330b07c70828154b956a78f129c8efbc1ac5d0",
+      "data_metadata": "2026-10-24",
+      "requer_decisao_curatorial": false
+    },
+    {
+      "cnj": "0603300-04.2026.6.00.0000",
+      "parecer": "exclusão coerente",
+      "justificativa": "Mesma estrutura jurídica: inatividade do anúncio, ausência de risco concreto e sanção reservada.",
+      "documento": 180216821,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/23/19/57/31/b83a93bb3b59c943cbf80406c5688b1a80985de9b9038c5c9fdcdc99ed21cf23",
+      "arquivo": "coleta_documental/pecas/06033000420266000000_321fb76036e03a57.html",
+      "sha256": "b83a93bb3b59c943cbf80406c5688b1a80985de9b9038c5c9fdcdc99ed21cf23",
+      "data_metadata": "2026-10-23",
+      "requer_decisao_curatorial": false
+    },
+    {
+      "cnj": "0603347-75.2026.6.00.0000",
+      "parecer": "exclusão coerente",
+      "justificativa": "Anúncio sobre a PEC da Segurança já inativo; inexistência de veiculação paga a interromper e risco futuro não demonstrado.",
+      "documento": 180219144,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/23/20/21/44/b0b70626543a3ed54a88ee2d49f13abe60c452970f86735c1142079c672a16ce",
+      "arquivo": "coleta_documental/pecas/06033477520266000000_91cb13df7f851efd.html",
+      "sha256": "b0b70626543a3ed54a88ee2d49f13abe60c452970f86735c1142079c672a16ce",
+      "data_metadata": "2026-10-23",
+      "requer_decisao_curatorial": false
+    },
+    {
+      "cnj": "0603352-97.2026.6.00.0000",
+      "parecer": "exclusão coerente",
+      "justificativa": "Anúncio sobre queimadas na Amazônia já inativo; ausência de veiculação paga atual e de risco concreto de reativação.",
+      "documento": 180219145,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/23/20/24/40/088f0ea3523e3af9a4f34a01968e46131c5ac9a8f37e01b23a872b995d77b4e9",
+      "arquivo": "coleta_documental/pecas/06033529720266000000_0ca3ce0f0ce12fbe.html",
+      "sha256": "088f0ea3523e3af9a4f34a01968e46131c5ac9a8f37e01b23a872b995d77b4e9",
+      "data_metadata": "2026-10-23",
+      "requer_decisao_curatorial": false
+    },
+    {
+      "cnj": "0603355-52.2026.6.00.0000",
+      "parecer": "exclusão coerente",
+      "justificativa": "Anúncio sobre Lulinha já inativo; indeferimento fundado na falta de perigo atual, com sanção para exame posterior.",
+      "documento": 180225294,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/24/17/9/43/4346c7e8c8630aed032e972e9e8cfc7dc39c8ca674face08aaff75d9d9d4c830",
+      "arquivo": "coleta_documental/pecas/06033555220266000000_9113d470d09c246e.html",
+      "sha256": "4346c7e8c8630aed032e972e9e8cfc7dc39c8ca674face08aaff75d9d9d4c830",
+      "data_metadata": "2026-10-24",
+      "requer_decisao_curatorial": false
+    },
+    {
+      "cnj": "0603357-22.2026.6.00.0000",
+      "parecer": "exclusão coerente",
+      "justificativa": "Anúncio sobre os eleitores do Rio já inativo; falta de perigo atual, abstenção genérica recusada e sanção preservada.",
+      "documento": 180225296,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/24/17/12/10/4f8eba855c33a74297d67e8f1f2227550dc5cc9b98ef17b541cb5760ec6494ec",
+      "arquivo": "coleta_documental/pecas/06033572220266000000_843952b0a7d4087b.html",
+      "sha256": "4f8eba855c33a74297d67e8f1f2227550dc5cc9b98ef17b541cb5760ec6494ec",
+      "data_metadata": "2026-10-24",
+      "requer_decisao_curatorial": false
+    }
+  ],
+  "amostras_colegiadas": [
+    {
+      "chave_ato": "0600005-74.2026.6.13.0071|3275",
+      "cnj": "0600005-74.2026.6.13.0071",
+      "votacao_esperada": "unânime",
+      "vencidos_esperados": [],
+      "leitura_independente": "Não conhecimento do recurso especial proclamado por unanimidade.",
+      "confere_com_apuracao": true,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/9/25/16/36/2/8a996fb24e244cc1943648ffa4f1c6ca4215543a320194852f9a6790c08a7347",
+      "arquivo": "coleta_documental/pecas/06000057420266130071_28ac9ca6181110d7.html",
+      "sha256": "8a996fb24e244cc1943648ffa4f1c6ca4215543a320194852f9a6790c08a7347"
+    },
+    {
+      "chave_ato": "0600251-13.2026.6.23.0000|218",
+      "cnj": "0600251-13.2026.6.23.0000",
+      "votacao_esperada": "unânime",
+      "vencidos_esperados": [],
+      "leitura_independente": "Ata sem rótulo Decisão seguido de dois-pontos: contém unanimidade e manutenção do registro.",
+      "confere_com_apuracao": true,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/9/30/13/34/48/db7d79b78ec175be63c3db92c8580911513b90015ff64f8fdf4fba74160e1cd1",
+      "arquivo": "coleta_documental/pecas/06002511320266230000_0e925d68e1f2ffd8.html",
+      "sha256": "db7d79b78ec175be63c3db92c8580911513b90015ff64f8fdf4fba74160e1cd1"
+    },
+    {
+      "chave_ato": "0601413-82.2026.6.00.0000|2752",
+      "cnj": "0601413-82.2026.6.00.0000",
+      "votacao_esperada": "unânime",
+      "vencidos_esperados": [],
+      "leitura_independente": "Ata própria defere unanimemente o DRAP; não usa votos de precedentes.",
+      "confere_com_apuracao": true,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/9/16/19/42/8/c7d3fa916d967877256f148f66be7636fc5745d537122fcb696a573f6a145f71",
+      "arquivo": "coleta_documental/pecas/06014138220266000000_46acfc3b603af3b3.html",
+      "sha256": "c7d3fa916d967877256f148f66be7636fc5745d537122fcb696a573f6a145f71"
+    },
+    {
+      "chave_ato": "0602319-72.2026.6.00.0000|602",
+      "cnj": "0602319-72.2026.6.00.0000",
+      "votacao_esperada": "unânime",
+      "vencidos_esperados": [],
+      "leitura_independente": "Cabeçalho abreviado recuperado; própria ata do dia 14/10 registra unanimidade na improcedência do direito de resposta.",
+      "confere_com_apuracao": true,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/21/18/13/48/5b02bacd247683253800f6a1cbcd1d515d2e236a27fa4a5e743ded2336bcf784",
+      "arquivo": "coleta_documental/auditoria/179954170.html",
+      "sha256": "5b02bacd247683253800f6a1cbcd1d515d2e236a27fa4a5e743ded2336bcf784"
+    },
+    {
+      "chave_ato": "0600690-63.2026.6.00.0000|3929",
+      "cnj": "0600690-63.2026.6.00.0000",
+      "votacao_esperada": "com divergência",
+      "vencidos_esperados": [
+        "Floriano de Azevedo Marques"
+      ],
+      "leitura_independente": "Referendo da tutela parcial; Floriano vencido em parte. Não contar como reforma da tutela apenas pelo voto parcial.",
+      "confere_com_apuracao": true,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/7/1/15/7/37/f985a29dbfbb483e899994bbcb0bdb4a5aff4225bcd0f033e8b8f1e8807b5156",
+      "arquivo": "coleta_documental/pecas/06006906320266000000_bfbf1c446c9d7b0a.html",
+      "sha256": "f985a29dbfbb483e899994bbcb0bdb4a5aff4225bcd0f033e8b8f1e8807b5156"
+    },
+    {
+      "chave_ato": "0601099-39.2026.6.00.0000|1414",
+      "cnj": "0601099-39.2026.6.00.0000",
+      "votacao_esperada": "com divergência",
+      "vencidos_esperados": [
+        "Nunes Marques"
+      ],
+      "leitura_independente": "Relator originário Nunes vencido; Dias é redator da divergência vencedora.",
+      "confere_com_apuracao": true,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/15/17/11/19/4e0729b65cc5a5f584b2052411354b0766f7c5e52c1f4941ded8eaf616a95fc0",
+      "arquivo": "coleta_documental/pecas/06010993920266000000_cf046709607cda14.html",
+      "sha256": "4e0729b65cc5a5f584b2052411354b0766f7c5e52c1f4941ded8eaf616a95fc0"
+    },
+    {
+      "chave_ato": "0601648-49.2026.6.00.0000|855",
+      "cnj": "0601648-49.2026.6.00.0000",
+      "votacao_esperada": "com divergência",
+      "vencidos_esperados": [
+        "Dias Toffoli",
+        "Estela Aranha"
+      ],
+      "leitura_independente": "Ata registra expressamente os dois votos parcialmente vencidos.",
+      "confere_com_apuracao": true,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/12/17/15/46/d048459fae2d8ff63a0446c1cdaa104f260f825f269feb186fdf9e6625b9e4d5",
+      "arquivo": "coleta_documental/pecas/06016484920266000000_8332ddfd695d76d3.html",
+      "sha256": "d048459fae2d8ff63a0446c1cdaa104f260f825f269feb186fdf9e6625b9e4d5"
+    },
+    {
+      "chave_ato": "0602217-50.2026.6.00.0000|572",
+      "cnj": "0602217-50.2026.6.00.0000",
+      "votacao_esperada": "com divergência",
+      "vencidos_esperados": [
+        "André Mendonça",
+        "Sebastião Reis Júnior"
+      ],
+      "leitura_independente": "Apesar da palavra unanimidade, a própria proclamação registra dois vencidos parciais; regra do estudo exige divergência.",
+      "confere_com_apuracao": true,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/17/19/36/41/bfc3186b0a9dea1f0a0417168c8d21852813a38b624e83d7209b4a561d4844b1",
+      "arquivo": "coleta_documental/pecas/06022175020266000000_f488e97d2dada52a.html",
+      "sha256": "bfc3186b0a9dea1f0a0417168c8d21852813a38b624e83d7209b4a561d4844b1"
+    },
+    {
+      "chave_ato": "0602945-91.2026.6.00.0000|4138",
+      "cnj": "0602945-91.2026.6.00.0000",
+      "votacao_esperada": "com divergência",
+      "vencidos_esperados": [
+        "André Mendonça",
+        "Estela Aranha",
+        "Nunes Marques"
+      ],
+      "leitura_independente": "Relator André e Estela e Nunes vencidos; a citação ao Art. 7º entre os nomes não encerra a lista.",
+      "confere_com_apuracao": true,
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/28/19/35/19/0eabd3c429996d60e356e5ed4170147228101b123f5eb57a0c461be82faf4350",
+      "arquivo": "coleta_documental/pecas/06029459120266000000_4a6ff70cfc1fbe67.html",
+      "sha256": "0eabd3c429996d60e356e5ed4170147228101b123f5eb57a0c461be82faf4350"
+    },
+    {
+      "chave_ato": "0601104-61.2026.6.00.0000|4521",
+      "cnj": "0601104-61.2026.6.00.0000",
+      "votacao_esperada": "não apurada",
+      "vencidos_esperados": [],
+      "leitura_independente": "Certidão e Resolução são unânimes, mas a identidade com o registro de acórdão do ZIP de 14/07 não está provada. A amostra confirma a conservação da lacuna, não unanimidade imputada ao ato.",
+      "confere_com_apuracao": true,
+      "url": null,
+      "arquivo": null,
+      "sha256": null
+    }
+  ],
+  "consistencia_matematica": {
+    "linhas": 713,
+    "chaves_unicas": 713,
+    "votacao": {
+      "unânime": 623,
+      "com divergência": 89,
+      "não apurada": 1
+    },
+    "amostras_conferentes": 10
+  }
+}

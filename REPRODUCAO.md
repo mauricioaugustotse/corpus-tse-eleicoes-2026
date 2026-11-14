@@ -1,8 +1,55 @@
 # Como reproduzir os dados
 
-Este guia é para quem quer executar os programas. O [leia-me](README.md) permite conferir os números sem programação.
+Este guia distingue o pacote publicado com corte em **31/10/2026** da versão histórica de **30/09/2026**. O [leia-me](README.md) permite conferir os números sem programação.
 
-## Reproduzir os números do relatório
+## Reproduzir a versão com corte em 31/10/2026
+
+Use a pasta `versoes/2026-11-12`. Os cinco ZIPs estatísticos foram gerados em 11/11 e baixados em 12/11. A consulta documental terminou em 14/11, com 1.295 processos consultados. A curadoria consolidou 872 candidatos em 432 comparáveis, 201 lacunas documentais e 239 demais exclusões. Os três resumos da versão são a autoridade para os denominadores.
+
+Instale Python 3.10 ou posterior. No Windows, `py -3` também pode chamar o Python. Extraia os **14 ZIPs de `documentos_oficiais/` na pasta da versão**, preservando seus caminhos internos. O inventário registra 2.795 entradas por URL distinta e os hashes das fontes. Não é necessário reiniciar a consulta ao PJe para reproduzir o espelho congelado.
+
+Execute na pasta da versão:
+
+```bash
+python verificar_atualizacao.py
+python consolidar_curadoria.py
+python gerar_confrontos.py
+python apurar_colegialidade.py --inventario-publico
+python gerar_config_graficos_juridicos.py
+python atualizar_graficos_interativos.py
+python verificar_curadoria.py
+python -m unittest discover -s tests -v
+```
+
+A consolidação incorpora os lotes históricos, novos, suplementares e a revisão de casos conexos. As classificações jurídicas estão documentadas nos JSONs; os programas não inferem o resultado a partir do tipo de ato ou de palavras isoladas. A apuração com `--inventario-publico` usa o inventário congelado mesmo quando existe checkpoint local.
+
+Os verificadores conferem hashes, corte inclusivo, unicidade, somas, igualdade dos CNJs incluídos e relatados, fontes e dados dos onze gráficos. A preparação registrou **34 testes aprovados**. Os 201 casos com lacuna já foram consultados e não tiveram peça decisória elegível localizada até o corte; zero pendências de revisão não significa ausência de lacunas de fonte.
+
+Para refazer os PNGs e conferir os controles dos onze HTMLs em `graficos_interativos/`, disponibilize Playwright e Chromium e execute `python renderizar_graficos.py`. O relatório `graficos_interativos/verificacao_renderizacao.json` registra a renderização. Esses HTMLs conservam os modelos da página, enquanto `graficos/` contém as alternativas SVG do coletor.
+
+Para refazer exclusivamente a base estatística com os ZIPs preservados, execute:
+
+```bash
+python tse_corpus_eleicoes_2026.py --saida . --offline --data-fim 2026-10-31
+```
+
+O coletor também regenera documentação estatística básica, que deve ser comparada com a documentação editorial desta versão. Ele preserva HTMLs existentes; a atualização dos onze painéis da página depende dos comandos específicos acima. Não sobrescreva a versão histórica. Após qualquer alteração dos arquivos entregues, consolide o manifesto correspondente antes da verificação final.
+
+O [relatório de diferenças](versoes/2026-11-12/relatorio_diferencas.md) separa os 1.669 atos de outubro da revisão retroativa de 933 para 937 atos até setembro. A chave `CNJ + SQ_DECISAO` é válida dentro da extração; não deve ser usada para concatenar versões.
+
+## Baixar uma nova extração
+
+Crie outra pasta vazia e execute a partir da raiz:
+
+```bash
+python versoes/2026-11-12/tse_corpus_eleicoes_2026.py --saida nova-extracao --data-fim 2026-10-31
+```
+
+A nova coleta pode conter revisões cadastrais retroativas e não reproduz necessariamente os totais congelados. O programa verifica ZIPs, esquemas, gerações e junções; não substitui automaticamente arquivos existentes. O corte é inclusivo e o programa recusa um corte posterior à última data disponível. Curadoria, fontes documentais e revisão editorial de outra extração constituem uma nova versão.
+
+## Reproduzir a versão histórica de 30/09/2026
+
+As instruções seguintes dizem respeito exclusivamente a `versoes/2026-10-01` e à análise histórica em `analises/colegialidade`, conservadas sem alterações. Seus 933 atos, 751 processos e 107 confrontos não são os denominadores da versão de outubro.
 
 Instale Python 3.10 ou posterior. Baixe o repositório pelo botão **Code → Download ZIP** do GitHub e descompacte-o. Em um terminal, entre em `versoes/2026-10-01` e execute:
 
@@ -16,7 +63,7 @@ No Windows, `py -3` também pode chamar o Python. Os programas usam apenas a bib
 
 O comando usa `--data-fim 2026-09-30`. Esse corte é **inclusivo** e foi validado em teste. A extração oficial congelada foi gerada em 1º/10/2026 e tinha 30/09 como última data disponível. O programa recusa um corte posterior à última data encontrada no arquivo.
 
-## Baixar outra extração do TSE
+### Nova extração pelo programa histórico
 
 A fonte é o conjunto [Processual – 2026 do TSE](https://dadosabertos.tse.jus.br/id/dataset/processual-2026). Ele oferece os arquivos de Processo Eleitoral, Assuntos, Decisões, Partes e Recursos. Para guardar uma nova rodada, crie **outra pasta vazia** e execute, a partir da raiz do repositório:
 
@@ -28,11 +75,11 @@ O programa baixa os cinco ZIPs, testa integridade, esquema, geração e junçõe
 
 O filtro seleciona `NR_INSTANCIA=3`, `SG_UF_TRIBUNAL=DF`, tipo **Decisão** ou **Acórdão** e `DT_DECISAO` desde 03/10/2025 até o corte. `atos.csv` tem uma linha por `NR_PROCESSO + SQ_DECISAO` na mesma extração. `processos.csv` tem uma linha por CNJ com ao menos um ato selecionado.
 
-## O que depende da leitura das decisões
+### Curadoria da versão histórica
 
 [gerar_confrontos.py](versoes/2026-10-01/gerar_confrontos.py) junta os campos oficiais à [curadoria documental dos 132 processos](versoes/2026-10-01/curadoria_confrontos.json). [gerar_relatos.py](versoes/2026-10-01/gerar_relatos.py) monta os 107 relatos com os mesmos CNJs dos confrontos incluídos. Os programas reproduzem classificações **já documentadas** e não inferem o mérito a partir da classe, do assunto ou do nome do ato. Para conferir um resultado, abra a peça oficial indicada em `confrontos.csv`.
 
-## Reproduzir a apuração das votações
+### Apuração histórica das votações
 
 O [SJUR](https://jurisprudencia.tse.jus.br/) permite pesquisar decisões e exportar os resultados em CSV. As exportações utilizadas foram obtidas pela interface do portal, com filtros de tipo de decisão e data de julgamento. A coleta em Python empregou Playwright para navegar pelas páginas de resultados, selecionar os registros e acionar **Exportar → CSV**. A paginação usada foi de 250 resultados, com consultas por intervalos de datas para respeitar o limite de resultados do portal. A mesma exportação pode ser feita manualmente, sem essa automação.
 

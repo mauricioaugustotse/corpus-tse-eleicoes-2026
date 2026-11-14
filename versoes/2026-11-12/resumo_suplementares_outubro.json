@@ -1,0 +1,20 @@
+{
+  "total": 280,
+  "comparaveis": 4,
+  "positivos": 0,
+  "negativos": 4,
+  "categorias": {
+    "pendência documental; cobertura limitada": 201,
+    "processual; sem resultado comparável documentado": 73,
+    "extinção sem mérito; inadequação da via pré-convencional": 1,
+    "fora do corte; autuação posterior": 1,
+    "comparável": 4
+  },
+  "status_revisao": {
+    "pendente documental": 201,
+    "verificado": 78,
+    "verificado quanto ao corte temporal": 1
+  },
+  "pecas_lidas": 93,
+  "inventarios_decisoes_nulas": 149
+}

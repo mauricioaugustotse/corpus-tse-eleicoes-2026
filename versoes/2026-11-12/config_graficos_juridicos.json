@@ -1,0 +1,294 @@
+{
+  "07a_individual_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "Corpus (713)",
+        "Confrontos presidenciais (296)"
+      ],
+      "tickLabels": [
+        "Corpus (713)",
+        "Confrontos presidenciais (296)"
+      ],
+      "orientation": "horizontal",
+      "mode": "stacked-percent",
+      "axis": {
+        "zero": true,
+        "cap": 100
+      },
+      "maxBarThickness": 40,
+      "subjectIndex": -1,
+      "categoryColors": [],
+      "tickKind": "percent",
+      "series": [
+        {
+          "label": "Unânimes",
+          "valueKind": "percent",
+          "data": [
+            87.37727910238429,
+            80.4054054054054
+          ],
+          "colorToken": "--yellow",
+          "colorFallback": "#eac26b",
+          "color": "rgba(94, 159, 232, 1)"
+        },
+        {
+          "label": "Com divergência",
+          "valueKind": "percent",
+          "data": [
+            12.482468443197757,
+            19.594594594594593
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec",
+          "color": "rgba(222, 146, 85, 1)"
+        },
+        {
+          "label": "Votação não apurada",
+          "valueKind": "percent",
+          "data": [
+            0.1402524544179523,
+            0.0
+          ],
+          "colorToken": "--neutral",
+          "colorFallback": "#a39e98"
+        }
+      ]
+    },
+    "titulo": "Votação nos acórdãos do corpus e nos confrontos presidenciais",
+    "nota": "713 registros de acórdão e 296 julgamentos dos confrontos até 31/10/2026; votação não apurada permanece no denominador"
+  },
+  "08a_individual_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "432 processos"
+      ],
+      "tickLabels": [
+        "432 processos"
+      ],
+      "orientation": "horizontal",
+      "mode": "stacked",
+      "axis": {
+        "zero": true
+      },
+      "maxBarThickness": 40,
+      "subjectIndex": -1,
+      "categoryColors": [],
+      "tickKind": "count",
+      "series": [
+        {
+          "label": "Sem revisão comprovada",
+          "valueKind": "count",
+          "data": [
+            107
+          ],
+          "colorToken": "--neutral",
+          "colorFallback": "#a39e98"
+        },
+        {
+          "label": "Liminar mantida",
+          "valueKind": "count",
+          "data": [
+            190
+          ],
+          "colorToken": "--yellow",
+          "colorFallback": "#eac26b",
+          "color": "rgba(94, 159, 232, 1)"
+        },
+        {
+          "label": "Liminar modificada",
+          "valueKind": "count",
+          "data": [
+            27
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec",
+          "color": "rgba(222, 146, 85, 1)"
+        },
+        {
+          "label": "Decisão individual de mérito",
+          "valueKind": "count",
+          "data": [
+            46
+          ],
+          "colorToken": "--green",
+          "colorFallback": "#72bc8f",
+          "color": "rgba(191, 142, 218, 1)"
+        },
+        {
+          "label": "Decisão colegiada de mérito",
+          "valueKind": "count",
+          "data": [
+            61
+          ],
+          "colorToken": "--green",
+          "colorFallback": "#72bc8f",
+          "color": "rgba(114, 188, 143, 1)"
+        },
+        {
+          "label": "Liminar modificada individualmente",
+          "valueKind": "count",
+          "data": [
+            1
+          ],
+          "colorToken": "--purple",
+          "colorFallback": "#bf8eda",
+          "color": "rgba(79, 185, 201, 1)"
+        }
+      ]
+    },
+    "titulo": "Situação documentada das medidas nos confrontos presidenciais",
+    "nota": "Um registro por processo até 31/10/2026; 0 com situação pendente de revisão. Ausência de revisão localizada não prova pendência processual"
+  },
+  "08b_individual_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "217 reexames documentados"
+      ],
+      "tickLabels": [
+        "217 reexames documentados"
+      ],
+      "orientation": "horizontal",
+      "mode": "stacked-percent",
+      "axis": {
+        "zero": true,
+        "cap": 100
+      },
+      "maxBarThickness": 40,
+      "subjectIndex": -1,
+      "categoryColors": [],
+      "tickKind": "percent",
+      "series": [
+        {
+          "label": "Liminar mantida",
+          "valueKind": "percent",
+          "data": [
+            87.55760368663594
+          ],
+          "colorToken": "--yellow",
+          "colorFallback": "#eac26b",
+          "color": "rgba(94, 159, 232, 1)"
+        },
+        {
+          "label": "Liminar modificada",
+          "valueKind": "percent",
+          "data": [
+            12.442396313364055
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec",
+          "color": "rgba(222, 146, 85, 1)"
+        }
+      ]
+    },
+    "titulo": "Manutenção e modificação das liminares pelo colegiado",
+    "nota": "190 manutenções e 27 modificações; denominador de 217 processos com reexame cautelar comprovado. Mérito e pendências ficam fora dessa taxa"
+  },
+  "09a_individual_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "André Mendonça",
+        "Floriano de Azevedo Marques",
+        "Estela Aranha",
+        "Nunes Marques",
+        "Dias Toffoli",
+        "Antonio Carlos Ferreira",
+        "Ricardo Villas Bôas Cueva",
+        "Sebastião Reis Júnior"
+      ],
+      "tickLabels": [
+        "André Mendonça",
+        "Floriano de Azevedo Marques",
+        "Estela Aranha",
+        "Nunes Marques",
+        "Dias Toffoli",
+        "Antonio Carlos Ferreira",
+        "Ricardo Villas Bôas Cueva",
+        "Sebastião Reis Júnior"
+      ],
+      "orientation": "horizontal",
+      "mode": "grouped",
+      "axis": {
+        "zero": true,
+        "cap": 50
+      },
+      "maxBarThickness": 22,
+      "subjectIndex": 0,
+      "categoryColors": [],
+      "tickKind": "count",
+      "series": [
+        {
+          "label": "Julgamentos com voto vencido",
+          "valueKind": "count",
+          "data": [
+            45,
+            34,
+            17,
+            33,
+            19,
+            1,
+            13,
+            20
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec"
+        }
+      ]
+    },
+    "titulo": "Ministros com votos vencidos nos julgamentos do corpus",
+    "nota": "89 julgamentos com divergência; uma ocorrência por ministro e julgamento, inclusive voto parcialmente vencido"
+  },
+  "09b_individual_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "André Mendonça",
+        "Floriano de Azevedo Marques",
+        "Estela Aranha",
+        "Nunes Marques",
+        "Dias Toffoli",
+        "Antonio Carlos Ferreira",
+        "Ricardo Villas Bôas Cueva",
+        "Sebastião Reis Júnior"
+      ],
+      "tickLabels": [
+        "André Mendonça",
+        "Floriano de Azevedo Marques",
+        "Estela Aranha",
+        "Nunes Marques",
+        "Dias Toffoli",
+        "Antonio Carlos Ferreira",
+        "Ricardo Villas Bôas Cueva",
+        "Sebastião Reis Júnior"
+      ],
+      "orientation": "horizontal",
+      "mode": "grouped",
+      "axis": {
+        "zero": true,
+        "cap": 50
+      },
+      "maxBarThickness": 22,
+      "subjectIndex": 0,
+      "categoryColors": [],
+      "tickKind": "count",
+      "series": [
+        {
+          "label": "Julgamentos com voto vencido",
+          "valueKind": "count",
+          "data": [
+            38,
+            20,
+            12,
+            31,
+            16,
+            0,
+            6,
+            6
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec"
+        }
+      ]
+    },
+    "titulo": "Ministros com votos vencidos nos confrontos presidenciais",
+    "nota": "58 julgamentos com divergência; uma ocorrência por ministro e julgamento, inclusive voto parcialmente vencido"
+  }
+}
