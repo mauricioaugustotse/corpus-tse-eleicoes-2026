@@ -56,6 +56,10 @@ def main():
     for autor in ['Lula','Flávio']:
         total=sum(counts[autor,x] for x in ['sim','não']);pos=counts[autor,'sim']
         resumo_c['campanhas'][autor]={'pedidos':total,'atendidos':pos,'nao_atendidos':counts[autor,'não'],'percentual_atendimento':100*pos/total if total else None}
+    resumo_c['etapa_complementar_integrada']=(ROOT/'curadoria_suplementares_outubro.json').exists()
+    resumo_c['lacunas_documentais']=sum(not r.get('incluir') and (r.get('revisao_outubro',{}).get('status')=='pendente documental' or 'pendência documental' in r.get('categoria','')) for r in curadoria.values())
+    if resumo_c['etapa_complementar_integrada']:
+        resumo_c['status']='consulta complementar integrada; resultados documentados e lacunas de fonte explicitadas'
     (ROOT/'campanha_resumo.json').write_text(json.dumps(resumo_c,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     (ROOT/'relatos.md').write_text('\n\n'.join(f"### {r['numero']}. {r['titulo']}\n\n{r['texto']}" for r in relatos)+'\n',encoding='utf-8')
     print(json.dumps(resumo_c,ensure_ascii=False,indent=2))

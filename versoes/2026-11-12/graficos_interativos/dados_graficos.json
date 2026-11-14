@@ -347,11 +347,11 @@
     "spec": {
       "labels": [
         "Corpus (713)",
-        "Confrontos presidenciais (292)"
+        "Confrontos presidenciais (296)"
       ],
       "tickLabels": [
         "Corpus (713)",
-        "Confrontos presidenciais (292)"
+        "Confrontos presidenciais (296)"
       ],
       "orientation": "horizontal",
       "mode": "stacked-percent",
@@ -369,7 +369,7 @@
           "valueKind": "percent",
           "data": [
             87.37727910238429,
-            80.13698630136986
+            80.4054054054054
           ],
           "colorToken": "--yellow",
           "colorFallback": "#eac26b",
@@ -380,7 +380,7 @@
           "valueKind": "percent",
           "data": [
             12.482468443197757,
-            19.863013698630137
+            19.594594594594593
           ],
           "colorToken": "--blue",
           "colorFallback": "#7fb4ec",
@@ -399,15 +399,15 @@
       ]
     },
     "titulo": "Votação nos acórdãos do corpus e nos confrontos presidenciais",
-    "nota": "713 registros de acórdão e 292 julgamentos dos confrontos até 31/10/2026; votação não apurada permanece no denominador"
+    "nota": "713 registros de acórdão e 296 julgamentos dos confrontos até 31/10/2026; votação não apurada permanece no denominador"
   },
   "08a_individual_notion_agent_chart.html": {
     "spec": {
       "labels": [
-        "428 processos"
+        "432 processos"
       ],
       "tickLabels": [
-        "428 processos"
+        "432 processos"
       ],
       "orientation": "horizontal",
       "mode": "stacked",
@@ -462,7 +462,7 @@
           "label": "Decisão colegiada de mérito",
           "valueKind": "count",
           "data": [
-            57
+            61
           ],
           "colorToken": "--green",
           "colorFallback": "#72bc8f",

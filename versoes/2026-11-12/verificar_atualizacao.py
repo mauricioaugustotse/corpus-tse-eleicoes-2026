@@ -1,4 +1,4 @@
-"""Valida o pacote estatístico e explicita que a curadoria permanece pendente."""
+"""Valida o pacote estatístico, seu corte e o manifesto da atualização."""
 from pathlib import Path
 import csv, hashlib, json
 ROOT=Path(__file__).resolve().parent
@@ -28,5 +28,9 @@ def verificar():
     assert resumo['controle']['atos_posteriores_ao_fim']>0
     for name, digest in json.loads((ROOT/'manifesto_atualizacao.json').read_text(encoding='utf-8')).items():
         assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest, name
-    print(f'OK: {len(atos)} atos, {len(processos)} processos, {len(alvos)} alvos. Curadoria documental de outubro pendente.')
+    complemento=''
+    if (ROOT/'campanha_resumo.json').exists():
+        curadoria=json.loads((ROOT/'campanha_resumo.json').read_text(encoding='utf-8'))
+        complemento=f" {curadoria['incluidos_comparativos']} resultados documentados; {curadoria.get('lacunas_documentais',0)} lacunas de fonte."
+    print(f'OK: {len(atos)} atos, {len(processos)} processos, {len(alvos)} alvos no extrato.'+complemento)
 if __name__=='__main__': verificar()

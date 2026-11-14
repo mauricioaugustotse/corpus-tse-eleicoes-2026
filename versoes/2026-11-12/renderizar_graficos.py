@@ -24,7 +24,11 @@ def main():
             legenda=page.locator('.legend [data-series-index="0"]')
             if legenda.count():legenda.click();legenda.click()
             page.wait_for_timeout(500)
-            page.locator('.chart-figure').screenshot(path=str(pasta/(Path(nome).stem+'.png')))
+            destino=str(pasta/(Path(nome).stem+'.png'))
+            if nome.startswith('01_'):
+                page.screenshot(path=destino,clip={'x':0,'y':0,'width':1200,'height':393})
+            else:
+                page.locator('.chart-figure').screenshot(path=destino)
             page.remove_listener('pageerror',registrar)
             relatorio.append({'arquivo':nome,'dados_renderizados_conferidos':True,'erros_javascript':erros,'largura_exportacao':1200})
             print(nome+': OK',flush=True)

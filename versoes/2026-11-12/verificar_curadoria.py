@@ -39,5 +39,5 @@ def main():
         s=c['spec'];assert all(len(v['data'])==len(s['labels']) for v in s['series']),nome
         if s.get('mode')=='stacked-percent':
             for i in range(len(s['labels'])):assert abs(sum(v['data'][i] for v in s['series'])-100)<1e-6,nome
-    print(f'OK: {len(curadoria)} alvos, {len(incluidos)} resultados documentados, {resumo["pendentes_de_revisao"]} em consulta/revisão; 11 gráficos e fontes preservadas.')
+    print(f'OK: {len(curadoria)} alvos, {len(incluidos)} resultados documentados, {resumo.get("lacunas_documentais",0)} lacunas de fonte; 11 gráficos e fontes preservadas.')
 if __name__=='__main__':main()

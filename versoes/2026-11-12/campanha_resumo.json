@@ -1,13 +1,17 @@
 {
   "data_corte": "2026-10-31",
-  "status": "resultados documentados; quadro em ampliação pela consulta complementar",
+  "status": "consulta complementar integrada; resultados documentados e lacunas de fonte explicitadas",
   "total_triagem": 872,
-  "incluidos_comparativos": 428,
-  "excluidos_ou_pendentes": 444,
-  "pendentes_de_revisao": 280,
+  "incluidos_comparativos": 432,
+  "excluidos_ou_pendentes": 440,
+  "pendentes_de_revisao": 0,
   "processos_no_corpus": 427,
   "suplemento_documental": [
-    "0601315-97.2026.6.00.0000"
+    "0601315-97.2026.6.00.0000",
+    "0602697-28.2026.6.00.0000",
+    "0602800-35.2026.6.00.0000",
+    "0602824-63.2026.6.00.0000",
+    "0602912-04.2026.6.00.0000"
   ],
   "campanhas": {
     "Lula": {
@@ -17,10 +21,12 @@
       "percentual_atendimento": 55.5045871559633
     },
     "Flávio": {
-      "pedidos": 210,
+      "pedidos": 214,
       "atendidos": 69,
-      "nao_atendidos": 141,
-      "percentual_atendimento": 32.857142857142854
+      "nao_atendidos": 145,
+      "percentual_atendimento": 32.242990654205606
     }
-  }
+  },
+  "etapa_complementar_integrada": true,
+  "lacunas_documentais": 201
 }

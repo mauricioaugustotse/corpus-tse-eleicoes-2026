@@ -253,6 +253,7 @@ def main(root, corte, inventario_publico=False):
     curadoria_path=root/'curadoria_confrontos.json'
     if curadoria_path.exists():
         curadoria=ler_json(curadoria_path)
+        resultado['aviso_recorte_presidencial']='O recorte abaixo usa os CNJs com resultado comparável documentado da curadoria desta versão. Votação conta julgamentos; a situação da medida e o comparativo de atendimento contam processos. Exclusões e lacunas de documentação permanecem explícitas.'
         incluidos={cnj:r for cnj,r in curadoria.items() if r.get('incluir')}
         votos_presidenciais=[r for r in ledger if r['cnj'] in incluidos]
         situacoes={}

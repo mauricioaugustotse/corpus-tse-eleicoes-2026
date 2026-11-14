@@ -1,35 +1,28 @@
-# Atualização até 31/10/2026 — ponto de retomada de 14/11
+# Atualização até 31/10/2026 — registro da entrega
 
-A atualização permanece em preparação. Não publicar os percentuais desta etapa como apuração final de outubro. A página do Notion ainda conserva a versão anterior; a seção 7, “Bruno”, está preservada.
+**Estado em 14/11/2026: consulta encerrada e página do Notion publicada e conferida.** As 1.295 consultas foram concluídas, e o complemento foi incorporado à curadoria. Não reiniciar a coleta para cumprir instruções antigas da preparação. O conteúdo efetivamente publicado está em `pagina_publicada.md`; o registro de conferência está em `registro_publicacao_notion.json`. As 201 lacunas de fonte são limites documentais explicitados, não consultas ou leituras ainda aguardando execução.
 
-## Concluído e salvo
+## Ponto de referência
 
-- Extração estatística: 2.606 atos em 1.841 processos; 713 registros de acórdão. Os cinco ZIPs oficiais foram gerados em 11/11 e baixados em 12/11. Corte inclusivo de 31/10, fonte com atos até 10/11.
-- Auditoria da coleta inicial: 1.015 consultas e 2.689 peças íntegras. Das 15 peças pendentes, 13 foram admitidas após recuperação e conferência; duas são anexos contextuais, não peças próprias do CNJ em que foram juntadas.
-- Leitura dos 132 alvos históricos e 460 novos alvos do extrato. Os lotes estão em `curadoria_historicos_outubro.json`, `curadoria_novos_a.json` e `curadoria_novos_b.json`. As exceções e pendências estão documentadas; não inferir resultado por metadados.
-- A integração atual tem 428 resultados comparáveis documentados, 164 exclusões fundamentadas e 280 alvos em consulta complementar. O caso conexo da AIJE 0602694-73 foi reconciliado em `curadoria_revisao_conexa.json`, com limites explicitados em `auditoria_conexa.md`.
-- Apuração geral das votações: 623 unânimes, 89 divergentes e 1 sem vínculo documental seguro entre os 713 registros. A lacuna é `0601104-61.2026.6.00.0000|4521`. Votos vencidos contados por ministro e julgamento.
-- Onze gráficos interativos atualizados nos modelos da página, com PNGs derivados dos próprios HTMLs. O recorte presidencial ainda poderá mudar com o complemento.
-- Substituições editoriais estatísticas preparadas em `alteracoes_estatisticas.json`; relatos documentados em `relatos.csv/md`. Ainda faltam a integração editorial final e a publicação no Notion.
-- `pagina_proposta.md` contém o rascunho integral das seções 1 a 6, reconstruído por `montar_rascunho_pagina.py`: tabelas, listas nominais, 428 relatos e onze referências gráficas locais. A auditoria confirma as sete seções e a seção 7 idêntica. Ainda exige revisão editorial final, integração do complemento e upload dos anexos antes de publicar.
-- Fontes públicas preservadas nos ZIPs de `documentos_oficiais/`, com índice e hashes em `inventario_documental.json`. Não adicionar ao Git os caches gerais do motor, logs ou URLs assinadas do backup do Notion.
+- `resumo.json`: 2.606 atos, 1.841 processos, 713 acórdãos e 1.005 processos no filtro de comunicação.
+- `campanha_resumo.json`: 872 candidatos, 432 comparáveis, 201 lacunas documentais, 239 demais exclusões e zero pendências de revisão. Os 432 se dividem em 427 processos do corpus e cinco suplementares.
+- `apuracao_colegialidade_resumo.json`: 623 acórdãos unânimes, 89 divergentes e um sem votação apurada; no recorte presidencial, 296 julgamentos em 282 processos, sendo 238 unânimes e 58 divergentes.
+- `inventario_documental.json`: 2.795 entradas por URL distinta em 14 ZIPs, com caminhos e hashes; referência pública para restaurar as fontes.
+- `confrontos.csv`, `relatos.csv` e `relatos.md`: 432 resultados e relatos, com igualdade dos CNJs incluídos.
+- `graficos_interativos/`: onze HTMLs, PNGs derivados e relatório de renderização; `pagina_proposta.md`: atualização editorial com a seção 7 preservada.
 
-## Coleta complementar em execução
+Os 201 casos com lacuna já foram consultados; não foi localizada peça decisória elegível até o corte. Essa categoria não prova ausência de atos nem constitui fila de leitura humana. A outra lacuna expressa é o vínculo do acórdão `0601104-61.2026.6.00.0000|4521`. Nenhuma recebe classificação por suposição.
 
-A primeira seleção documental cobriu o corpus de atos, os processos com acórdão e os alvos antigos, mas não todos os confrontos dos polos da base integral. A varredura de 4.354 processos encontrou 872 candidatos a confronto, incluindo 280 fora daquela seleção. Isso não significa 872 resultados comparáveis. `triagem_base_integral.json` discrimina os casos; um deles foi autuado depois do corte e não pode gerar acontecimento anterior a ele.
+## Conferir e entregar
 
-O coletor foi ampliado para 1.295 alvos e retomado no mesmo diretório, com os mesmos controles de pausa e reaproveitamento. O processo continua em segundo plano, sem depender de manter esta conversa aberta. Consultar o estado atual pelo painel da Área de Trabalho ou por `python controle_coleta.py status`; não usar este texto como contador em tempo real.
+1. Usar os três resumos como autoridade. O complemento está em `curadoria_suplementares_outubro.json`, e a reconciliação de processos conexos em `curadoria_revisao_conexa.json`. Não transportar os números intermediários de 428 comparáveis ou 280 consultas abertas.
+2. Para reprodução documental, extrair os 14 ZIPs nesta pasta e executar `python consolidar_curadoria.py`, `python gerar_confrontos.py` e `python apurar_colegialidade.py --inventario-publico`. O parâmetro usa o espelho congelado, independentemente dos checkpoints.
+3. Recalcular gráficos somente se os dados mudarem: `python gerar_config_graficos_juridicos.py`, `python atualizar_graficos_interativos.py` e `python renderizar_graficos.py`. A última etapa exige Playwright e Chromium. Conferir títulos, datas, totais, tooltips e PNGs.
+4. Conferir as seções 1 a 6, os 432 relatos e a identidade da seção 7 com a referência. Publicar os anexos e atualizar a mesma página do Notion por alterações dirigidas; confirmar o resultado salvo e os gráficos.
+5. Consolidar o manifesto e executar `python verificar_atualizacao.py`, `python verificar_curadoria.py` e `python -m unittest discover -s tests -v`. A preparação registrou 34 testes aprovados; alterações posteriores devem receber as verificações correspondentes.
+6. Entregar o branch `atualizacao-corte-2026-10-31` pelo PR existente e registrar a revisão publicada. Preservar a versão histórica, sua tag e `analises/colegialidade`. Não adicionar caches gerais do motor, logs particulares, backups de acesso ou URLs assinadas do Notion ao repositório público.
 
-Depois da consulta, os novos processos precisam de curadoria jurídica. Entradas sem leitura suficiente ficam explicitamente fora dos denominadores. Escrever essa revisão em `curadoria_suplementares_outubro.json`; `consolidar_curadoria.py` a incorpora por CNJ sem perder os três lotes anteriores. Eventuais revisões de processos conexos ficam em `curadoria_revisao_conexa.json`.
-
-## Retomar a análise e reproduzir
-
-1. Conferir `controle_coleta.py status`, checkpoint e pendências; não iniciar coletor duplicado. O painel continua permitindo Pausar e Retomar.
-2. Ler os documentos dos 280 alvos complementares até o corte e registrar fontes, datas, pedidos, resultados e situações de colegialidade. Excluir os acontecimentos posteriores ao corte. Não substituir resultado comparável por mero despacho ou extinção posterior sem exame da comunicação.
-3. Integrar os lotes e recalcular: `python consolidar_curadoria.py`, `python gerar_confrontos.py`, `python apurar_colegialidade.py`, `python gerar_config_graficos_juridicos.py`, `python atualizar_graficos_interativos.py`, `python renderizar_graficos.py`.
-4. Atualizar a redação das seções 1 a 6, todas as tabelas e listas nominais, os relatos em ordem da peça oficial e os onze anexos. Conservar a seção 7 exatamente. Não reaproveitar os números de setembro para outubro.
-5. Exportar novas peças com `python exportar_documentos.py`; esse programa preserva os ZIPs anteriores e acrescenta lotes. Atualizar o manifesto e executar o verificador, os testes e a conferência visual. Os ZIPs contêm os caminhos originais para extração nesta pasta. O apurador aceita `inventario_processos_documentais.json` quando não existe checkpoint local.
-6. Publicar a versão completa no branch `atualizacao-corte-2026-10-31` e na mesma página do Notion. O PR 1 permanece como rascunho até a conclusão. A alteração da página já está autorizada; não pedir nova permissão de rotina.
+O [relatório de diferenças](relatorio_diferencas.md) separa a ampliação temporal das revisões retroativas. Uma futura atualização deve criar nova versão; não concatenar extrações usando `SQ_DECISAO` como identificador documental estável.
 
 Página: https://app.notion.com/p/2816527d9bee432da3acce02566b1534
 

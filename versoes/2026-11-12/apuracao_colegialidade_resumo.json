@@ -24,10 +24,10 @@
   ],
   "divergencias_sem_nome": [],
   "presidencial": {
-    "total": 292,
+    "total": 296,
     "votacao": {
       "com divergência": 58,
-      "unânime": 234
+      "unânime": 238
     },
     "ministros_vencidos": {
       "André Mendonça": 38,
@@ -38,13 +38,13 @@
       "Ricardo Villas Bôas Cueva": 6,
       "Sebastião Reis Júnior": 6
     },
-    "processos_comparaveis": 428,
-    "processos_com_julgamento_colegiado": 278,
+    "processos_comparaveis": 432,
+    "processos_com_julgamento_colegiado": 282,
     "situacao_confrontos": {
       "sem revisão comprovada": 107,
       "mantida": 138,
       "modificada": 16,
-      "mérito colegiado": 30,
+      "mérito colegiado": 34,
       "liminar modificada": 11,
       "liminar mantida": 52,
       "mérito individual": 3,

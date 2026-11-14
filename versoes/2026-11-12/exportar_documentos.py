@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parent
 def main():
     checkpoint=json.loads((ROOT/'coleta_documental/checkpoint.json').read_text(encoding='utf-8'))
     # Espelho público de metadados controlados pelo coletor; sem logs de rede ou credenciais.
-    espelho={cnj:{k:v for k,v in r.items() if k in {'consulta_efetuada','consultado_em','completo','nota','documentos'}} for cnj,r in checkpoint.items()}
+    espelho={cnj:{k:v for k,v in r.items() if k in {'consulta_efetuada','consultado_em','completo','sem_pecas_elegiveis','nota','documentos'}} for cnj,r in checkpoint.items()}
     for registro in espelho.values():
         registro['documentos']=[{k:v for k,v in d.items() if k!='erro'} for d in registro.get('documentos',[])]
     (ROOT/'inventario_processos_documentais.json').write_text(json.dumps(espelho,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

@@ -20,14 +20,14 @@
     }
   },
   "documentos_por_tipo": {
-    "Acórdão": 720,
-    "Certidão de julgamento": 776,
+    "Acórdão": 724,
+    "Certidão de julgamento": 780,
     "Resolução": 1
   },
   "julgamentos_documentais": {
-    "total": 1491,
+    "total": 1499,
     "votacao": {
-      "unânime": 1271,
+      "unânime": 1279,
       "com divergência": 190,
       "não apurada": 30
     },
@@ -51,14 +51,14 @@
     },
     "ministros_vencidos": {
       "Dias Toffoli": 8,
-      "André Mendonça": 27,
       "Nunes Marques": 20,
+      "André Mendonça": 27,
       "Floriano de Azevedo Marques": 18,
       "Estela Aranha": 8,
       "Ricardo Villas Bôas Cueva": 4
     }
   },
-  "aviso_recorte_presidencial": "Não é o novo comparativo. A lista dos confrontos finais depende da curadoria de resultados; os mesmos CNJs podem ter mais de um julgamento. Não transportar os 107 históricos como denominador de outubro.",
+  "aviso_recorte_presidencial": "O recorte abaixo usa os CNJs com resultado comparável documentado da curadoria desta versão. Votação conta julgamentos; a situação da medida e o comparativo de atendimento contam processos. Exclusões e lacunas de documentação permanecem explícitas.",
   "atos": [
     {
       "chave_ato": "0600081-16.2025.6.18.0000|4472",
@@ -38278,6 +38278,126 @@
       ],
       "duplicidade_resolvida": false,
       "alertas": []
+    },
+    {
+      "id_julgamento": "0602697-28.2026.6.00.0000|2026-10-24|75c3fb076a481793",
+      "cnj": "0602697-28.2026.6.00.0000",
+      "data_metadata": "2026-10-24",
+      "votacao": "unânime",
+      "vencidos": [],
+      "relator": "André Mendonça",
+      "extrato": "O Tribunal, por unanimidade, julgou improcedentes os pedidos formulados na representação, com resolução do mérito, nos termos do art. 487, I, do Código de Processo Civil, afastando a alegada infração ao art. 57-C, § 3º, da Lei nº 9.504/1997 e aos arts. 28, § 7º-A, e 29, § 3º, da Res.-TSE nº 23.610/2019, em consequência, julgou prejudicado o pedido de tutela de urgência, nos termos do voto do relator. Acórdão publicado em sessão.",
+      "fonte_preferencial": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/1/11/0/25/5495ad2201a55e8fb8499e4c55967b7d3eb3475bf5779438ba856cc4cb4214ef",
+      "documentos": [
+        180223471
+      ],
+      "duplicidade_resolvida": false,
+      "alertas": []
+    },
+    {
+      "id_julgamento": "0602697-28.2026.6.00.0000|2026-10-24|42fe47f63d419209",
+      "cnj": "0602697-28.2026.6.00.0000",
+      "data_metadata": "2026-10-24",
+      "votacao": "unânime",
+      "vencidos": [],
+      "relator": "André Mendonça",
+      "extrato": "O Tribunal, por unanimidade, julgou improcedentes os pedidos formulados na representação, com resolução do mérito, nos termos do art. 487, I, do Código de Processo Civil, afastando a alegada infração ao art. 57-C, § 3º, da Lei nº 9.504/1997 e aos arts. 28, § 7º-A, e 29, § 3º, da Res.-TSE nº 23.610/2019, em consequência, julgou prejudicado o pedido de tutela de urgência, nos termos do voto do Relator. Acompanharam o Relator os Ministros Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques, Estela Aranha e Nunes Marques (Presidente). Acórdão publicado em sessão.",
+      "fonte_preferencial": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/24/11/11/0/e81f44795e79d21a8ddded62ca64041a58c3ed982f05f4f39cf9a8dc12bb6ee6",
+      "documentos": [
+        180223038
+      ],
+      "duplicidade_resolvida": false,
+      "alertas": []
+    },
+    {
+      "id_julgamento": "0602800-35.2026.6.00.0000|2026-10-22|e4746f1846b135e4",
+      "cnj": "0602800-35.2026.6.00.0000",
+      "data_metadata": "2026-10-22",
+      "votacao": "unânime",
+      "vencidos": [],
+      "relator": "Nunes Marques",
+      "extrato": "O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da inicial e julgou improcedente o pedido de direito de resposta, nos termos do voto do relator. Acórdão publicado em sessão.",
+      "fonte_preferencial": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/6/16/23/1/580507df8ac4bad76396389b77a3a422ed3317965682cc534cf5f8da8c7ee04f",
+      "documentos": [
+        180206434
+      ],
+      "duplicidade_resolvida": false,
+      "alertas": []
+    },
+    {
+      "id_julgamento": "0602800-35.2026.6.00.0000|2026-10-22|72a24ee9bbfab6f4",
+      "cnj": "0602800-35.2026.6.00.0000",
+      "data_metadata": "2026-10-22",
+      "votacao": "unânime",
+      "vencidos": [],
+      "relator": "Nunes Marques",
+      "extrato": "O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da inicial e julgou improcedente o pedido de direito de resposta, nos termos do voto do Relator. Acompanharam o Relator os Ministros André Mendonça, Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques e Estela Aranha. Acórdão publicado em sessão.",
+      "fonte_preferencial": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/21/60a6a3329130f6e639f2623fc9b0c0141605c26867afadff8dc7d808e5454208",
+      "documentos": [
+        180206584
+      ],
+      "duplicidade_resolvida": false,
+      "alertas": []
+    },
+    {
+      "id_julgamento": "0602824-63.2026.6.00.0000|2026-10-22|b066c4e6fd2ee6d2",
+      "cnj": "0602824-63.2026.6.00.0000",
+      "data_metadata": "2026-10-22",
+      "votacao": "unânime",
+      "vencidos": [],
+      "relator": "André Mendonça",
+      "extrato": "O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da petição inicial e julgou improcedente o pedido de direito de resposta, ficando prejudicado o pedido de imposição de multa por eventual descumprimento, nos termos do voto do relator. Acórdão publicado em sessão.",
+      "fonte_preferencial": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/3/14/56/15/bb308c9ef5d9a871dbedbbb914c6a74b8860e9b4d3d2000e75f71e9df1ec6ac0",
+      "documentos": [
+        180206750
+      ],
+      "duplicidade_resolvida": false,
+      "alertas": []
+    },
+    {
+      "id_julgamento": "0602824-63.2026.6.00.0000|2026-10-22|c41da35d68696a1a",
+      "cnj": "0602824-63.2026.6.00.0000",
+      "data_metadata": "2026-10-22",
+      "votacao": "unânime",
+      "vencidos": [],
+      "relator": "André Mendonça",
+      "extrato": "O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da petição inicial e julgou improcedente o pedido de direito de resposta, ficando prejudicado o pedido de imposição de multa por eventual descumprimento, nos termos do voto do Relator. Acompanharam o Relator os Ministros Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques, Estela Aranha e Nunes Marques (Presidente). Acórdão publicado em sessão.",
+      "fonte_preferencial": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/57/6f4261b5a664f27344ed262f3b91a6b6828cfaa62dbceb024c8d9fa90d2a0a1a",
+      "documentos": [
+        180206585
+      ],
+      "duplicidade_resolvida": false,
+      "alertas": []
+    },
+    {
+      "id_julgamento": "0602912-04.2026.6.00.0000|2026-10-22|207a18f2fa394669",
+      "cnj": "0602912-04.2026.6.00.0000",
+      "data_metadata": "2026-10-22",
+      "votacao": "unânime",
+      "vencidos": [],
+      "relator": "André Mendonça",
+      "extrato": "O Tribunal, por unanimidade, julgou improcedente o pedido de direito de resposta, nos termos do voto do relator. Acórdão publicado em sessão.",
+      "fonte_preferencial": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/1/11/0/26/90ec8d607e499dc522e3102fc1064ba00cfc1007f86e14994bd7a89b7951bab4",
+      "documentos": [
+        180206749
+      ],
+      "duplicidade_resolvida": false,
+      "alertas": []
+    },
+    {
+      "id_julgamento": "0602912-04.2026.6.00.0000|2026-10-22|2dc9581524b2c80e",
+      "cnj": "0602912-04.2026.6.00.0000",
+      "data_metadata": "2026-10-22",
+      "votacao": "unânime",
+      "vencidos": [],
+      "relator": "André Mendonça",
+      "extrato": "O Tribunal, por unanimidade, julgou improcedente o pedido de direito de resposta, nos termos do voto do Relator. Acompanharam o Relator os Ministros Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques, Estela Aranha e Nunes Marques (Presidente). Acórdão publicado em sessão.",
+      "fonte_preferencial": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/51/7b63bde78bebf4ed4fce8555668b193c07589ee56a7e6e48386a4d072bdb7202",
+      "documentos": [
+        180206794
+      ],
+      "duplicidade_resolvida": false,
+      "alertas": []
     }
   ],
   "ledger_julgamentos": [
@@ -54685,6 +54805,33 @@
       "nota": "Acórdão preferencial e certidões da mesma data documental/etapa, com resultado comparado; decisões de vista ou adiamento não somadas. Pendências nominais entre fontes preservadas."
     },
     {
+      "cnj": "0602697-28.2026.6.00.0000",
+      "data_metadata": "2026-10-24",
+      "id_julgamento": "0602697-28.2026.6.00.0000|180223471",
+      "documento_principal": 180223471,
+      "tipo_fonte": "Acórdão",
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/1/11/0/25/5495ad2201a55e8fb8499e4c55967b7d3eb3475bf5779438ba856cc4cb4214ef",
+      "arquivo": "coleta_documental/pecas/06026972820266000000_8a33838536ba3a07.html",
+      "data_fim_sessao": "2026-10-23",
+      "votacao": "unânime",
+      "vencidos": [],
+      "extrato": "O Tribunal, por unanimidade, julgou improcedentes os pedidos formulados na representação, com resolução do mérito, nos termos do art. 487, I, do Código de Processo Civil, afastando a alegada infração ao art. 57-C, § 3º, da Lei nº 9.504/1997 e aos arts. 28, § 7º-A, e 29, § 3º, da Res.-TSE nº 23.610/2019, em consequência, julgou prejudicado o pedido de tutela de urgência, nos termos do voto do relator. Acórdão publicado em sessão.",
+      "documentos_complementares": [
+        180223038
+      ],
+      "equivalencia_documental": [
+        {
+          "documento": 180223038,
+          "nucleo_similaridade": 1.0,
+          "resultado_compativel": true,
+          "leitura_paralela": false,
+          "status": "mesmo núcleo proclamado e votação"
+        }
+      ],
+      "divergencias_entre_fontes": [],
+      "nota": "Acórdão preferencial e certidões da mesma data documental/etapa, com resultado comparado; decisões de vista ou adiamento não somadas. Pendências nominais entre fontes preservadas."
+    },
+    {
       "cnj": "0602698-13.2026.6.00.0000",
       "data_metadata": "2026-10-24",
       "id_julgamento": "0602698-13.2026.6.00.0000|180223456",
@@ -55616,6 +55763,33 @@
       "nota": "Acórdão preferencial e certidões da mesma data documental/etapa, com resultado comparado; decisões de vista ou adiamento não somadas. Pendências nominais entre fontes preservadas."
     },
     {
+      "cnj": "0602800-35.2026.6.00.0000",
+      "data_metadata": "2026-10-22",
+      "id_julgamento": "0602800-35.2026.6.00.0000|180206434",
+      "documento_principal": 180206434,
+      "tipo_fonte": "Acórdão",
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/6/16/23/1/580507df8ac4bad76396389b77a3a422ed3317965682cc534cf5f8da8c7ee04f",
+      "arquivo": "coleta_documental/pecas/06028003520266000000_08bee8d53995f6f9.html",
+      "data_fim_sessao": "2026-10-21",
+      "votacao": "unânime",
+      "vencidos": [],
+      "extrato": "O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da inicial e julgou improcedente o pedido de direito de resposta, nos termos do voto do relator. Acórdão publicado em sessão.",
+      "documentos_complementares": [
+        180206584
+      ],
+      "equivalencia_documental": [
+        {
+          "documento": 180206584,
+          "nucleo_similaridade": 1.0,
+          "resultado_compativel": true,
+          "leitura_paralela": false,
+          "status": "mesmo núcleo proclamado e votação"
+        }
+      ],
+      "divergencias_entre_fontes": [],
+      "nota": "Acórdão preferencial e certidões da mesma data documental/etapa, com resultado comparado; decisões de vista ou adiamento não somadas. Pendências nominais entre fontes preservadas."
+    },
+    {
       "cnj": "0602802-05.2026.6.00.0000",
       "data_metadata": "2026-10-24",
       "id_julgamento": "0602802-05.2026.6.00.0000|180259593",
@@ -56163,6 +56337,33 @@
       "equivalencia_documental": [
         {
           "documento": 180170683,
+          "nucleo_similaridade": 1.0,
+          "resultado_compativel": true,
+          "leitura_paralela": false,
+          "status": "mesmo núcleo proclamado e votação"
+        }
+      ],
+      "divergencias_entre_fontes": [],
+      "nota": "Acórdão preferencial e certidões da mesma data documental/etapa, com resultado comparado; decisões de vista ou adiamento não somadas. Pendências nominais entre fontes preservadas."
+    },
+    {
+      "cnj": "0602824-63.2026.6.00.0000",
+      "data_metadata": "2026-10-22",
+      "id_julgamento": "0602824-63.2026.6.00.0000|180206750",
+      "documento_principal": 180206750,
+      "tipo_fonte": "Acórdão",
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/3/14/56/15/bb308c9ef5d9a871dbedbbb914c6a74b8860e9b4d3d2000e75f71e9df1ec6ac0",
+      "arquivo": "coleta_documental/pecas/06028246320266000000_19a6340f408cf7b8.html",
+      "data_fim_sessao": "2026-10-21",
+      "votacao": "unânime",
+      "vencidos": [],
+      "extrato": "O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da petição inicial e julgou improcedente o pedido de direito de resposta, ficando prejudicado o pedido de imposição de multa por eventual descumprimento, nos termos do voto do relator. Acórdão publicado em sessão.",
+      "documentos_complementares": [
+        180206585
+      ],
+      "equivalencia_documental": [
+        {
+          "documento": 180206585,
           "nucleo_similaridade": 1.0,
           "resultado_compativel": true,
           "leitura_paralela": false,
@@ -57261,6 +57462,33 @@
       "equivalencia_documental": [
         {
           "documento": 180191831,
+          "nucleo_similaridade": 1.0,
+          "resultado_compativel": true,
+          "leitura_paralela": false,
+          "status": "mesmo núcleo proclamado e votação"
+        }
+      ],
+      "divergencias_entre_fontes": [],
+      "nota": "Acórdão preferencial e certidões da mesma data documental/etapa, com resultado comparado; decisões de vista ou adiamento não somadas. Pendências nominais entre fontes preservadas."
+    },
+    {
+      "cnj": "0602912-04.2026.6.00.0000",
+      "data_metadata": "2026-10-22",
+      "id_julgamento": "0602912-04.2026.6.00.0000|180206749",
+      "documento_principal": 180206749,
+      "tipo_fonte": "Acórdão",
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/1/11/0/26/90ec8d607e499dc522e3102fc1064ba00cfc1007f86e14994bd7a89b7951bab4",
+      "arquivo": "coleta_documental/pecas/06029120420266000000_54b278735e948d9c.html",
+      "data_fim_sessao": "2026-10-21",
+      "votacao": "unânime",
+      "vencidos": [],
+      "extrato": "O Tribunal, por unanimidade, julgou improcedente o pedido de direito de resposta, nos termos do voto do relator. Acórdão publicado em sessão.",
+      "documentos_complementares": [
+        180206794
+      ],
+      "equivalencia_documental": [
+        {
+          "documento": 180206794,
           "nucleo_similaridade": 1.0,
           "resultado_compativel": true,
           "leitura_paralela": false,
@@ -87622,6 +87850,158 @@
       "vencidos": [],
       "alertas": [],
       "data_fim_sessao": "2026-10-23"
+    },
+    {
+      "cnj": "0602697-28.2026.6.00.0000",
+      "id_documento": 180223471,
+      "tipo": "Acórdão",
+      "data_metadata": "2026-10-24",
+      "data_assinatura": "2026-11-01T11:00:25.711",
+      "data_juntada": "2026-11-01T11:00:25.777",
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/1/11/0/25/5495ad2201a55e8fb8499e4c55967b7d3eb3475bf5779438ba856cc4cb4214ef",
+      "arquivo": "coleta_documental/pecas/06026972820266000000_8a33838536ba3a07.html",
+      "sha256": "5495ad2201a55e8fb8499e4c55967b7d3eb3475bf5779438ba856cc4cb4214ef",
+      "id_julgamento": "0602697-28.2026.6.00.0000|2026-10-24|75c3fb076a481793",
+      "secao_ata": " Rp nº 0602697-28.2026.6.00.0000/DF. Relator: Ministro André Mendonça. Representante: Flávio Nantes Bolsonaro (Advogados: Maria Claudia Bucchianeri Pinheiro – OAB: 25341/DF e outros). Representado: Luiz Inácio Lula da Silva (Advogados: Evelyn Catarina do Carmo Santos – OAB: 69899/DF e outros). Representada: Coligação Brasil Pronto pra Mais ( Advogados: Evelyn Catarina do Carmo Santos – OAB: 69899/DF e outros ). Decisão: O Tribunal, por unanimidade, julgou improcedentes os pedidos formulados na representação, com resolução do mérito, nos termos do art. 487, I, do Código de Processo Civil, afastando a alegada infração ao art. 57-C, § 3º, da Lei nº 9.504/1997 e aos arts. 28, § 7º-A, e 29, § 3º, da Res.-TSE nº 23.610/2019, em consequência, julgou prejudicado o pedido de tutela de urgência, nos termos do voto do relator. Acórdão publicado em sessão. Composição: Ministros Nunes Marques (presidente), André Mendonça, Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques e Ministra Estela Aranha. Vice-Procurador-Geral Eleitoral: Alexandre Espinosa Bravo Barbosa. SESSÃO VIRTUAL EXTRAORDINÁRIA DE 23.10.2026. p{text-align: justify;}",
+      "extrato": "O Tribunal, por unanimidade, julgou improcedentes os pedidos formulados na representação, com resolução do mérito, nos termos do art. 487, I, do Código de Processo Civil, afastando a alegada infração ao art. 57-C, § 3º, da Lei nº 9.504/1997 e aos arts. 28, § 7º-A, e 29, § 3º, da Res.-TSE nº 23.610/2019, em consequência, julgou prejudicado o pedido de tutela de urgência, nos termos do voto do relator. Acórdão publicado em sessão.",
+      "relator": "André Mendonça",
+      "votacao": "unânime",
+      "vencidos": [],
+      "alertas": [],
+      "data_fim_sessao": "2026-10-23"
+    },
+    {
+      "cnj": "0602697-28.2026.6.00.0000",
+      "id_documento": 180223038,
+      "tipo": "Certidão de julgamento",
+      "data_metadata": "2026-10-24",
+      "data_assinatura": "2026-10-24T11:11:00.822",
+      "data_juntada": "2026-10-24T13:45:03.264",
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/24/11/11/0/e81f44795e79d21a8ddded62ca64041a58c3ed982f05f4f39cf9a8dc12bb6ee6",
+      "arquivo": "coleta_documental/pecas/06026972820266000000_59cb9d4e90b15edd.html",
+      "sha256": "e81f44795e79d21a8ddded62ca64041a58c3ed982f05f4f39cf9a8dc12bb6ee6",
+      "id_julgamento": "0602697-28.2026.6.00.0000|2026-10-24|42fe47f63d419209",
+      "secao_ata": "p{text-align: justify;} TRIBUNAL SUPERIOR ELEITORAL CERTIDÃO DE JULGAMENTO REPRESENTAÇÃO (11541) Nº 0602697-28.2026.6.00.0000 REPRESENTANTE: FLAVIO NANTES BOLSONARO ADVOGADO: LUCAS DE PADUA CARVALHO MENDES LIMA - OAB/DF87357 ADVOGADO: ANA MARCIA DOS SANTOS MELLO - OAB/MG58065-A ADVOGADO: PAULO HENRIQUE GOLAMBIUK - OAB/PR62051-A ADVOGADO: TIAGO SANTOS SILVA - OAB/RJ155213 ADVOGADO: BELIZE OBES DE MELO DE ANDRADE - OAB/DF42507 ADVOGADO: JOSE VICENTE SANTINI - OAB/DF36184 ADVOGADO: DRICIA VITORIA CORADO SOUZA LIMA - OAB/DF69367 ADVOGADO: ANA LETICIA CARVALHO DOS SANTOS - OAB/DF52903 ADVOGADO: RENATA ANTONY DE SOUZA LIMA NINA - OAB/DF23600 ADVOGADO: MARIA CLAUDIA BUCCHIANERI - OAB/DF25341 REPRESENTADO: LUIZ INACIO LULA DA SILVA ADVOGADO: ANDRE PAULINO MATTOS - OAB/DF23663 ADVOGADO: HENRIQUE NEVES DA SILVA - OAB/DF7505 ADVOGADO: FERNANDO NEVES DA SILVA - OAB/DF2030 ADVOGADO: GEAN CARLOS FERREIRA DE MOURA AGUIAR - OAB/DF61174-A ADVOGADO: MIGUEL FILIPI PIMENTEL NOVAES - OAB/DF57469 ADVOGADO: ANGELO LONGO FERRARO - OAB/SP261268-S ADVOGADO: EVELYN CATARINA DO CARMO SANTOS - OAB/DF69899 REPRESENTADA: COLIGAÇÃO BRASIL PRONTO PRA MAIS ADVOGADO: MIGUEL FILIPI PIMENTEL NOVAES - OAB/DF57469 ADVOGADO: GEAN CARLOS FERREIRA DE MOURA AGUIAR - OAB/DF61174-A ADVOGADO: ANGELO LONGO FERRARO - OAB/SP261268-S ADVOGADO: EVELYN CATARINA DO CARMO SANTOS - OAB/DF69899 FISCAL DA LEI: Procurador Geral Eleitoral PROCURADORIA: Procuradoria Geral Eleitoral ORIGEM: BRASÍLIA - DISTRITO FEDERAL 30ª Sessão Virtual Extraordinária de 23.10.2026 RELATOR(A): MINISTRO(A) ANDRÉ MENDONÇA , na qualidade de Juiz Auxiliar da Propaganda Eleitoral PRESIDENTE: MINISTRO NUNES MARQUES VICE-PROCURADOR-GERAL ELEITORAL: ALEXANDRE ESPINOSA BRAVO BARBOSA ASSESSOR-CHEFE DE PLENÁRIO : JOÃO PAULO OLIVEIRA BARROS DECISÃO O Tribunal, por unanimidade, julgou improcedentes os pedidos formulados na representação, com resolução do mérito, nos termos do art. 487, I, do Código de Processo Civil, afastando a alegada infração ao art. 57-C, § 3º, da Lei nº 9.504/1997 e aos arts. 28, § 7º-A, e 29, § 3º, da Res.-TSE nº 23.610/2019, em consequência, julgou prejudicado o pedido de tutela de urgência, nos termos do voto do Relator. Acompanharam o Relator os Ministros Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques, Estela Aranha e Nunes Marques (Presidente). Acórdão publicado em sessão. Composição: Ministros Nunes Marques (Presidente), André Mendonça, Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques e Estela Aranha. Por ser verdade, firmo a presente. Brasília, 24 de outubro de 2026. JOÃO PAULO OLIVEIRA BARROS Assessor-Chefe de Plenário",
+      "extrato": "O Tribunal, por unanimidade, julgou improcedentes os pedidos formulados na representação, com resolução do mérito, nos termos do art. 487, I, do Código de Processo Civil, afastando a alegada infração ao art. 57-C, § 3º, da Lei nº 9.504/1997 e aos arts. 28, § 7º-A, e 29, § 3º, da Res.-TSE nº 23.610/2019, em consequência, julgou prejudicado o pedido de tutela de urgência, nos termos do voto do Relator. Acompanharam o Relator os Ministros Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques, Estela Aranha e Nunes Marques (Presidente). Acórdão publicado em sessão.",
+      "relator": "André Mendonça",
+      "votacao": "unânime",
+      "vencidos": [],
+      "alertas": [],
+      "data_fim_sessao": "2026-10-23"
+    },
+    {
+      "cnj": "0602800-35.2026.6.00.0000",
+      "id_documento": 180206434,
+      "tipo": "Acórdão",
+      "data_metadata": "2026-10-22",
+      "data_assinatura": "2026-11-06T16:23:01.372",
+      "data_juntada": "2026-11-06T16:23:06.687",
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/6/16/23/1/580507df8ac4bad76396389b77a3a422ed3317965682cc534cf5f8da8c7ee04f",
+      "arquivo": "coleta_documental/pecas/06028003520266000000_08bee8d53995f6f9.html",
+      "sha256": "580507df8ac4bad76396389b77a3a422ed3317965682cc534cf5f8da8c7ee04f",
+      "id_julgamento": "0602800-35.2026.6.00.0000|2026-10-22|e4746f1846b135e4",
+      "secao_ata": " DR nº 0602800-35.2026.6.00.0000/DF. Relator: Ministro Nunes Marques. Requerente: Flávio Nantes Bolsonaro (Advogados: Maria Claudia Bucchianeri Pinheiro – OAB: 25341/DF e outros). Requerido: Luiz Inácio Lula da Silva (Advogados: Evelyn Catarina do Carmo Santos – OAB: 69899/DF e outros). Requerida: Coligação Brasil Pronto pra Mais (Advogados: Ângelo Longo Ferraro – OAB: 261268/SP e outros). Decisão: O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da inicial e julgou improcedente o pedido de direito de resposta, nos termos do voto do relator. Acórdão publicado em sessão. Composição: Ministros Nunes Marques (presidente), André Mendonça, Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques e Ministra Estela Aranha. Vice-Procurador-Geral Eleitoral: Alexandre Espinosa Bravo Barbosa. SESSÃO VIRTUAL EXTRAORDINÁRIA DE 21.10.2026. p{text-align: justify;}",
+      "extrato": "O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da inicial e julgou improcedente o pedido de direito de resposta, nos termos do voto do relator. Acórdão publicado em sessão.",
+      "relator": "Nunes Marques",
+      "votacao": "unânime",
+      "vencidos": [],
+      "alertas": [],
+      "data_fim_sessao": "2026-10-21"
+    },
+    {
+      "cnj": "0602800-35.2026.6.00.0000",
+      "id_documento": 180206584,
+      "tipo": "Certidão de julgamento",
+      "data_metadata": "2026-10-22",
+      "data_assinatura": "2026-10-22T12:18:21.274",
+      "data_juntada": "2026-10-22T15:22:07.354",
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/21/60a6a3329130f6e639f2623fc9b0c0141605c26867afadff8dc7d808e5454208",
+      "arquivo": "coleta_documental/pecas/06028003520266000000_37f3bcd4272eeb96.html",
+      "sha256": "60a6a3329130f6e639f2623fc9b0c0141605c26867afadff8dc7d808e5454208",
+      "id_julgamento": "0602800-35.2026.6.00.0000|2026-10-22|72a24ee9bbfab6f4",
+      "secao_ata": "TRIBUNAL SUPERIOR ELEITORAL CERTIDÃO DE JULGAMENTO DIREITO DE RESPOSTA (12625) Nº 0602800-35.2026.6.00.0000 REQUERENTE: FLAVIO NANTES BOLSONARO ADVOGADO: TIAGO SANTOS SILVA - OAB/RJ155213 ADVOGADO: RENATA ANTONY DE SOUZA LIMA NINA - OAB/DF23600 ADVOGADO: PAULO HENRIQUE GOLAMBIUK - OAB/PR62051-A ADVOGADO: LUCAS DE PADUA CARVALHO MENDES LIMA - OAB/DF87357 ADVOGADO: JOSE VICENTE SANTINI - OAB/DF36184 ADVOGADO: DRICIA VITORIA CORADO SOUZA LIMA - OAB/DF69367 ADVOGADO: BELIZE OBES DE MELO DE ANDRADE - OAB/DF42507 ADVOGADO: ANA MARCIA DOS SANTOS MELLO - OAB/MG58065-A ADVOGADO: ANA LETICIA CARVALHO DOS SANTOS - OAB/DF52903 ADVOGADO: MARIA CLAUDIA BUCCHIANERI - OAB/DF25341 REQUERIDO: LUIZ INACIO LULA DA SILVA ADVOGADO: MIGUEL FILIPI PIMENTEL NOVAES - OAB/DF57469 ADVOGADO: HENRIQUE NEVES DA SILVA - OAB/DF7505 ADVOGADO: FERNANDO NEVES DA SILVA - OAB/DF2030 ADVOGADO: ANGELO LONGO FERRARO - OAB/SP261268-S ADVOGADO: ANDRE PAULINO MATTOS - OAB/DF23663 ADVOGADO: EVELYN CATARINA DO CARMO SANTOS - OAB/DF69899 REQUERIDO: COLIGAÇÃO BRASIL PRONTO PRA MAIS ADVOGADO: MIGUEL FILIPI PIMENTEL NOVAES - OAB/DF57469 ADVOGADO: GEAN CARLOS FERREIRA DE MOURA AGUIAR - OAB/DF61174-A ADVOGADO: ANGELO LONGO FERRARO - OAB/SP261268-S ADVOGADO: EVELYN CATARINA DO CARMO SANTOS - OAB/DF69899 FISCAL DA LEI: Procurador Geral Eleitoral PROCURADORIA: Procuradoria Geral Eleitoral ORIGEM: BRASÍLIA - DISTRITO FEDERAL 29ª Sessão Virtual Extraordinária de 21.10.2026 RELATOR(A): MINISTRO(A) NUNES MARQUES, na qualidade de Juiz Auxiliar da Propaganda Eleitoral. PRESIDENTE: MINISTRO NUNES MARQUES VICE-PROCURADOR-GERAL ELEITORAL: ALEXANDRE ESPINOSA BRAVO BARBOSA ASSESSOR-CHEFE DE PLENÁRIO : JOÃO PAULO OLIVEIRA BARROS DECISÃO O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da inicial e julgou improcedente o pedido de direito de resposta, nos termos do voto do Relator. Acompanharam o Relator os Ministros André Mendonça, Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques e Estela Aranha. Acórdão publicado em sessão. Composição: Ministros Nunes Marques (Presidente), André Mendonça, Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques e Estela Aranha. Por ser verdade, firmo a presente. Brasília, 22 de outubro de 2026. JOÃO PAULO OLIVEIRA BARROS Assessor-Chefe de Plenário",
+      "extrato": "O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da inicial e julgou improcedente o pedido de direito de resposta, nos termos do voto do Relator. Acompanharam o Relator os Ministros André Mendonça, Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques e Estela Aranha. Acórdão publicado em sessão.",
+      "relator": "Nunes Marques",
+      "votacao": "unânime",
+      "vencidos": [],
+      "alertas": [],
+      "data_fim_sessao": "2026-10-21"
+    },
+    {
+      "cnj": "0602824-63.2026.6.00.0000",
+      "id_documento": 180206750,
+      "tipo": "Acórdão",
+      "data_metadata": "2026-10-22",
+      "data_assinatura": "2026-11-03T14:56:15.681",
+      "data_juntada": "2026-11-03T14:56:17.051",
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/3/14/56/15/bb308c9ef5d9a871dbedbbb914c6a74b8860e9b4d3d2000e75f71e9df1ec6ac0",
+      "arquivo": "coleta_documental/pecas/06028246320266000000_19a6340f408cf7b8.html",
+      "sha256": "bb308c9ef5d9a871dbedbbb914c6a74b8860e9b4d3d2000e75f71e9df1ec6ac0",
+      "id_julgamento": "0602824-63.2026.6.00.0000|2026-10-22|b066c4e6fd2ee6d2",
+      "secao_ata": " DR nº 0602824-63.2026.6.00.0000/DF. Relator: Ministro André Mendonça. Requerente: Flávio Nantes Bolsonaro ( Advogados: Maria Claudia Bucchianeri – OAB: 25341/DF e outros). Requerido: Luiz Inácio Lula da Silva ( Advogados: Evelyn Catarina do Carmo Santos – OAB: 69899/DF e outros). Requerida: Coligação Brasil Pronto pra Mais ( Advogados: Evelyn Catarina do Carmo Santos – OAB: 69899/DF e outros). Decisão: O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da petição inicial e julgou improcedente o pedido de direito de resposta, ficando prejudicado o pedido de imposição de multa por eventual descumprimento, nos termos do voto do relator. Acórdão publicado em sessão. Composição: Ministros Nunes Marques (Presidente), André Mendonça, Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques e Ministra Estela Aranha. Vice-Procurador-Geral Eleitoral: Alexandre Espinosa Bravo Barbosa. SESSÃO VIRTUAL EXTRAORDINÁRIA DE 21.10.2026.",
+      "extrato": "O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da petição inicial e julgou improcedente o pedido de direito de resposta, ficando prejudicado o pedido de imposição de multa por eventual descumprimento, nos termos do voto do relator. Acórdão publicado em sessão.",
+      "relator": "André Mendonça",
+      "votacao": "unânime",
+      "vencidos": [],
+      "alertas": [],
+      "data_fim_sessao": "2026-10-21"
+    },
+    {
+      "cnj": "0602824-63.2026.6.00.0000",
+      "id_documento": 180206585,
+      "tipo": "Certidão de julgamento",
+      "data_metadata": "2026-10-22",
+      "data_assinatura": "2026-10-22T12:18:57.152",
+      "data_juntada": "2026-10-22T15:22:07.537",
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/57/6f4261b5a664f27344ed262f3b91a6b6828cfaa62dbceb024c8d9fa90d2a0a1a",
+      "arquivo": "coleta_documental/pecas/06028246320266000000_75afd66f1096c628.html",
+      "sha256": "6f4261b5a664f27344ed262f3b91a6b6828cfaa62dbceb024c8d9fa90d2a0a1a",
+      "id_julgamento": "0602824-63.2026.6.00.0000|2026-10-22|c41da35d68696a1a",
+      "secao_ata": "TRIBUNAL SUPERIOR ELEITORAL CERTIDÃO DE JULGAMENTO DIREITO DE RESPOSTA (12625) Nº 0602824-63.2026.6.00.0000 REQUERENTE: FLAVIO NANTES BOLSONARO ADVOGADO: LUCAS DE PADUA CARVALHO MENDES LIMA - OAB/DF87357 ADVOGADO: TIAGO SANTOS SILVA - OAB/RJ155213 ADVOGADO: RENATA ANTONY DE SOUZA LIMA NINA - OAB/DF23600 ADVOGADO: PAULO HENRIQUE GOLAMBIUK - OAB/PR62051-A ADVOGADO: JOSE VICENTE SANTINI - OAB/DF36184 ADVOGADO: DRICIA VITORIA CORADO SOUZA LIMA - OAB/DF69367 ADVOGADO: BELIZE OBES DE MELO DE ANDRADE - OAB/DF42507 ADVOGADO: ANA MARCIA DOS SANTOS MELLO - OAB/MG58065-A ADVOGADO: ANA LETICIA CARVALHO DOS SANTOS - OAB/DF52903 ADVOGADO: MARIA CLAUDIA BUCCHIANERI - OAB/DF25341 REQUERIDO: LUIZ INACIO LULA DA SILVA ADVOGADO: MIGUEL FILIPI PIMENTEL NOVAES - OAB/DF57469 ADVOGADO: HENRIQUE NEVES DA SILVA - OAB/DF7505 ADVOGADO: GEAN CARLOS FERREIRA DE MOURA AGUIAR - OAB/DF61174-A ADVOGADO: FERNANDO NEVES DA SILVA - OAB/DF2030 ADVOGADO: ANGELO LONGO FERRARO - OAB/SP261268-S ADVOGADO: ANDRE PAULINO MATTOS - OAB/DF23663 ADVOGADO: EVELYN CATARINA DO CARMO SANTOS - OAB/DF69899 REQUERIDA: COLIGAÇÃO BRASIL PRONTO PRA MAIS ADVOGADO: MIGUEL FILIPI PIMENTEL NOVAES - OAB/DF57469 ADVOGADO: GEAN CARLOS FERREIRA DE MOURA AGUIAR - OAB/DF61174-A ADVOGADO: ANGELO LONGO FERRARO - OAB/SP261268-S ADVOGADO: EVELYN CATARINA DO CARMO SANTOS - OAB/DF69899 FISCAL DA LEI: Procurador Geral Eleitoral PROCURADORIA: Procuradoria Geral Eleitoral ORIGEM: BRASÍLIA - DISTRITO FEDERAL 29ª Sessão Virtual Extraordinária de 21.10.2026 RELATOR(A): MINISTRO(A) ANDRÉ MENDONÇA, na qualidade de Juiz Auxiliar da Propaganda Eleitoral. PRESIDENTE: MINISTRO NUNES MARQUES VICE-PROCURADOR-GERAL ELEITORAL: ALEXANDRE ESPINOSA BRAVO BARBOSA ASSESSOR-CHEFE DE PLENÁRIO : JOÃO PAULO OLIVEIRA BARROS DECISÃO O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da petição inicial e julgou improcedente o pedido de direito de resposta, ficando prejudicado o pedido de imposição de multa por eventual descumprimento, nos termos do voto do Relator. Acompanharam o Relator os Ministros Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques, Estela Aranha e Nunes Marques (Presidente). Acórdão publicado em sessão. Composição: Ministros Nunes Marques (Presidente), André Mendonça, Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques e Estela Aranha. Por ser verdade, firmo a presente. Brasília, 22 de outubro de 2026. JOÃO PAULO OLIVEIRA BARROS Assessor-Chefe de Plenário",
+      "extrato": "O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da petição inicial e julgou improcedente o pedido de direito de resposta, ficando prejudicado o pedido de imposição de multa por eventual descumprimento, nos termos do voto do Relator. Acompanharam o Relator os Ministros Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques, Estela Aranha e Nunes Marques (Presidente). Acórdão publicado em sessão.",
+      "relator": "André Mendonça",
+      "votacao": "unânime",
+      "vencidos": [],
+      "alertas": [],
+      "data_fim_sessao": "2026-10-21"
+    },
+    {
+      "cnj": "0602912-04.2026.6.00.0000",
+      "id_documento": 180206749,
+      "tipo": "Acórdão",
+      "data_metadata": "2026-10-22",
+      "data_assinatura": "2026-11-01T11:00:26.152",
+      "data_juntada": "2026-11-01T11:00:26.259",
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/1/11/0/26/90ec8d607e499dc522e3102fc1064ba00cfc1007f86e14994bd7a89b7951bab4",
+      "arquivo": "coleta_documental/pecas/06029120420266000000_54b278735e948d9c.html",
+      "sha256": "90ec8d607e499dc522e3102fc1064ba00cfc1007f86e14994bd7a89b7951bab4",
+      "id_julgamento": "0602912-04.2026.6.00.0000|2026-10-22|207a18f2fa394669",
+      "secao_ata": " DR nº 0602912-04.2026.6.00.0000/DF. Relator: Ministro André Mendonça. Requerente: Flávio Nantes Bolsonaro (Advogados: Maria Claudia Bucchianeri PInheiro – OAB: 25341/DF e outros). Requerido: Luiz Inácio Lula da Silva (Advogados: Evelyn Catarina do Carmo Santos – OAB: 69899/DF e outros). Requerida: Coligação Brasil Pronto pra Mais (Advogados: Evelyn Catarina do Carmo Santos – OAB: 69899/DF e outros). Decisão: O Tribunal, por unanimidade, julgou improcedente o pedido de direito de resposta, nos termos do voto do relator. Acórdão publicado em sessão. Composição: Ministros Nunes Marques (Presidente), André Mendonça, Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques e Ministra Estela Aranha. Vice-Procurador-Geral Eleitoral: Alexandre Espinosa Bravo Barbosa. SESSÃO EXTRAORDINÁRIA VIRTUAL DE 21.10.2026. p{text-align: justify;}",
+      "extrato": "O Tribunal, por unanimidade, julgou improcedente o pedido de direito de resposta, nos termos do voto do relator. Acórdão publicado em sessão.",
+      "relator": "André Mendonça",
+      "votacao": "unânime",
+      "vencidos": [],
+      "alertas": [],
+      "data_fim_sessao": "2026-10-21"
+    },
+    {
+      "cnj": "0602912-04.2026.6.00.0000",
+      "id_documento": 180206794,
+      "tipo": "Certidão de julgamento",
+      "data_metadata": "2026-10-22",
+      "data_assinatura": "2026-10-22T12:18:51.93",
+      "data_juntada": "2026-10-22T15:22:09.589",
+      "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/51/7b63bde78bebf4ed4fce8555668b193c07589ee56a7e6e48386a4d072bdb7202",
+      "arquivo": "coleta_documental/pecas/06029120420266000000_2b273fb7d4063159.html",
+      "sha256": "7b63bde78bebf4ed4fce8555668b193c07589ee56a7e6e48386a4d072bdb7202",
+      "id_julgamento": "0602912-04.2026.6.00.0000|2026-10-22|2dc9581524b2c80e",
+      "secao_ata": "TRIBUNAL SUPERIOR ELEITORAL CERTIDÃO DE JULGAMENTO DIREITO DE RESPOSTA (12625) Nº 0602912-04.2026.6.00.0000 REQUERENTE: FLAVIO NANTES BOLSONARO ADVOGADO: TIAGO SANTOS SILVA - OAB/RJ155213 ADVOGADO: RENATA ANTONY DE SOUZA LIMA NINA - OAB/DF23600 ADVOGADO: PAULO HENRIQUE GOLAMBIUK - OAB/PR62051-A ADVOGADO: LUCAS DE PADUA CARVALHO MENDES LIMA - OAB/DF87357 ADVOGADO: JOSE VICENTE SANTINI - OAB/DF36184 ADVOGADO: DRICIA VITORIA CORADO SOUZA LIMA - OAB/DF69367 ADVOGADO: BELIZE OBES DE MELO DE ANDRADE - OAB/DF42507 ADVOGADO: ANA MARCIA DOS SANTOS MELLO - OAB/MG58065-A ADVOGADO: ANA LETICIA CARVALHO DOS SANTOS - OAB/DF52903 ADVOGADO: MARIA CLAUDIA BUCCHIANERI - OAB/DF25341 REQUERIDO: LUIZ INACIO LULA DA SILVA ADVOGADO: ANDRE PAULINO MATTOS - OAB/DF23663 ADVOGADO: FERNANDO NEVES DA SILVA - OAB/DF2030 ADVOGADO: HENRIQUE NEVES DA SILVA - OAB/DF7505 ADVOGADO: GEAN CARLOS FERREIRA DE MOURA AGUIAR - OAB/DF61174-A ADVOGADO: MIGUEL FILIPI PIMENTEL NOVAES - OAB/DF57469 ADVOGADO: ANGELO LONGO FERRARO - OAB/SP261268-S ADVOGADO: EVELYN CATARINA DO CARMO SANTOS - OAB/DF69899 REQUERIDA: COLIGAÇÃO BRASIL PRONTO PRA MAIS ADVOGADO: GEAN CARLOS FERREIRA DE MOURA AGUIAR - OAB/DF61174-A ADVOGADO: MIGUEL FILIPI PIMENTEL NOVAES - OAB/DF57469 ADVOGADO: ANGELO LONGO FERRARO - OAB/SP261268-S ADVOGADO: EVELYN CATARINA DO CARMO SANTOS - OAB/DF69899 FISCAL DA LEI: Procurador Geral Eleitoral PROCURADORIA: Procuradoria Geral Eleitoral ORIGEM: BRASÍLIA - DISTRITO FEDERAL 29ª Sessão Virtual Extraordinária de 21.10.2026 RELATOR(A): MINISTRO(A) ANDRÉ MENDONÇA, na qualidade de Juiz Auxiliar da Propaganda Eleitoral. PRESIDENTE: MINISTRO NUNES MARQUES VICE-PROCURADOR-GERAL ELEITORAL: ALEXANDRE ESPINOSA BRAVO BARBOSA ASSESSOR-CHEFE DE PLENÁRIO : JOÃO PAULO OLIVEIRA BARROS DECISÃO O Tribunal, por unanimidade, julgou improcedente o pedido de direito de resposta, nos termos do voto do Relator. Acompanharam o Relator os Ministros Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques, Estela Aranha e Nunes Marques (Presidente). Acórdão publicado em sessão. Composição: Ministros Nunes Marques (Presidente), André Mendonça, Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques e Estela Aranha. Por ser verdade, firmo a presente. Brasília, 22 de outubro de 2026. JOÃO PAULO OLIVEIRA BARROS Assessor-Chefe de Plenário",
+      "extrato": "O Tribunal, por unanimidade, julgou improcedente o pedido de direito de resposta, nos termos do voto do Relator. Acompanharam o Relator os Ministros Dias Toffoli, Ricardo Villas Bôas Cueva, Sebastião Reis Júnior, Floriano de Azevedo Marques, Estela Aranha e Nunes Marques (Presidente). Acórdão publicado em sessão.",
+      "relator": "André Mendonça",
+      "votacao": "unânime",
+      "vencidos": [],
+      "alertas": [],
+      "data_fim_sessao": "2026-10-21"
     }
   ],
   "pendencias_vinculo": [
@@ -87629,10 +88009,10 @@
   ],
   "divergencias_sem_nome": [],
   "presidencial": {
-    "total": 292,
+    "total": 296,
     "votacao": {
       "com divergência": 58,
-      "unânime": 234
+      "unânime": 238
     },
     "ministros_vencidos": {
       "André Mendonça": 38,
@@ -87643,13 +88023,13 @@
       "Ricardo Villas Bôas Cueva": 6,
       "Sebastião Reis Júnior": 6
     },
-    "processos_comparaveis": 428,
-    "processos_com_julgamento_colegiado": 278,
+    "processos_comparaveis": 432,
+    "processos_com_julgamento_colegiado": 282,
     "situacao_confrontos": {
       "sem revisão comprovada": 107,
       "mantida": 138,
       "modificada": 16,
-      "mérito colegiado": 30,
+      "mérito colegiado": 34,
       "liminar modificada": 11,
       "liminar mantida": 52,
       "mérito individual": 3,
@@ -92413,6 +92793,34 @@
         ]
       },
       {
+        "cnj": "0602697-28.2026.6.00.0000",
+        "situacao": "mérito colegiado",
+        "justificativa": "Improcedência unânime na sessão de 2026-10-23, comprovada por certidão anterior ao corte; sem resultado de tutela autônoma a substituir o mérito.",
+        "fonte_resultado": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/24/11/11/0/e81f44795e79d21a8ddded62ca64041a58c3ed982f05f4f39cf9a8dc12bb6ee6",
+        "status_curatorial": "mérito colegiado; improcedência",
+        "fonte_situacao": {
+          "colegialidade_situacao": "mérito colegiado",
+          "justificativa": "Improcedência unânime na sessão de 2026-10-23, comprovada por certidão anterior ao corte; sem resultado de tutela autônoma a substituir o mérito.",
+          "url_peca": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/24/11/11/0/e81f44795e79d21a8ddded62ca64041a58c3ed982f05f4f39cf9a8dc12bb6ee6",
+          "data_ato_referencia": "2026-10-24",
+          "data_julgamento_no_corpo": "2026-10-23",
+          "fonte_referencia": {
+            "arquivo": "coleta_documental/pecas/06026972820266000000_59cb9d4e90b15edd.html",
+            "sha256": "e81f44795e79d21a8ddded62ca64041a58c3ed982f05f4f39cf9a8dc12bb6ee6",
+            "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/24/11/11/0/e81f44795e79d21a8ddded62ca64041a58c3ed982f05f4f39cf9a8dc12bb6ee6",
+            "id_documento": 180223038,
+            "tipo": "Certidão de julgamento",
+            "data_metadata": "2026-10-24",
+            "data_decisao_metadata": null,
+            "data_assinatura": "2026-10-24T11:11:00.822",
+            "data_juntada": "2026-10-24T13:45:03.264"
+          }
+        },
+        "julgamentos": [
+          "0602697-28.2026.6.00.0000|180223471"
+        ]
+      },
+      {
         "cnj": "0602701-65.2026.6.00.0000",
         "situacao": "liminar mantida",
         "justificativa": "O extrato da ata confirma a tutela individual deferida, parcial ou indeferida, conforme a referência indicada.",
@@ -92799,6 +93207,34 @@
         ]
       },
       {
+        "cnj": "0602800-35.2026.6.00.0000",
+        "situacao": "mérito colegiado",
+        "justificativa": "Improcedência unânime na sessão de 2026-10-21, comprovada por certidão anterior ao corte; sem resultado de tutela autônoma a substituir o mérito.",
+        "fonte_resultado": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/21/60a6a3329130f6e639f2623fc9b0c0141605c26867afadff8dc7d808e5454208",
+        "status_curatorial": "mérito colegiado; improcedência",
+        "fonte_situacao": {
+          "colegialidade_situacao": "mérito colegiado",
+          "justificativa": "Improcedência unânime na sessão de 2026-10-21, comprovada por certidão anterior ao corte; sem resultado de tutela autônoma a substituir o mérito.",
+          "url_peca": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/21/60a6a3329130f6e639f2623fc9b0c0141605c26867afadff8dc7d808e5454208",
+          "data_ato_referencia": "2026-10-22",
+          "data_julgamento_no_corpo": "2026-10-21",
+          "fonte_referencia": {
+            "arquivo": "coleta_documental/pecas/06028003520266000000_37f3bcd4272eeb96.html",
+            "sha256": "60a6a3329130f6e639f2623fc9b0c0141605c26867afadff8dc7d808e5454208",
+            "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/21/60a6a3329130f6e639f2623fc9b0c0141605c26867afadff8dc7d808e5454208",
+            "id_documento": 180206584,
+            "tipo": "Certidão de julgamento",
+            "data_metadata": "2026-10-22",
+            "data_decisao_metadata": null,
+            "data_assinatura": "2026-10-22T12:18:21.274",
+            "data_juntada": "2026-10-22T15:22:07.354"
+          }
+        },
+        "julgamentos": [
+          "0602800-35.2026.6.00.0000|180206434"
+        ]
+      },
+      {
         "cnj": "0602804-72.2026.6.00.0000",
         "situacao": "mérito colegiado",
         "justificativa": "O último resultado comparável é de mérito, ou recurso contra esse julgamento, conforme sinopse e peça oficial.",
@@ -93003,6 +93439,34 @@
           "data_ato_referencia": "2026-10-21"
         },
         "julgamentos": []
+      },
+      {
+        "cnj": "0602824-63.2026.6.00.0000",
+        "situacao": "mérito colegiado",
+        "justificativa": "Improcedência unânime na sessão de 2026-10-21, comprovada por certidão anterior ao corte; sem resultado de tutela autônoma a substituir o mérito.",
+        "fonte_resultado": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/57/6f4261b5a664f27344ed262f3b91a6b6828cfaa62dbceb024c8d9fa90d2a0a1a",
+        "status_curatorial": "mérito colegiado; improcedência",
+        "fonte_situacao": {
+          "colegialidade_situacao": "mérito colegiado",
+          "justificativa": "Improcedência unânime na sessão de 2026-10-21, comprovada por certidão anterior ao corte; sem resultado de tutela autônoma a substituir o mérito.",
+          "url_peca": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/57/6f4261b5a664f27344ed262f3b91a6b6828cfaa62dbceb024c8d9fa90d2a0a1a",
+          "data_ato_referencia": "2026-10-22",
+          "data_julgamento_no_corpo": "2026-10-21",
+          "fonte_referencia": {
+            "arquivo": "coleta_documental/pecas/06028246320266000000_75afd66f1096c628.html",
+            "sha256": "6f4261b5a664f27344ed262f3b91a6b6828cfaa62dbceb024c8d9fa90d2a0a1a",
+            "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/57/6f4261b5a664f27344ed262f3b91a6b6828cfaa62dbceb024c8d9fa90d2a0a1a",
+            "id_documento": 180206585,
+            "tipo": "Certidão de julgamento",
+            "data_metadata": "2026-10-22",
+            "data_decisao_metadata": null,
+            "data_assinatura": "2026-10-22T12:18:57.152",
+            "data_juntada": "2026-10-22T15:22:07.537"
+          }
+        },
+        "julgamentos": [
+          "0602824-63.2026.6.00.0000|180206750"
+        ]
       },
       {
         "cnj": "0602825-48.2026.6.00.0000",
@@ -93584,6 +94048,34 @@
         },
         "julgamentos": [
           "0602910-34.2026.6.00.0000|180190778"
+        ]
+      },
+      {
+        "cnj": "0602912-04.2026.6.00.0000",
+        "situacao": "mérito colegiado",
+        "justificativa": "Improcedência unânime na sessão de 2026-10-21, comprovada por certidão anterior ao corte; sem resultado de tutela autônoma a substituir o mérito.",
+        "fonte_resultado": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/51/7b63bde78bebf4ed4fce8555668b193c07589ee56a7e6e48386a4d072bdb7202",
+        "status_curatorial": "mérito colegiado; improcedência",
+        "fonte_situacao": {
+          "colegialidade_situacao": "mérito colegiado",
+          "justificativa": "Improcedência unânime na sessão de 2026-10-21, comprovada por certidão anterior ao corte; sem resultado de tutela autônoma a substituir o mérito.",
+          "url_peca": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/51/7b63bde78bebf4ed4fce8555668b193c07589ee56a7e6e48386a4d072bdb7202",
+          "data_ato_referencia": "2026-10-22",
+          "data_julgamento_no_corpo": "2026-10-21",
+          "fonte_referencia": {
+            "arquivo": "coleta_documental/pecas/06029120420266000000_2b273fb7d4063159.html",
+            "sha256": "7b63bde78bebf4ed4fce8555668b193c07589ee56a7e6e48386a4d072bdb7202",
+            "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/51/7b63bde78bebf4ed4fce8555668b193c07589ee56a7e6e48386a4d072bdb7202",
+            "id_documento": 180206794,
+            "tipo": "Certidão de julgamento",
+            "data_metadata": "2026-10-22",
+            "data_decisao_metadata": null,
+            "data_assinatura": "2026-10-22T12:18:51.93",
+            "data_juntada": "2026-10-22T15:22:09.589"
+          }
+        },
+        "julgamentos": [
+          "0602912-04.2026.6.00.0000|180206749"
         ]
       },
       {
@@ -100393,6 +100885,33 @@
         "nota": "Acórdão preferencial e certidões da mesma data documental/etapa, com resultado comparado; decisões de vista ou adiamento não somadas. Pendências nominais entre fontes preservadas."
       },
       {
+        "cnj": "0602697-28.2026.6.00.0000",
+        "data_metadata": "2026-10-24",
+        "id_julgamento": "0602697-28.2026.6.00.0000|180223471",
+        "documento_principal": 180223471,
+        "tipo_fonte": "Acórdão",
+        "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/1/11/0/25/5495ad2201a55e8fb8499e4c55967b7d3eb3475bf5779438ba856cc4cb4214ef",
+        "arquivo": "coleta_documental/pecas/06026972820266000000_8a33838536ba3a07.html",
+        "data_fim_sessao": "2026-10-23",
+        "votacao": "unânime",
+        "vencidos": [],
+        "extrato": "O Tribunal, por unanimidade, julgou improcedentes os pedidos formulados na representação, com resolução do mérito, nos termos do art. 487, I, do Código de Processo Civil, afastando a alegada infração ao art. 57-C, § 3º, da Lei nº 9.504/1997 e aos arts. 28, § 7º-A, e 29, § 3º, da Res.-TSE nº 23.610/2019, em consequência, julgou prejudicado o pedido de tutela de urgência, nos termos do voto do relator. Acórdão publicado em sessão.",
+        "documentos_complementares": [
+          180223038
+        ],
+        "equivalencia_documental": [
+          {
+            "documento": 180223038,
+            "nucleo_similaridade": 1.0,
+            "resultado_compativel": true,
+            "leitura_paralela": false,
+            "status": "mesmo núcleo proclamado e votação"
+          }
+        ],
+        "divergencias_entre_fontes": [],
+        "nota": "Acórdão preferencial e certidões da mesma data documental/etapa, com resultado comparado; decisões de vista ou adiamento não somadas. Pendências nominais entre fontes preservadas."
+      },
+      {
         "cnj": "0602701-65.2026.6.00.0000",
         "data_metadata": "2026-10-12",
         "id_julgamento": "0602701-65.2026.6.00.0000|179933509",
@@ -100852,6 +101371,33 @@
         "nota": "Acórdão preferencial e certidões da mesma data documental/etapa, com resultado comparado; decisões de vista ou adiamento não somadas. Pendências nominais entre fontes preservadas."
       },
       {
+        "cnj": "0602800-35.2026.6.00.0000",
+        "data_metadata": "2026-10-22",
+        "id_julgamento": "0602800-35.2026.6.00.0000|180206434",
+        "documento_principal": 180206434,
+        "tipo_fonte": "Acórdão",
+        "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/6/16/23/1/580507df8ac4bad76396389b77a3a422ed3317965682cc534cf5f8da8c7ee04f",
+        "arquivo": "coleta_documental/pecas/06028003520266000000_08bee8d53995f6f9.html",
+        "data_fim_sessao": "2026-10-21",
+        "votacao": "unânime",
+        "vencidos": [],
+        "extrato": "O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da inicial e julgou improcedente o pedido de direito de resposta, nos termos do voto do relator. Acórdão publicado em sessão.",
+        "documentos_complementares": [
+          180206584
+        ],
+        "equivalencia_documental": [
+          {
+            "documento": 180206584,
+            "nucleo_similaridade": 1.0,
+            "resultado_compativel": true,
+            "leitura_paralela": false,
+            "status": "mesmo núcleo proclamado e votação"
+          }
+        ],
+        "divergencias_entre_fontes": [],
+        "nota": "Acórdão preferencial e certidões da mesma data documental/etapa, com resultado comparado; decisões de vista ou adiamento não somadas. Pendências nominais entre fontes preservadas."
+      },
+      {
         "cnj": "0602804-72.2026.6.00.0000",
         "data_metadata": "2026-10-20",
         "id_julgamento": "0602804-72.2026.6.00.0000|180190772",
@@ -101166,6 +101712,33 @@
         "equivalencia_documental": [
           {
             "documento": 180217647,
+            "nucleo_similaridade": 1.0,
+            "resultado_compativel": true,
+            "leitura_paralela": false,
+            "status": "mesmo núcleo proclamado e votação"
+          }
+        ],
+        "divergencias_entre_fontes": [],
+        "nota": "Acórdão preferencial e certidões da mesma data documental/etapa, com resultado comparado; decisões de vista ou adiamento não somadas. Pendências nominais entre fontes preservadas."
+      },
+      {
+        "cnj": "0602824-63.2026.6.00.0000",
+        "data_metadata": "2026-10-22",
+        "id_julgamento": "0602824-63.2026.6.00.0000|180206750",
+        "documento_principal": 180206750,
+        "tipo_fonte": "Acórdão",
+        "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/3/14/56/15/bb308c9ef5d9a871dbedbbb914c6a74b8860e9b4d3d2000e75f71e9df1ec6ac0",
+        "arquivo": "coleta_documental/pecas/06028246320266000000_19a6340f408cf7b8.html",
+        "data_fim_sessao": "2026-10-21",
+        "votacao": "unânime",
+        "vencidos": [],
+        "extrato": "O Tribunal, por unanimidade, rejeitou a preliminar de inépcia da petição inicial e julgou improcedente o pedido de direito de resposta, ficando prejudicado o pedido de imposição de multa por eventual descumprimento, nos termos do voto do relator. Acórdão publicado em sessão.",
+        "documentos_complementares": [
+          180206585
+        ],
+        "equivalencia_documental": [
+          {
+            "documento": 180206585,
             "nucleo_similaridade": 1.0,
             "resultado_compativel": true,
             "leitura_paralela": false,
@@ -102027,6 +102600,33 @@
         "equivalencia_documental": [
           {
             "documento": 180191831,
+            "nucleo_similaridade": 1.0,
+            "resultado_compativel": true,
+            "leitura_paralela": false,
+            "status": "mesmo núcleo proclamado e votação"
+          }
+        ],
+        "divergencias_entre_fontes": [],
+        "nota": "Acórdão preferencial e certidões da mesma data documental/etapa, com resultado comparado; decisões de vista ou adiamento não somadas. Pendências nominais entre fontes preservadas."
+      },
+      {
+        "cnj": "0602912-04.2026.6.00.0000",
+        "data_metadata": "2026-10-22",
+        "id_julgamento": "0602912-04.2026.6.00.0000|180206749",
+        "documento_principal": 180206749,
+        "tipo_fonte": "Acórdão",
+        "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/1/11/0/26/90ec8d607e499dc522e3102fc1064ba00cfc1007f86e14994bd7a89b7951bab4",
+        "arquivo": "coleta_documental/pecas/06029120420266000000_54b278735e948d9c.html",
+        "data_fim_sessao": "2026-10-21",
+        "votacao": "unânime",
+        "vencidos": [],
+        "extrato": "O Tribunal, por unanimidade, julgou improcedente o pedido de direito de resposta, nos termos do voto do relator. Acórdão publicado em sessão.",
+        "documentos_complementares": [
+          180206794
+        ],
+        "equivalencia_documental": [
+          {
+            "documento": 180206794,
             "nucleo_similaridade": 1.0,
             "resultado_compativel": true,
             "leitura_paralela": false,

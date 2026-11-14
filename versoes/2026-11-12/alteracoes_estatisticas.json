@@ -27,7 +27,7 @@
     },
     {
       "old_str": "| Classe ou grupo de classes | Atos |\n| --- | --- |\n| Rp | 310 |\n| REspEl | 107 |\n| PetCiv | 92 |\n| DR | 71 |\n| RO-El | 65 |\n| RCand | 59 |\n| MSCiv | 54 |\n| PA | 53 |\n| Demais classes (fora das oito discriminadas) | 122 |\n| <b>Total</b> | <b>933</b> |\n</toggle>",
-      "new_str": "| Classe ou grupo de classes | Atos |\n| --- | --- |\n| Rp | 931 |\n| DR | 511 |\n| REspEl | 317 |\n| RO-El | 186 |\n| PetCiv | 126 |\n| NIP | 87 |\n| TutCautAnt | 85 |\n| MSCiv | 72 |\n| Demais classes (fora das oito discriminadas) | 291 |\n| <b>Total</b> | <b>2.606</b> |"
+      "new_str": "| Classe ou grupo de classes | Atos |\n| --- | --- |\n| Rp | 931 |\n| DR | 511 |\n| REspEl | 317 |\n| RO-El | 186 |\n| PetCiv | 126 |\n| NIP | 87 |\n| TutCautAnt | 85 |\n| MSCiv | 72 |\n| Demais classes (fora das oito discriminadas) | 291 |\n| <b>Total</b> | <b>2.606</b> |\n</toggle>"
     },
     {
       "old_str": "O gráfico abaixo mostra o <b>ministro autor de cada ato</b>, conforme a base de dados do TSE. Esse nome pode ser diferente do relator atual do processo. Nunes Marques (297), André Mendonça (239) e Estela Aranha (131) assinam, juntos, 667 atos (ou 71,5%) no período avaliado.",
@@ -35,7 +35,7 @@
     },
     {
       "old_str": "| Autor do ato | Atos |\n| --- | --- |\n| Nunes Marques | 297 |\n| André Mendonça | 239 |\n| Estela Aranha | 131 |\n| Dias Toffoli | 76 |\n| Antonio Carlos Ferreira | 65 |\n| Ricardo Villas Bôas Cueva | 58 |\n| Floriano de Azevedo Marques | 43 |\n| Sebastião Reis Junior | 23 |\n| Cármen Lúcia | 1 |\n| <b>Total</b> | <b>933</b> |\n</toggle>",
-      "new_str": "| Autor do ato | Atos |\n| --- | --- |\n| Nunes Marques | 632 |\n| André Mendonça | 614 |\n| Estela Aranha | 544 |\n| Marco Aurélio Bellizze | 235 |\n| Dias Toffoli | 167 |\n| Ricardo Villas Bôas Cueva | 149 |\n| Floriano de Azevedo Marques | 114 |\n| Sebastião Reis Júnior | 76 |\n| Antonio Carlos Ferreira | 72 |\n| Larissa Almeida Nascimento | 2 |\n| Cármen Lúcia | 1 |\n| <b>Total</b> | <b>2.606</b> |"
+      "new_str": "| Autor do ato | Atos |\n| --- | --- |\n| Nunes Marques | 632 |\n| André Mendonça | 614 |\n| Estela Aranha | 544 |\n| Marco Aurélio Bellizze | 235 |\n| Dias Toffoli | 167 |\n| Ricardo Villas Bôas Cueva | 149 |\n| Floriano de Azevedo Marques | 114 |\n| Sebastião Reis Júnior | 76 |\n| Antonio Carlos Ferreira | 72 |\n| Larissa Almeida Nascimento | 2 |\n| Cármen Lúcia | 1 |\n| <b>Total</b> | <b>2.606</b> |\n</toggle>"
     },
     {
       "old_str": "Os registros foram obtidos no conjunto [Processual – 2026 do TSE](https://dadosabertos.tse.jus.br/id/dataset/processual-2026), formado a partir de dados do Portal de Dados Abertos da Justiça Eleitoral. Esta versão utiliza os cinco arquivos oficiais gerados em <b>01/10/2026</b>, preservados com suas datas e seus <i>hashes </i>— códigos digitais que permitem conferir a integridade dos arquivos. A [versão congelada de 1º/10/2026](https://github.com/mauricioaugustotse/corpus-tse-eleicoes-2026/tree/v2026-10-01-corte-2026-09-30/versoes/2026-10-01) mantém exatamente os dados usados neste estudo, mesmo que o TSE atualize o conjunto posteriormente.",

@@ -48,6 +48,8 @@ def main():
     par('A base de dados reúne <b>92 atos',next(p for p in original.split('\n\n') if p.startswith('A base de dados reúne <b>92 atos')).replace('<b>92 atos em 82 petições cíveis</b>','<b>126 atos em 107 petições cíveis</b>'))
     par('O corpus tem <b>53 atos',next(p for p in original.split('\n\n') if p.startswith('O corpus tem <b>53 atos')).replace('<b>53 atos em 38 processos','<b>67 atos em 48 processos'))
     for a in alteracoes:
+        if a['old_str'].lstrip().startswith('|') and a['old_str'].rstrip().endswith('</toggle>') and not a['new_str'].rstrip().endswith('</toggle>'):
+            a['new_str']+='\n</toggle>'
         assert original.count(a['old_str'])==1,a['old_str'][:60]
     (ROOT/'alteracoes_estatisticas.json').write_text(json.dumps({'status':'preparado; aguarda integração da curadoria e das fontes gráficas para publicação conjunta','alteracoes':alteracoes,'secao7_preservar':'## 7. Conclusão / outros tópicos (texto livre)\n\nBruno'},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f'{len(alteracoes)} substituições editoriais preparadas; comunicação: {comatos} atos.')

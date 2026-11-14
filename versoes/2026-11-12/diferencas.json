@@ -12,5 +12,9 @@
   "alvos_triagem": 591,
   "alvos_anteriores_localizados": 131,
   "alvos_novos": 460,
-  "curadoria_outubro": "pendente; não transportar percentuais de setembro para outubro"
+  "curadoria_outubro": "consulta complementar integrada; ver campanha_resumo.json e as fontes por CNJ",
+  "nota_triagem": "alvos_triagem registra a selecao inicial do extrato; a base integral e documentada em triagem_base_integral.json",
+  "alvos_base_integral": 872,
+  "resultados_documentados": 432,
+  "lacunas_documentais": 201
 }

@@ -13,3 +13,10 @@ class SelecaoDocumentalTests(unittest.TestCase):
     def test_copias_regionais_e_pecas_sem_data_ficam_fora(self):
         doc=self.doc(1,'2026-10-31');doc['documentoStorage']='regional/df/hash'
         self.assertEqual(list(selecionar({'documentos':[doc,self.doc(2,'')]})),[])
+
+    def test_decisoes_nulas_nao_impedem_selecao_de_documento_datado(self):
+        proc={'decisoes':None,'documentos':[self.doc(1,'2026-10-31')]}
+        self.assertEqual([d['id_documento'] for d in selecionar(proc)],[1])
+
+    def test_documentos_nulos_resultam_selecao_vazia_sem_presumir_decisao(self):
+        self.assertEqual(list(selecionar({'decisoes':None,'documentos':None})),[])

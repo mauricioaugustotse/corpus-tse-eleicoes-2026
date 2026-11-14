@@ -21,5 +21,5 @@ def main():
         if r.get('incluir') and (r.get('revisao',{}).get('pronto_publicacao') is False or r.get('revisao',{}).get('utilizar_em_percentuais_finais') is False):
             raise ValueError(f'Processo não revisado marcado para entrar no comparativo: {cnj}')
     (ROOT/'curadoria_confrontos.json').write_text(json.dumps(dict(sorted(resultado.items())),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print(f'{len(resultado)} alvos; {sum(bool(r["incluir"]) for r in resultado.values())} resultados comparáveis documentados. Consulta complementar ainda pode alterar o quadro.')
+    print(f'{len(resultado)} alvos; {sum(bool(r["incluir"]) for r in resultado.values())} resultados comparáveis documentados. Lacunas e exclusões permanecem explícitas nos registros.')
 if __name__=='__main__':main()

@@ -1,0 +1,597 @@
+{
+  "auditado_em": "2026-11-14T19:46:53.058961+00:00",
+  "aprovado_nestas_verificacoes": true,
+  "escopo": "Contagens integradas, exclusão das lacunas, espelho de coleta, fontes dos quatro novos comparáveis e pacotes de reprodução. Não substitui a curadoria de cada um dos 872 processos.",
+  "totais": {
+    "confrontos": 872,
+    "comparaveis": 432,
+    "relatos": 432,
+    "lacunas_documentais": 201,
+    "consultas": 1295,
+    "pecas_checkpoint": 2787,
+    "pecas_publicadas": 2795
+  },
+  "campanhas": {
+    "Lula": {
+      "pedidos": 218,
+      "atendidos": 121,
+      "nao_atendidos": 97,
+      "percentual_atendimento": 55.5045871559633
+    },
+    "Flávio": {
+      "pedidos": 214,
+      "atendidos": 69,
+      "nao_atendidos": 145,
+      "percentual_atendimento": 32.242990654205606
+    }
+  },
+  "quatro_novos": [
+    {
+      "cnj": "0602697-28.2026.6.00.0000",
+      "resultado": "improcedente",
+      "votacao": "unânime",
+      "data_sessao": "2026-10-23",
+      "data_certidao": "2026-10-24",
+      "data_assinatura_acordao": "2026-11-01",
+      "fontes": [
+        {
+          "papel": "certidao_primaria",
+          "arquivo": "coleta_documental/pecas/06026972820266000000_59cb9d4e90b15edd.html",
+          "sha256": "e81f44795e79d21a8ddded62ca64041a58c3ed982f05f4f39cf9a8dc12bb6ee6",
+          "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/24/11/11/0/e81f44795e79d21a8ddded62ca64041a58c3ed982f05f4f39cf9a8dc12bb6ee6",
+          "id_documento": 180223038,
+          "tipo": "Certidão de julgamento",
+          "data_metadata": "2026-10-24",
+          "data_decisao_metadata": null,
+          "data_assinatura": "2026-10-24T11:11:00.822",
+          "data_juntada": "2026-10-24T13:45:03.264",
+          "cnj_cabecalho": "0602697-28.2026.6.00.0000",
+          "hash_arquivo_conferido": true,
+          "hash_na_url_compativel": true,
+          "dispositivo_unanime_improcedente": true,
+          "inventariado_para_reproducao": true
+        },
+        {
+          "papel": "acordao_documental_posterior",
+          "arquivo": "coleta_documental/pecas/06026972820266000000_8a33838536ba3a07.html",
+          "sha256": "5495ad2201a55e8fb8499e4c55967b7d3eb3475bf5779438ba856cc4cb4214ef",
+          "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/1/11/0/25/5495ad2201a55e8fb8499e4c55967b7d3eb3475bf5779438ba856cc4cb4214ef",
+          "id_documento": 180223471,
+          "tipo": "Acórdão",
+          "data_metadata": "2026-10-24",
+          "data_decisao_metadata": "2026-10-24T12:10:27.588",
+          "data_assinatura": "2026-11-01T11:00:25.711",
+          "data_juntada": "2026-11-01T11:00:25.777",
+          "cnj_cabecalho": "0602697-28.2026.6.00.0000",
+          "hash_arquivo_conferido": true,
+          "hash_na_url_compativel": true,
+          "dispositivo_unanime_improcedente": true,
+          "inventariado_para_reproducao": true
+        }
+      ],
+      "julgamentos_ledger": 1
+    },
+    {
+      "cnj": "0602800-35.2026.6.00.0000",
+      "resultado": "improcedente",
+      "votacao": "unânime",
+      "data_sessao": "2026-10-21",
+      "data_certidao": "2026-10-22",
+      "data_assinatura_acordao": "2026-11-06",
+      "fontes": [
+        {
+          "papel": "certidao_primaria",
+          "arquivo": "coleta_documental/pecas/06028003520266000000_37f3bcd4272eeb96.html",
+          "sha256": "60a6a3329130f6e639f2623fc9b0c0141605c26867afadff8dc7d808e5454208",
+          "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/21/60a6a3329130f6e639f2623fc9b0c0141605c26867afadff8dc7d808e5454208",
+          "id_documento": 180206584,
+          "tipo": "Certidão de julgamento",
+          "data_metadata": "2026-10-22",
+          "data_decisao_metadata": null,
+          "data_assinatura": "2026-10-22T12:18:21.274",
+          "data_juntada": "2026-10-22T15:22:07.354",
+          "cnj_cabecalho": "0602800-35.2026.6.00.0000",
+          "hash_arquivo_conferido": true,
+          "hash_na_url_compativel": true,
+          "dispositivo_unanime_improcedente": true,
+          "inventariado_para_reproducao": true
+        },
+        {
+          "papel": "acordao_documental_posterior",
+          "arquivo": "coleta_documental/pecas/06028003520266000000_08bee8d53995f6f9.html",
+          "sha256": "580507df8ac4bad76396389b77a3a422ed3317965682cc534cf5f8da8c7ee04f",
+          "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/6/16/23/1/580507df8ac4bad76396389b77a3a422ed3317965682cc534cf5f8da8c7ee04f",
+          "id_documento": 180206434,
+          "tipo": "Acórdão",
+          "data_metadata": "2026-10-22",
+          "data_decisao_metadata": "2026-10-22T08:44:40.771",
+          "data_assinatura": "2026-11-06T16:23:01.372",
+          "data_juntada": "2026-11-06T16:23:06.687",
+          "cnj_cabecalho": "0602800-35.2026.6.00.0000",
+          "hash_arquivo_conferido": true,
+          "hash_na_url_compativel": true,
+          "dispositivo_unanime_improcedente": true,
+          "inventariado_para_reproducao": true
+        }
+      ],
+      "julgamentos_ledger": 1
+    },
+    {
+      "cnj": "0602824-63.2026.6.00.0000",
+      "resultado": "improcedente",
+      "votacao": "unânime",
+      "data_sessao": "2026-10-21",
+      "data_certidao": "2026-10-22",
+      "data_assinatura_acordao": "2026-11-03",
+      "fontes": [
+        {
+          "papel": "certidao_primaria",
+          "arquivo": "coleta_documental/pecas/06028246320266000000_75afd66f1096c628.html",
+          "sha256": "6f4261b5a664f27344ed262f3b91a6b6828cfaa62dbceb024c8d9fa90d2a0a1a",
+          "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/57/6f4261b5a664f27344ed262f3b91a6b6828cfaa62dbceb024c8d9fa90d2a0a1a",
+          "id_documento": 180206585,
+          "tipo": "Certidão de julgamento",
+          "data_metadata": "2026-10-22",
+          "data_decisao_metadata": null,
+          "data_assinatura": "2026-10-22T12:18:57.152",
+          "data_juntada": "2026-10-22T15:22:07.537",
+          "cnj_cabecalho": "0602824-63.2026.6.00.0000",
+          "hash_arquivo_conferido": true,
+          "hash_na_url_compativel": true,
+          "dispositivo_unanime_improcedente": true,
+          "inventariado_para_reproducao": true
+        },
+        {
+          "papel": "acordao_documental_posterior",
+          "arquivo": "coleta_documental/pecas/06028246320266000000_19a6340f408cf7b8.html",
+          "sha256": "bb308c9ef5d9a871dbedbbb914c6a74b8860e9b4d3d2000e75f71e9df1ec6ac0",
+          "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/3/14/56/15/bb308c9ef5d9a871dbedbbb914c6a74b8860e9b4d3d2000e75f71e9df1ec6ac0",
+          "id_documento": 180206750,
+          "tipo": "Acórdão",
+          "data_metadata": "2026-10-22",
+          "data_decisao_metadata": "2026-10-22T08:44:40.771",
+          "data_assinatura": "2026-11-03T14:56:15.681",
+          "data_juntada": "2026-11-03T14:56:17.051",
+          "cnj_cabecalho": "0602824-63.2026.6.00.0000",
+          "hash_arquivo_conferido": true,
+          "hash_na_url_compativel": true,
+          "dispositivo_unanime_improcedente": true,
+          "inventariado_para_reproducao": true
+        }
+      ],
+      "julgamentos_ledger": 1
+    },
+    {
+      "cnj": "0602912-04.2026.6.00.0000",
+      "resultado": "improcedente",
+      "votacao": "unânime",
+      "data_sessao": "2026-10-21",
+      "data_certidao": "2026-10-22",
+      "data_assinatura_acordao": "2026-11-01",
+      "fontes": [
+        {
+          "papel": "certidao_primaria",
+          "arquivo": "coleta_documental/pecas/06029120420266000000_2b273fb7d4063159.html",
+          "sha256": "7b63bde78bebf4ed4fce8555668b193c07589ee56a7e6e48386a4d072bdb7202",
+          "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/10/22/12/18/51/7b63bde78bebf4ed4fce8555668b193c07589ee56a7e6e48386a4d072bdb7202",
+          "id_documento": 180206794,
+          "tipo": "Certidão de julgamento",
+          "data_metadata": "2026-10-22",
+          "data_decisao_metadata": null,
+          "data_assinatura": "2026-10-22T12:18:51.93",
+          "data_juntada": "2026-10-22T15:22:09.589",
+          "cnj_cabecalho": "0602912-04.2026.6.00.0000",
+          "hash_arquivo_conferido": true,
+          "hash_na_url_compativel": true,
+          "dispositivo_unanime_improcedente": true,
+          "inventariado_para_reproducao": true
+        },
+        {
+          "papel": "acordao_documental_posterior",
+          "arquivo": "coleta_documental/pecas/06029120420266000000_54b278735e948d9c.html",
+          "sha256": "90ec8d607e499dc522e3102fc1064ba00cfc1007f86e14994bd7a89b7951bab4",
+          "url": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2026/11/1/11/0/26/90ec8d607e499dc522e3102fc1064ba00cfc1007f86e14994bd7a89b7951bab4",
+          "id_documento": 180206749,
+          "tipo": "Acórdão",
+          "data_metadata": "2026-10-22",
+          "data_decisao_metadata": "2026-10-22T08:44:40.771",
+          "data_assinatura": "2026-11-01T11:00:26.152",
+          "data_juntada": "2026-11-01T11:00:26.259",
+          "cnj_cabecalho": "0602912-04.2026.6.00.0000",
+          "hash_arquivo_conferido": true,
+          "hash_na_url_compativel": true,
+          "dispositivo_unanime_improcedente": true,
+          "inventariado_para_reproducao": true
+        }
+      ],
+      "julgamentos_ledger": 1
+    }
+  ],
+  "pacotes": [
+    {
+      "arquivo": "documentos_oficiais/lote_001.zip",
+      "hash_ok": true,
+      "tamanho_ok": true,
+      "membros_ok": true,
+      "membros": 830
+    },
+    {
+      "arquivo": "documentos_oficiais/lote_002.zip",
+      "hash_ok": true,
+      "tamanho_ok": true,
+      "membros_ok": true,
+      "membros": 198
+    },
+    {
+      "arquivo": "documentos_oficiais/lote_003.zip",
+      "hash_ok": true,
+      "tamanho_ok": true,
+      "membros_ok": true,
+      "membros": 1
+    },
+    {
+      "arquivo": "documentos_oficiais/lote_004.zip",
+      "hash_ok": true,
+      "tamanho_ok": true,
+      "membros_ok": true,
+      "membros": 269
+    },
+    {
+      "arquivo": "documentos_oficiais/lote_005.zip",
+      "hash_ok": true,
+      "tamanho_ok": true,
+      "membros_ok": true,
+      "membros": 458
+    },
+    {
+      "arquivo": "documentos_oficiais/lote_006.zip",
+      "hash_ok": true,
+      "tamanho_ok": true,
+      "membros_ok": true,
+      "membros": 452
+    },
+    {
+      "arquivo": "documentos_oficiais/lote_007.zip",
+      "hash_ok": true,
+      "tamanho_ok": true,
+      "membros_ok": true,
+      "membros": 408
+    },
+    {
+      "arquivo": "documentos_oficiais/lote_008.zip",
+      "hash_ok": true,
+      "tamanho_ok": true,
+      "membros_ok": true,
+      "membros": 716
+    },
+    {
+      "arquivo": "documentos_oficiais/lote_009.zip",
+      "hash_ok": true,
+      "tamanho_ok": true,
+      "membros_ok": true,
+      "membros": 688
+    },
+    {
+      "arquivo": "documentos_oficiais/lote_010.zip",
+      "hash_ok": true,
+      "tamanho_ok": true,
+      "membros_ok": true,
+      "membros": 700
+    },
+    {
+      "arquivo": "documentos_oficiais/lote_011.zip",
+      "hash_ok": true,
+      "tamanho_ok": true,
+      "membros_ok": true,
+      "membros": 684
+    },
+    {
+      "arquivo": "documentos_oficiais/lote_012.zip",
+      "hash_ok": true,
+      "tamanho_ok": true,
+      "membros_ok": true,
+      "membros": 2
+    },
+    {
+      "arquivo": "documentos_oficiais/lote_013.zip",
+      "hash_ok": true,
+      "tamanho_ok": true,
+      "membros_ok": true,
+      "membros": 10
+    },
+    {
+      "arquivo": "documentos_oficiais/lote_014.zip",
+      "hash_ok": true,
+      "tamanho_ok": true,
+      "membros_ok": true,
+      "membros": 174
+    }
+  ],
+  "verificacoes": [
+    {
+      "verificacao": "872 confrontos únicos na curadoria e no CSV",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Curadoria, triagem integral e CSV cobrem os mesmos CNJs",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "432 comparáveis coincidem na curadoria, resumo, CSV e relatos",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Numeração dos relatos é contínua de 1 a 432",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Relatos ordenados por data da peça decrescente",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "201 lacunas documentais explicitadas e fora dos percentuais",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Lacunas não recebem resultado negativo ou positivo",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Totais e percentual da campanha Lula",
+      "ok": true,
+      "detalhe": {
+        "pedidos": 218,
+        "atendidos": 121,
+        "nao_atendidos": 97,
+        "percentual_atendimento": 55.5045871559633
+      }
+    },
+    {
+      "verificacao": "Totais e percentual da campanha Flávio",
+      "ok": true,
+      "detalhe": {
+        "pedidos": 214,
+        "atendidos": 69,
+        "nao_atendidos": 145,
+        "percentual_atendimento": 32.242990654205606
+      }
+    },
+    {
+      "verificacao": "Resultados comparáveis são todos booleanos",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "201 é lacuna de fonte; zero pendências de revisão não significa cobertura integral",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "1.295 consultas coincidem no checkpoint, espelho e painel",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Espelho coincide com o checkpoint após sanitização intencional do campo doc.erro",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Contagens do painel espelham peças e processos completos",
+      "ok": true,
+      "detalhe": {
+        "pecas": 2787,
+        "processos_completos": 1286
+      }
+    },
+    {
+      "verificacao": "Nenhum erro de iteração nula permanece no checkpoint",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Campos comparativos no CSV correspondem à curadoria",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Datas dos relatos correspondem à referência de cada CNJ",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Todas as 432 fontes principais estão no inventário publicável",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "CNJ, hash, URL e inventário das duas fontes de 0602697-28.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Certidão anterior ao corte e acórdão posterior de 0602697-28.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Improcedência unânime e sessão anterior ao corte de 0602697-28.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Fonte principal e cronologia preservadas no relato de 0602697-28.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "CSV incorpora resultado negativo e fonte primária de 0602697-28.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Um julgamento documental, sem dupla contagem das duas fontes, de 0602697-28.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "CNJ, hash, URL e inventário das duas fontes de 0602800-35.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Certidão anterior ao corte e acórdão posterior de 0602800-35.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Improcedência unânime e sessão anterior ao corte de 0602800-35.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Fonte principal e cronologia preservadas no relato de 0602800-35.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "CSV incorpora resultado negativo e fonte primária de 0602800-35.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Um julgamento documental, sem dupla contagem das duas fontes, de 0602800-35.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "CNJ, hash, URL e inventário das duas fontes de 0602824-63.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Certidão anterior ao corte e acórdão posterior de 0602824-63.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Improcedência unânime e sessão anterior ao corte de 0602824-63.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Fonte principal e cronologia preservadas no relato de 0602824-63.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "CSV incorpora resultado negativo e fonte primária de 0602824-63.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Um julgamento documental, sem dupla contagem das duas fontes, de 0602824-63.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "CNJ, hash, URL e inventário das duas fontes de 0602912-04.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Certidão anterior ao corte e acórdão posterior de 0602912-04.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Improcedência unânime e sessão anterior ao corte de 0602912-04.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Fonte principal e cronologia preservadas no relato de 0602912-04.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "CSV incorpora resultado negativo e fonte primária de 0602912-04.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Um julgamento documental, sem dupla contagem das duas fontes, de 0602912-04.2026.6.00.0000",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Hashes, tamanhos e quantidades de membros dos 14 pacotes",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Inventário declara 2.795 peças documentais",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Todos os membros principais inventariados existem nos pacotes",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Fonte arquivada reproduz hash de 0602697-28.2026.6.00.0000 (certidao_primaria)",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Fonte arquivada reproduz hash de 0602697-28.2026.6.00.0000 (acordao_documental_posterior)",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Fonte arquivada reproduz hash de 0602800-35.2026.6.00.0000 (certidao_primaria)",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Fonte arquivada reproduz hash de 0602800-35.2026.6.00.0000 (acordao_documental_posterior)",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Fonte arquivada reproduz hash de 0602824-63.2026.6.00.0000 (certidao_primaria)",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Fonte arquivada reproduz hash de 0602824-63.2026.6.00.0000 (acordao_documental_posterior)",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Fonte arquivada reproduz hash de 0602912-04.2026.6.00.0000 (certidao_primaria)",
+      "ok": true,
+      "detalhe": null
+    },
+    {
+      "verificacao": "Fonte arquivada reproduz hash de 0602912-04.2026.6.00.0000 (acordao_documental_posterior)",
+      "ok": true,
+      "detalhe": null
+    }
+  ],
+  "falhas": [],
+  "ressalvas": [
+    "As 201 lacunas documentais permanecem excluídas dos percentuais; pendentes_de_revisao=0 não demonstra cobertura integral dos autos.",
+    "Nos quatro novos casos, a referência primária é a certidão assinada em outubro. Os acórdãos assinados em novembro documentam os fundamentos do julgamento anterior; não são novos acontecimentos dentro do corte.",
+    "As 2.787 peças do checkpoint e as 2.795 peças do inventário público têm universos distintos: o inventário inclui complementos e peças contextuais verificadas.",
+    "O espelho público omite intencionalmente apenas o campo doc.erro do diagnóstico operacional; os status e os demais metadados coincidem com o checkpoint."
+  ]
+}

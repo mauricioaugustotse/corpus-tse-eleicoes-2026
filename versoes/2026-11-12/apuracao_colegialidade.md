@@ -12,7 +12,7 @@ São 704 vínculos com acórdão público, oito com proclamação certificada co
 
 ## Recorte presidencial
 
-Não é o novo comparativo. A lista dos confrontos finais depende da curadoria de resultados; os mesmos CNJs podem ter mais de um julgamento. Não transportar os 107 históricos como denominador de outubro.
+O recorte abaixo usa os CNJs com resultado comparável documentado da curadoria desta versão. Votação conta julgamentos; a situação da medida e o comparativo de atendimento contam processos. Exclusões e lacunas de documentação permanecem explícitas.
 
 As revisões de tutela precisam da comparação entre a ordem individual e a proclamação. Este programa não transforma expressões como “referendou parcialmente” em manutenção ou reforma sem ler os dois dispositivos.
 

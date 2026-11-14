@@ -44,8 +44,8 @@ def alvos():
     ids.update(carregar(ROOT/'triagem_base_integral.json',{}).get('todos_confrontos_detectados',[]))
     return sorted(ids)
 def selecionar(processo):
-    decisoes={str(d['idProcessoDocumento']):d for d in processo.get('decisoes',[]) if d.get('idProcessoDocumento')}
-    for doc in processo.get('documentos',[]):
+    decisoes={str(d['idProcessoDocumento']):d for d in (processo.get('decisoes') or []) if d.get('idProcessoDocumento')}
+    for doc in (processo.get('documentos') or []):
         if doc.get('documentoSigiloso') or doc.get('publico') is False:continue
         storage=doc.get('documentoStorage') or ''
         if not storage.startswith('tse/'):continue
@@ -81,7 +81,7 @@ def executar(args):
     for cnj in ids:
         motor.checar_parada(pasta)
         salvo=estado.get(cnj,{})
-        if salvo.get('completo') and salvo.get('documentos') and all(arquivo_conferido(ROOT,d) for d in salvo['documentos']):continue
+        if salvo.get('completo') and (salvo.get('documentos') or salvo.get('sem_pecas_elegiveis')) and all(arquivo_conferido(ROOT,d) for d in salvo.get('documentos',[])):continue
         if args.limite and processados>=args.limite:break
         processados+=1;registro=estado.get(cnj,{})
         print(f'CONSULTA {cnj}',flush=True)
@@ -94,9 +94,10 @@ def executar(args):
                 processos=motor._post_processos(cnj,sess,pasta,orgao='TSE',pausa=65)
                 motor._para_cache(cnj,'TSE',processos)
             falhas=0
-            docs=[];vistos=set();antigos={d['url']:d for d in registro.get('documentos',[])}
+            docs=[];vistos=set();antigos={d['url']:d for d in registro.get('documentos',[])};processo_confirmado=False
             for proc in processos:
                 if proc.get('instancia')!=3 or proc.get('numeroProcesso')!=cnj:continue
+                processo_confirmado=True
                 for doc in selecionar(proc):
                     motor.checar_parada(pasta)
                     url=f"{tse.BACKEND}/documento?extensaoArquivo={doc['extensao']}&path={doc['storage']}"
@@ -136,7 +137,7 @@ def executar(args):
                     estado[cnj]=registro
                     salvar(checkpoint,estado);progresso()
                     motor.dormir(motor.PAUSA_GET,pasta)
-            registro={'consulta_efetuada':True,'consultado_em':datetime.now(timezone.utc).isoformat(),'documentos':docs,'completo':bool(processos) and bool(docs) and all(d['status']=='conferido' for d in docs),'nota':'completo refere-se à coleta; não equivale a curadoria jurídica ou prova de cobertura integral do PJe'}
+            registro={'consulta_efetuada':True,'consultado_em':datetime.now(timezone.utc).isoformat(),'documentos':docs,'completo':processo_confirmado and all(d['status']=='conferido' for d in docs),'sem_pecas_elegiveis':processo_confirmado and not docs,'nota':'completo refere-se ao download dos documentos selecionados no inventário consultado; sem peça elegível não prova ausência de outros atos no PJe nem resultado jurídico'}
         except motor.Interrompido:raise
         except Exception as e:
             falhas+=1;registro.update(completo=False,erro_consulta=str(e)[:300])
