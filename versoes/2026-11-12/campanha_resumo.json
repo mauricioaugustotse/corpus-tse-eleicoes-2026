@@ -1,0 +1,26 @@
+{
+  "data_corte": "2026-10-31",
+  "status": "resultados documentados; quadro em ampliação pela consulta complementar",
+  "total_triagem": 872,
+  "incluidos_comparativos": 428,
+  "excluidos_ou_pendentes": 444,
+  "pendentes_de_revisao": 280,
+  "processos_no_corpus": 427,
+  "suplemento_documental": [
+    "0601315-97.2026.6.00.0000"
+  ],
+  "campanhas": {
+    "Lula": {
+      "pedidos": 218,
+      "atendidos": 121,
+      "nao_atendidos": 97,
+      "percentual_atendimento": 55.5045871559633
+    },
+    "Flávio": {
+      "pedidos": 210,
+      "atendidos": 69,
+      "nao_atendidos": 141,
+      "percentual_atendimento": 32.857142857142854
+    }
+  }
+}

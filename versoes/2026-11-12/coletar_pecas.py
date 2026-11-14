@@ -40,6 +40,8 @@ def alvos():
     ids={r['cnj'] for r in linhas(ROOT/'triagem_confrontos.csv')}
     ids.update(r['NR_PROCESSO'] for r in linhas(ROOT/'acordaos_para_conferencia.csv'))
     ids.update(carregar(ROOT.parent/'2026-10-01/curadoria_confrontos.json',{}))
+    # Inclui confrontos detectados em toda a base, mesmo sem ato no extrato.
+    ids.update(carregar(ROOT/'triagem_base_integral.json',{}).get('todos_confrontos_detectados',[]))
     return sorted(ids)
 def selecionar(processo):
     decisoes={str(d['idProcessoDocumento']):d for d in processo.get('decisoes',[]) if d.get('idProcessoDocumento')}

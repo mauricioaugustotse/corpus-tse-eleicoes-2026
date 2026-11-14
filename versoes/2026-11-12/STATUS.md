@@ -1,5 +1,7 @@
 # Corte de 31/10/2026 — atualização em preparação
 
+**Atualização de 14/11:** o ponto atual, os arquivos concluídos e as instruções para continuar estão em [RETOMADA.md](RETOMADA.md). A coleta inicial terminou, a curadoria avançou e a consulta complementar de processos fora do extrato está em execução. Os detalhes abaixo conservam o histórico da preparação inicial.
+
 Extração realizada em 12/11/2026, com cinco arquivos oficiais gerados em 11/11/2026. O corte inclusivo de 31/10/2026 é aplicado à data do ato; a fonte contém atos posteriores, que foram excluídos.
 
 ## Etapa estatística concluída

@@ -1,0 +1,638 @@
+{
+  "01_tipos_ato_restaurado_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "2.606 atos"
+      ],
+      "tickLabels": [
+        "2.606 atos"
+      ],
+      "orientation": "horizontal",
+      "mode": "stacked-percent",
+      "axis": {
+        "zero": true
+      },
+      "maxBarThickness": 40,
+      "subjectIndex": -1,
+      "categoryColors": [],
+      "tickKind": "percent",
+      "series": [
+        {
+          "label": "Decisão",
+          "valueKind": "percent",
+          "data": [
+            72.64006139677667
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec"
+        },
+        {
+          "label": "Acórdão",
+          "valueKind": "percent",
+          "data": [
+            27.35993860322333
+          ],
+          "colorToken": "--yellow",
+          "colorFallback": "#eac26b"
+        }
+      ]
+    },
+    "titulo": "Decisões representam 72,6% dos atos",
+    "nota": "1.893 decisões e 713 acórdãos até 31/10/2026"
+  },
+  "02_atos_por_mes_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "Outubro de 2025",
+        "Novembro de 2025",
+        "Dezembro de 2025",
+        "Janeiro de 2026",
+        "Fevereiro de 2026",
+        "Março de 2026",
+        "Abril de 2026",
+        "Maio de 2026",
+        "Junho de 2026",
+        "Julho de 2026",
+        "Agosto de 2026",
+        "Setembro de 2026",
+        "Outubro de 2026"
+      ],
+      "tickLabels": [
+        "out/25",
+        "nov/25",
+        "dez/25",
+        "jan/26",
+        "fev/26",
+        "mar/26",
+        "abr/26",
+        "mai/26",
+        "jun/26",
+        "jul/26",
+        "ago/26",
+        "set/26",
+        "out/26"
+      ],
+      "axis": {
+        "zero": true,
+        "tight": true
+      },
+      "fill": "none",
+      "valueKind": "count",
+      "tickKind": "count",
+      "series": [
+        {
+          "label": "Decisão",
+          "valueKind": "count",
+          "data": [
+            2,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            2,
+            47,
+            45,
+            166,
+            470,
+            1158
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec"
+        },
+        {
+          "label": "Acórdão",
+          "valueKind": "count",
+          "data": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            10,
+            9,
+            47,
+            135,
+            511
+          ],
+          "colorToken": "--yellow",
+          "colorFallback": "#eac26b"
+        }
+      ]
+    },
+    "titulo": "O volume mensal se concentra em outubro",
+    "nota": "Outubro reúne 1.669 dos 2.606 atos (64,0%)"
+  },
+  "03_ritmo_acumulado_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "Outubro de 2025",
+        "Novembro de 2025",
+        "Dezembro de 2025",
+        "Janeiro de 2026",
+        "Fevereiro de 2026",
+        "Março de 2026",
+        "Abril de 2026",
+        "Maio de 2026",
+        "Junho de 2026",
+        "Julho de 2026",
+        "Agosto de 2026",
+        "Setembro de 2026",
+        "Outubro de 2026"
+      ],
+      "tickLabels": [
+        "out/25",
+        "nov/25",
+        "dez/25",
+        "jan/26",
+        "fev/26",
+        "mar/26",
+        "abr/26",
+        "mai/26",
+        "jun/26",
+        "jul/26",
+        "ago/26",
+        "set/26",
+        "out/26"
+      ],
+      "axis": {
+        "zero": true,
+        "tight": true
+      },
+      "fill": "quiet",
+      "valueKind": "count",
+      "tickKind": "count",
+      "series": [
+        {
+          "label": "Atos acumulados",
+          "valueKind": "count",
+          "data": [
+            2,
+            3,
+            3,
+            4,
+            5,
+            6,
+            6,
+            8,
+            65,
+            119,
+            332,
+            937,
+            2606
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec"
+        }
+      ]
+    },
+    "titulo": "Os registros alcançam 2.606 atos no corte",
+    "nota": "Acumulado mensal de outubro/2025 a outubro/2026"
+  },
+  "04_classes_por_ato_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "Representação (Rp)",
+        "Direito de Resposta (DR)",
+        "Recurso Especial Eleitoral (REspEl)",
+        "Recurso Ordinário Eleitoral (RO-El)",
+        "Petição Cível (PetCiv)"
+      ],
+      "tickLabels": [
+        "Rp",
+        "DR",
+        "REspEl",
+        "RO-El",
+        "PetCiv"
+      ],
+      "orientation": "horizontal",
+      "mode": "grouped",
+      "axis": {
+        "zero": true
+      },
+      "maxBarThickness": 22,
+      "subjectIndex": 0,
+      "categoryColors": [],
+      "tickKind": "count",
+      "series": [
+        {
+          "label": "Atos por classe",
+          "valueKind": "count",
+          "data": [
+            931,
+            511,
+            317,
+            186,
+            126
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec"
+        }
+      ]
+    },
+    "titulo": "As cinco classes com mais atos",
+    "nota": "Cinco classes: 2.071 de 2.606 atos (79,5%)"
+  },
+  "05_autores_dos_atos_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "NUNES MARQUES",
+        "ANDRÉ MENDONÇA",
+        "ESTELA ARANHA",
+        "MARCO AURÉLIO BELLIZZE",
+        "DIAS TOFFOLI",
+        "RICARDO VILLAS BÔAS CUEVA"
+      ],
+      "tickLabels": [
+        "Nunes Marques",
+        "André Mendonça",
+        "Estela Aranha",
+        "Marco Aurélio Bellizze",
+        "Dias Toffoli",
+        "Ricardo Villas Bôas Cueva"
+      ],
+      "orientation": "horizontal",
+      "mode": "grouped",
+      "axis": {
+        "zero": true
+      },
+      "maxBarThickness": 22,
+      "subjectIndex": 0,
+      "categoryColors": [],
+      "tickKind": "count",
+      "series": [
+        {
+          "label": "Atos assinados",
+          "valueKind": "count",
+          "data": [
+            632,
+            614,
+            544,
+            235,
+            167,
+            149
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec"
+        }
+      ]
+    },
+    "titulo": "Os seis autores com mais atos",
+    "nota": "Seis autores: 2.341 de 2.606 atos (89,8%)"
+  },
+  "06_composicao_comunicacao_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "1.841 processos"
+      ],
+      "tickLabels": [
+        "1.841 processos"
+      ],
+      "orientation": "horizontal",
+      "mode": "stacked-percent",
+      "axis": {
+        "zero": true
+      },
+      "maxBarThickness": 40,
+      "subjectIndex": -1,
+      "categoryColors": [],
+      "tickKind": "percent",
+      "series": [
+        {
+          "label": "Propaganda, sem DR",
+          "valueKind": "percent",
+          "data": [
+            36.44758283541554
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec"
+        },
+        {
+          "label": "DR, sem propaganda",
+          "valueKind": "percent",
+          "data": [
+            17.707767517653448
+          ],
+          "colorToken": "--yellow",
+          "colorFallback": "#eac26b"
+        },
+        {
+          "label": "Propaganda e DR",
+          "valueKind": "percent",
+          "data": [
+            0.4345464421510049
+          ],
+          "colorToken": "--green",
+          "colorFallback": "#72bc8f"
+        },
+        {
+          "label": "Demais assuntos",
+          "valueKind": "percent",
+          "data": [
+            45.41010320478001
+          ],
+          "colorToken": "--neutral",
+          "colorFallback": "#a39e98"
+        }
+      ]
+    },
+    "titulo": "Propaganda e direito de resposta no conjunto de processos",
+    "nota": "1.005 de 1.841 processos até 31/10/2026; 8 pertencem aos dois grupos"
+  },
+  "07a_individual_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "Corpus (713)",
+        "Confrontos presidenciais (292)"
+      ],
+      "tickLabels": [
+        "Corpus (713)",
+        "Confrontos presidenciais (292)"
+      ],
+      "orientation": "horizontal",
+      "mode": "stacked-percent",
+      "axis": {
+        "zero": true,
+        "cap": 100
+      },
+      "maxBarThickness": 40,
+      "subjectIndex": -1,
+      "categoryColors": [],
+      "tickKind": "percent",
+      "series": [
+        {
+          "label": "Unânimes",
+          "valueKind": "percent",
+          "data": [
+            87.37727910238429,
+            80.13698630136986
+          ],
+          "colorToken": "--yellow",
+          "colorFallback": "#eac26b",
+          "color": "rgba(94, 159, 232, 1)"
+        },
+        {
+          "label": "Com divergência",
+          "valueKind": "percent",
+          "data": [
+            12.482468443197757,
+            19.863013698630137
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec",
+          "color": "rgba(222, 146, 85, 1)"
+        },
+        {
+          "label": "Votação não apurada",
+          "valueKind": "percent",
+          "data": [
+            0.1402524544179523,
+            0.0
+          ],
+          "colorToken": "--neutral",
+          "colorFallback": "#a39e98"
+        }
+      ]
+    },
+    "titulo": "Votação nos acórdãos do corpus e nos confrontos presidenciais",
+    "nota": "713 registros de acórdão e 292 julgamentos dos confrontos até 31/10/2026; votação não apurada permanece no denominador"
+  },
+  "08a_individual_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "428 processos"
+      ],
+      "tickLabels": [
+        "428 processos"
+      ],
+      "orientation": "horizontal",
+      "mode": "stacked",
+      "axis": {
+        "zero": true
+      },
+      "maxBarThickness": 40,
+      "subjectIndex": -1,
+      "categoryColors": [],
+      "tickKind": "count",
+      "series": [
+        {
+          "label": "Sem revisão comprovada",
+          "valueKind": "count",
+          "data": [
+            107
+          ],
+          "colorToken": "--neutral",
+          "colorFallback": "#a39e98"
+        },
+        {
+          "label": "Liminar mantida",
+          "valueKind": "count",
+          "data": [
+            190
+          ],
+          "colorToken": "--yellow",
+          "colorFallback": "#eac26b",
+          "color": "rgba(94, 159, 232, 1)"
+        },
+        {
+          "label": "Liminar modificada",
+          "valueKind": "count",
+          "data": [
+            27
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec",
+          "color": "rgba(222, 146, 85, 1)"
+        },
+        {
+          "label": "Decisão individual de mérito",
+          "valueKind": "count",
+          "data": [
+            46
+          ],
+          "colorToken": "--green",
+          "colorFallback": "#72bc8f",
+          "color": "rgba(191, 142, 218, 1)"
+        },
+        {
+          "label": "Decisão colegiada de mérito",
+          "valueKind": "count",
+          "data": [
+            57
+          ],
+          "colorToken": "--green",
+          "colorFallback": "#72bc8f",
+          "color": "rgba(114, 188, 143, 1)"
+        },
+        {
+          "label": "Liminar modificada individualmente",
+          "valueKind": "count",
+          "data": [
+            1
+          ],
+          "colorToken": "--purple",
+          "colorFallback": "#bf8eda",
+          "color": "rgba(79, 185, 201, 1)"
+        }
+      ]
+    },
+    "titulo": "Situação documentada das medidas nos confrontos presidenciais",
+    "nota": "Um registro por processo até 31/10/2026; 0 com situação pendente de revisão. Ausência de revisão localizada não prova pendência processual"
+  },
+  "08b_individual_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "217 reexames documentados"
+      ],
+      "tickLabels": [
+        "217 reexames documentados"
+      ],
+      "orientation": "horizontal",
+      "mode": "stacked-percent",
+      "axis": {
+        "zero": true,
+        "cap": 100
+      },
+      "maxBarThickness": 40,
+      "subjectIndex": -1,
+      "categoryColors": [],
+      "tickKind": "percent",
+      "series": [
+        {
+          "label": "Liminar mantida",
+          "valueKind": "percent",
+          "data": [
+            87.55760368663594
+          ],
+          "colorToken": "--yellow",
+          "colorFallback": "#eac26b",
+          "color": "rgba(94, 159, 232, 1)"
+        },
+        {
+          "label": "Liminar modificada",
+          "valueKind": "percent",
+          "data": [
+            12.442396313364055
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec",
+          "color": "rgba(222, 146, 85, 1)"
+        }
+      ]
+    },
+    "titulo": "Manutenção e modificação das liminares pelo colegiado",
+    "nota": "190 manutenções e 27 modificações; denominador de 217 processos com reexame cautelar comprovado. Mérito e pendências ficam fora dessa taxa"
+  },
+  "09a_individual_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "André Mendonça",
+        "Floriano de Azevedo Marques",
+        "Estela Aranha",
+        "Nunes Marques",
+        "Dias Toffoli",
+        "Antonio Carlos Ferreira",
+        "Ricardo Villas Bôas Cueva",
+        "Sebastião Reis Júnior"
+      ],
+      "tickLabels": [
+        "André Mendonça",
+        "Floriano de Azevedo Marques",
+        "Estela Aranha",
+        "Nunes Marques",
+        "Dias Toffoli",
+        "Antonio Carlos Ferreira",
+        "Ricardo Villas Bôas Cueva",
+        "Sebastião Reis Júnior"
+      ],
+      "orientation": "horizontal",
+      "mode": "grouped",
+      "axis": {
+        "zero": true,
+        "cap": 50
+      },
+      "maxBarThickness": 22,
+      "subjectIndex": 0,
+      "categoryColors": [],
+      "tickKind": "count",
+      "series": [
+        {
+          "label": "Julgamentos com voto vencido",
+          "valueKind": "count",
+          "data": [
+            45,
+            34,
+            17,
+            33,
+            19,
+            1,
+            13,
+            20
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec"
+        }
+      ]
+    },
+    "titulo": "Ministros com votos vencidos nos julgamentos do corpus",
+    "nota": "89 julgamentos com divergência; uma ocorrência por ministro e julgamento, inclusive voto parcialmente vencido"
+  },
+  "09b_individual_notion_agent_chart.html": {
+    "spec": {
+      "labels": [
+        "André Mendonça",
+        "Floriano de Azevedo Marques",
+        "Estela Aranha",
+        "Nunes Marques",
+        "Dias Toffoli",
+        "Antonio Carlos Ferreira",
+        "Ricardo Villas Bôas Cueva",
+        "Sebastião Reis Júnior"
+      ],
+      "tickLabels": [
+        "André Mendonça",
+        "Floriano de Azevedo Marques",
+        "Estela Aranha",
+        "Nunes Marques",
+        "Dias Toffoli",
+        "Antonio Carlos Ferreira",
+        "Ricardo Villas Bôas Cueva",
+        "Sebastião Reis Júnior"
+      ],
+      "orientation": "horizontal",
+      "mode": "grouped",
+      "axis": {
+        "zero": true,
+        "cap": 50
+      },
+      "maxBarThickness": 22,
+      "subjectIndex": 0,
+      "categoryColors": [],
+      "tickKind": "count",
+      "series": [
+        {
+          "label": "Julgamentos com voto vencido",
+          "valueKind": "count",
+          "data": [
+            38,
+            20,
+            12,
+            31,
+            16,
+            0,
+            6,
+            6
+          ],
+          "colorToken": "--blue",
+          "colorFallback": "#7fb4ec"
+        }
+      ]
+    },
+    "titulo": "Ministros com votos vencidos nos confrontos presidenciais",
+    "nota": "58 julgamentos com divergência; uma ocorrência por ministro e julgamento, inclusive voto parcialmente vencido"
+  }
+}
